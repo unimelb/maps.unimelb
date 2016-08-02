@@ -1,0 +1,45 @@
+%begin_asset_metadata_ObjectType^contains:Campus%
+<h1>%asset_metadata_Name%</h1>
+
+<div id='map'></div>
+%asset_contents%
+
+<script>
+if (!mapboxgl.supported()) {
+
+	L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+	var map = L.mapbox.map('map', 'maps-unimelb.2c79eb85');
+	map.setView([%asset_metadata_Latitude%, %asset_metadata_Longitude%], %asset_metadata_Zoom^empty:16^increment%);
+    map.scrollWheelZoom.disable();
+
+} else {
+
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+
+var map = new mapboxgl.Map({
+	container: 'map', // container id
+	style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk',
+	center: [%asset_metadata_Longitude%, %asset_metadata_Latitude%],
+	zoom: %asset_metadata_Zoom^empty:16%
+});
+
+map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+map.addControl(new mapboxgl.Geolocate({position: 'top-left'}));
+map.scrollZoom.disable();
+
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Place",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "%asset_metadata_Latitude%",
+    "longitude": "%asset_metadata_Longitude%"
+  },
+  "name": "%asset_metadata_Name% - University of Melbourne"
+}
+</script>
+%end_asset_metadata_ObjectType^contains:Campus%
