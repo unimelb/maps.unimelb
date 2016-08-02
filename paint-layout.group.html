@@ -1,0 +1,206 @@
+%begin_asset_metadata_ObjectType^contains:Group%
+<h1>%asset_metadata_Name%</h1>
+
+<div id='map'></div>
+%asset_contents%
+
+<script>
+if (!mapboxgl.supported()) {
+    L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+    var map = L.mapbox.map('map', 'maps-unimelb.2c79eb85');
+    map.setView([%asset_metadata_Latitude%, %asset_metadata_Longitude%], %asset_metadata_Zoom^empty:16^increment%);
+    map.featureLayer.setGeoJSON(geojson);
+    map.scrollWheelZoom.disable();
+}else{
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+
+var map = new mapboxgl.Map({
+	container: 'map', // container id
+	style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk', //hosted style id
+	center: [%begin_asset_metadata_Longitude%%asset_metadata_Longitude%%else_asset_metadata_Longitude%%asset_parent^as_asset:asset_metadata_Longitude%%end_asset_metadata_Longitude%,%begin_asset_metadata_Latitude%%asset_metadata_Latitude%%else_asset_metadata_Latitude%%asset_parent^as_asset:asset_metadata_Latitude%%end_asset_metadata_Latitude%], // starting position
+	zoom: %asset_metadata_Zoom^empty:16% // starting zoom
+});
+
+map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+map.addControl(new mapboxgl.Geolocate({position: 'top-left'}));
+map.scrollZoom.disable();
+
+map.on('load', function () {
+    map.addSource('markers', source);
+
+    map.addLayer({
+        "id": "markers",
+        "type": "symbol",
+        "source": "markers",
+        "layout": {
+            "icon-image": "marker-blue-15",
+			"icon-allow-overlap": true
+        }
+    });
+});
+
+// Create a popup, but don't add it to the map yet.
+var popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+});
+
+map.on('mousemove', function(e) {
+    var features = map.queryRenderedFeatures(e.point, { layers: ['markers'] });
+    // Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+
+    if (!features.length) {
+        popup.remove();
+        return;
+    }
+
+    var feature = features[0];
+
+    // Populate the popup and set its coordinates
+    // based on the feature found.
+    popup.setLngLat(feature.geometry.coordinates)
+        .setHTML(feature.properties.description)
+        .addTo(map);
+});
+var geobox = {
+    points : [],
+    minpoint : {x:0,y:0},
+    maxpoint : {x:999999, y:999999},
+    LngLatBounds : 0,
+    minitial : 0,
+    maxinitial : 999999,
+    init : function () {
+	geobox.minpoint = {x:geobox.minitial,y:geobox.minitial};
+	geobox.maxpoint = {x:geobox.maxinitial, y:geobox.maxinitial};
+	geobox.points = [];
+    },
+    addPoint : function(xcoord, ycoord) {
+	geobox.points.push({x:xcoord, y:ycoord});
+    },
+    removePoint : function(xcoord, ycoord) {
+	var newpoints = [];
+	var len = geobox.points.length;
+	for (var i=0; i<len; i++) {
+	    var thisx = geobox.points[i].x;
+	    var thisy = geobox.points[i].y;
+	    if (!(thisx == geobox.points[i].x && thisy == geobox.points[i].y)) {
+		newpoints.push({x:xcoord, y:ycoord});
+	    }
+	}
+	geobox.points = newpoints;
+    },
+    calculateMinMax : function() {
+	var len = geobox.points.length;
+	if (len > 0) {
+	    geobox.minpoint.x = geobox.points[0].x;
+	    geobox.minpoint.y = geobox.points[0].y;
+	    geobox.maxpoint.x = geobox.points[0].x;
+	    geobox.maxpoint.y = geobox.points[0].y;
+	}
+	for (var i=0; i<len; i++) {
+	    var thisx = geobox.points[i].x;
+	    var thisy = geobox.points[i].y;
+	    
+	    if (thisx < geobox.minpoint.x) {
+		geobox.minpoint.x = thisx;
+	    }
+	    if (thisy < geobox.minpoint.y) {
+		geobox.minpoint.y = thisy;
+	    }
+	    if (thisx > geobox.maxpoint.x) {
+		geobox.maxpoint.x = thisx;
+	    }
+	    if (thisy > geobox.maxpoint.y) {
+		geobox.maxpoint.y = thisy;
+	    }
+	}
+    },
+    calculateLngLatBounds : function() {
+	/* requires Mapbox GL JS API */
+	geobox.calculateMinMax();
+	var sw = [geobox.minpoint.x, geobox.minpoint.y];
+	var ne = [geobox.maxpoint.x, geobox.maxpoint.y];
+	var arr = [sw, ne];
+	var llb = mapboxgl.LngLatBounds.convert(arr);
+	geobox.LngLatBounds = llb;
+    },
+    getPointsFromGeoJSONSource : function(GeoJSONSource_obj) {
+	/* requires Mapbox GL JS API 
+	/* and specifically GeoJSONSource object with co-ordinates 
+	/* geobox.points is an array of {x:xcoord, y:ycoord} 
+	/* it corresponds to:
+	/* (object)._data.features[x].geometry.coordinates[0] and [1]
+	*/
+	var len=GeoJSONSource_obj._data.features.length;
+	for (var j=0; j< len;j++) {
+	    var xcoord = GeoJSONSource_obj._data.features[j].geometry.coordinates[0];
+	    var ycoord = GeoJSONSource_obj._data.features[j].geometry.coordinates[1];
+	    geobox.addPoint(xcoord,ycoord);
+	}
+    },
+    getLngLatBounds : function () {
+	geobox.calculateLngLatBounds();
+	return geobox.LngLatBounds;
+    },
+    addNewMarkerCentrally : function (e) {
+	/* this doesn't work yet */
+	/*var LngLat = map.getCenter();*/
+	var LngLat = e.point.lngLat
+	/*var whereami = new mapboxgl.GeoJSONSource({
+	    data : {
+		"type": "FeatureCollection",
+		"features": [{
+                    "type": "Feature",
+                    "geometry": {
+			"type": "Point",
+			"coordinates": [LngLat.lng, LngLat.lat]
+                    },
+                    "properties": {
+			"title": "Your location",
+			"marker-symbol": "POI"
+                    }
+		}]
+	    }
+	});*/
+	map.addSource('mylocation', {
+	    "type" : "geojson",
+	    "data" : {
+		"type" : "FeatureCollection",
+		"features" : [{
+                    "type": "Feature",
+                    "geometry": {
+			"type": "Point",
+			"coordinates": [LngLat.lng, LngLat.lat]
+                    },
+                    "properties": {
+			"title": "Your location"
+                    }
+		}]
+	    }
+	});
+	map.addLayer({
+	    "id": "locofme",
+	    "type": "circle",
+	    "source": "mylocation",
+	    "paint": {
+		"circle-radius" : 15,
+		"circle-color" : "#009900"
+	    }
+	});
+	geobox.addPoint(LngLat.lng, LngLat.lat);
+	var llb =geobox.getLngLatBounds();
+	map.fitBounds(llb, {padding:20});
+    }
+};
+geobox.init();
+geobox.getPointsFromGeoJSONSource(source);
+
+if (geobox.points.length > 1) {
+var llb =geobox.getLngLatBounds();
+map.fitBounds(llb, {padding:60});
+}
+map.on('geolocate', geobox.addNewMarkerCentrally);
+}
+</script>
+%end_asset_metadata_ObjectType^contains:Group%
