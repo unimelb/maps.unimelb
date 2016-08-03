@@ -6,8 +6,8 @@
 
 <script>
 var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ";
-var maplat = "%globals_asset_metadata_Latitude%";
-var maplon = "%globals_asset_metadata_Longitude%";
+var maplat = "%globals_asset_metadata_Latitude^maxchars:10%";
+var maplon = "%globals_asset_metadata_Longitude^maxchars:10%";
 var mapzoom = "%asset_metadata_Zoom^empty:16%";
 
 if(mapboxgl.supported() === false) {
