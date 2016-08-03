@@ -37,6 +37,7 @@ function initJS() {
     L.mapbox.accessToken = myAccessToken;
     var map = L.mapbox.map('map', 'maps-unimelb.2c79eb85')
         .setView([maplat, maplon], mapzoom);
+    map.scrollWheelZoom.disable();
 }
 
 function loadScript(sScriptSrc, cssSrc, oCallback) {
