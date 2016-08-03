@@ -1,0 +1,100 @@
+<section class="lead"><p>Your feedback is the best way of ensuring our maps stay up to date. Tell us if you find something wrong, or add a location yourself.</p></section>
+<section>
+  <div class="tabbed" data-tabbed="true">
+    <nav role="tablist">
+      <a data-current="true" href="#feedback" role="tab">Feedback</a><a href="#location" role="tab">Add a location</a>
+    </nav>
+    <section id="feedback" role="tabpanel">
+
+<fieldset>
+  %question_contents_1998099_q7%
+  %question_contents_1998099_q8%
+ </fieldset>  
+
+    </section>
+    <section id="location" role="tabpanel">
+
+<p>Center the map, so the cross is on the location.</p>
+<p id="panMap">Move map to:
+    <a href="#" onclick='pancurr();return false;'>Your current location</a>, 
+	<a href="#" onclick='fly(144.9607,-37.7989);return false;'>Parkville</a>,
+	<a href="#" onclick='fly(144.9688,-37.8248);return false;'>Southbank</a>,
+	<a href="#" onclick='fly(145.0225,-37.8295);return false;'>Burnley</a>,
+	<a href="#" onclick='fly(143.8993,-37.4223);return false;'>Creswick</a>,
+	<a href="#" onclick='fly(145.7065,-36.3832);return false;'>Dookie</a>,
+	<a href="#" onclick='fly(145.4063,-36.3616);return false;'>Shepparton</a>,
+	<a href="#" onclick='fly(144.6931,-37.8893);return false;'>Werribee</a>
+</p>
+
+<div id='map'></div>
+<div id="cross"></div>
+
+<fieldset>
+  <legend class="hidden">Details</legend>
+  %question_contents_1998099_q1%
+  %question_contents_1998099_q4%
+  <div class="hidden">
+      %question_contents_1998099_q2%
+      %question_contents_1998099_q3%
+      %question_contents_1998099_q5%
+      %question_contents_1998099_q6%
+      %question_contents_1998099_q9% <!-- honeypot -->
+  </div>
+</fieldset>
+
+<script>
+if (!mapboxgl.supported()) {
+
+	L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+	var map = L.mapbox.map('map', 'maps-unimelb.2c79eb85');
+	map.setView([-37.79894, 144.96073], 16);
+    map.scrollWheelZoom.disable();
+
+    document.getElementById('panMap').style.display = 'none';
+    /* one day, I might get this working, but for now, I'll just take it out
+    function fly(flylon,flylat) {
+        map.panTo({lon: flylon, lat: flylat});
+    };
+    */
+
+} else {
+    
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+
+var map = new mapboxgl.Map({
+	container: 'map', // container id
+	style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk', //hosted style id
+	center: [144.96073, -37.79894], // starting position
+	zoom: 15 // starting zoom
+});
+
+map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+map.scrollZoom.disable();
+
+function fly(flylon,flylat) {
+    map.flyTo({
+        center: [flylon,flylat]
+    });
+};
+function pancurr () {
+    navigator.geolocation.getCurrentPosition(function(position) {
+        map.flyTo({
+          center: [position.coords.longitude, position.coords.latitude]
+        });
+    });
+};
+}
+
+map.on('move', function (e) {
+	var mapCtr = map.getCenter();
+    document.getElementById('q1998099_q2').value = mapCtr.lat;
+    document.getElementById('q1998099_q3').value = mapCtr.lng;
+});
+
+</script>
+
+
+    </section>
+  </div>
+<div>%submit_button%</div>
+</section>
