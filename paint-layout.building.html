@@ -1,0 +1,116 @@
+%begin_asset_metadata_ObjectType^contains:Building%
+<div class="detail location">
+    <h1><span data-icon="faculty"></span> %asset_metadata_Name%</h1>
+
+  <div class="upper">
+    <aside>
+      <div class="where">
+%begin_asset_metadata_BuildingNumber%
+      	<div>
+      		<p>Building Number:<br>
+			<span class="building-number">%asset_metadata_BuildingNumber%</span></p>
+		</div>
+%end_asset_metadata_BuildingNumber%
+        <ul class="extras">
+%begin_asset_metadata_AlternateName%
+            <li><span>Also known as:</span> %asset_metadata_AlternateName%</li>
+%end_asset_metadata_AlternateName%
+%begin_asset_metadata_StreetAddress%
+            <li><span>Address:</span> %asset_metadata_StreetAddress%</li>
+%end_asset_metadata_StreetAddress%
+%begin_asset_metadata_Directions%
+			<li><span>Extra directions:</span> %asset_metadata_Directions%</li>
+%end_asset_metadata_Directions%
+%begin_asset_metadata_CampusMapRefA%
+            <li><span>Campus Grid Ref:</span> %asset_metadata_CampusMapRefA% %asset_metadata_CampusMapRefN%</li>
+%end_asset_metadata_CampusMapRefA%
+%begin_asset_metadata_InfoURL%
+			<li><a href="%asset_metadata_InfoURL%">More information</a></li>
+%end_asset_metadata_InfoURL%
+		</ul>
+        <ul class="social-links">
+          <li>
+            <a href="https://twitter.com/intent/tweet?text=%asset_metadata_Name%++%asset_url%"><span class="small icon--hide-label" data-icon="twitter">Share on Twitter</span></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=%asset_url%"><span class="small icon--hide-label" data-icon="facebook">Share on Facebook</span></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/shareArticle?title=%asset_metadata_Name%&#038;url=%asset_url%"><span class="small icon--hide-label" data-icon="linkedin">Share on LinkedIn</span></a>
+          </li>
+          <li>
+            <a href="#" data-modal-offset="" data-modal-target="share-modal"><span class="small icon--hide-label" data-icon="share">Get a short URL, or embed code</span></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div id='map'></div>
+</div>
+
+<div class="modal__dialog" id="share-modal">		<h2>Use this map</h2>
+	<ul class="use-map">
+		<li>View in:
+		<a href="http://www.google.com.au/maps/?q=%asset_metadata_Latitude^maxchars:10%,%asset_metadata_Longitude^maxchars:10%">Google maps</a>,
+		<a href="https://www.openstreetmap.org/?mlat=%asset_metadata_Latitude^maxchars:10%&mlon=%asset_metadata_Longitude^maxchars:10%#map=17/%asset_metadata_Latitude^maxchars:10%/%asset_metadata_Longitude^maxchars:10%"><abbr title="Open Street Map">OSM</abbr></a>
+		</li>
+		<li>Get a short URL: <a href="http://go.unimelb.edu.au/add?link_location=%asset_url%" rel="nofollow">go.unimelb</a></li>
+		<li id="embed-code">Embed this map: <input aria-label="Not a form input. Contains embed code for copying." onfocus="select()" type="text" value="&lt;iframe src='%asset_url%?SQ_DESIGN_NAME=embed' height='450' width='100%' frameborder='0'&gt;&lt;a href='%asset_url%'&gt;%asset_metadata_Name%&lt;/a&gt;&lt;/iframe&gt;"></li>
+		<li>
+		<a href="geo:%asset_metadata_Latitude^maxchars:10%,%asset_metadata_Longitude^maxchars:10%">Geo <small>(Latitude, Longitude)</small>: <span class="latitude">%asset_metadata_Latitude^maxchars:10%</span>, <span class="longitude">%asset_metadata_Longitude^maxchars:10%</span></a>
+		</li>
+	</ul>
+</div>
+
+<div class="lower">
+    %asset_contents%
+    %globals_asset_contents_raw:1971471%
+</div>
+
+</div>
+
+<script>
+
+if (!mapboxgl.supported()) {
+
+	L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+	var map = L.mapbox.map('map', 'maps-unimelb.2c79eb85');
+	map.setView([%asset_metadata_Latitude%, %asset_metadata_Longitude%], %asset_metadata_Zoom^empty:16^increment%);
+    map.scrollWheelZoom.disable();
+    L.marker([%globals_asset_metadata_Latitude%,%globals_asset_metadata_Longitude%]).addTo(map)
+    .bindPopup("<strong>%globals_asset_metadata_Name^escapehtml^escapequotes%</strong><br/>%globals_asset_metadata_StreetAddress^escapehtml^escapequotes%").openPopup();
+
+} else {
+
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ';
+var map = new mapboxgl.Map({
+	container: 'map', // container id
+	style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk',
+	center: [%asset_metadata_Longitude%, %asset_metadata_Latitude%],
+	zoom: %asset_metadata_Zoom^empty:16%
+});
+
+map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+map.addControl(new mapboxgl.Geolocate({position: 'top-left'}));
+map.scrollZoom.disable();
+
+var tooltip = new mapboxgl.Popup({anchor:"bottom-left",closeOnClick: false})
+    .setLngLat([%asset_metadata_Longitude%, %asset_metadata_Latitude%])
+    .setHTML('<div class="popup"><h3>%asset_metadata_Name^escapehtml^escapequotes%</h3><p>%asset_metadata_StreetAddress^escapehtml^escapequotes%</p></div>')
+    .addTo(map);
+
+}
+
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Place",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "%asset_metadata_Latitude^maxchars:10%",
+    "longitude": "%asset_metadata_Longitude^maxchars:10%"
+  },
+  "name": "%asset_metadata_Name% - The University of Melbourne"
+}
+</script>
+%end_asset_metadata_ObjectType^contains:Building%
