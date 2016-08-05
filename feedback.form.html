@@ -99,9 +99,11 @@ function initJS() {
 function getloc(){
 	map.on('move', function (e) {
 		var mapCtr = map.getCenter();
-		document.getElementById('q1998099_q2').value = mapCtr.lat;
-		document.getElementById('q1998099_q3').value = mapCtr.lng;
-		document.getElementById('info').innerHTML = mapCtr;
+		var mapCtrLat = Math.round(mapCtr.lat*100000)/100000;
+		var mapCtrLng = Math.round(mapCtr.lng*100000)/100000;
+		document.getElementById('q1998099_q2').value = mapCtrLat;
+		document.getElementById('q1998099_q3').value = mapCtrLng;
+		document.getElementById('info').innerHTML = "geo:" + mapCtrLat + "," + mapCtrLng;
 	});
 }
 
