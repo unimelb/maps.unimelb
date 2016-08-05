@@ -1,5 +1,14 @@
 <section class="lead"><p>Your feedback is the best way of ensuring our maps stay up to date. Tell us if you find something wrong, or add a location yourself.</p></section>
 <section>
+%form_errors^tagif:div%
+%begin_globals_user_attribute_email%
+%else_globals_user_attribute_email%
+<fieldset style="margin-bottom:1em;">
+	<p>Please provide an email address, <a href="%globals_asset_url%/_login">or login</a>.</p>
+	%question_contents_1998099_q5%
+</fieldset>
+%end_globals_user_attribute_email%
+
   <div class="tabbed" data-tabbed="true">
     <nav role="tablist">
       <a data-current="true" href="#feedback" role="tab">Feedback</a><a href="#location" role="tab">Add a location</a>
@@ -9,7 +18,7 @@
 <fieldset>
   %question_contents_1998099_q7%
   %question_contents_1998099_q8%
- </fieldset>  
+</fieldset>  
 
     </section>
     <section id="location" role="tabpanel">
@@ -37,7 +46,6 @@
   <div class="hidden">
 	  %question_contents_1998099_q2%
 	  %question_contents_1998099_q3%
-      %question_contents_1998099_q5%
       %question_contents_1998099_q6%
   </div>
 </fieldset>
@@ -68,13 +76,7 @@ function initGL() {
     });
     map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
     map.scrollZoom.disable();
-
-	map.on('move', function (e) {
-		var mapCtr = map.getCenter();
-		document.getElementById('q1998099_q2').value = mapCtr.lat;
-		document.getElementById('q1998099_q3').value = mapCtr.lng;
-		document.getElementById('info').innerHTML = mapCtr;
-	});
+    getloc();
 }
 
 function initJS() {
@@ -83,15 +85,17 @@ function initJS() {
     map = L.mapbox.map('map', 'maps-unimelb.2c79eb85')
 		.setView([-37.79894, 144.96073], 16);
     map.scrollWheelZoom.disable();
+    document.getElementById('panMap').style.display = 'none';
+    getloc();
+}
 
+function getloc(){
 	map.on('move', function (e) {
 		var mapCtr = map.getCenter();
 		document.getElementById('q1998099_q2').value = mapCtr.lat;
 		document.getElementById('q1998099_q3').value = mapCtr.lng;
 		document.getElementById('info').innerHTML = mapCtr;
 	});
-
-    document.getElementById('panMap').style.display = 'none';
 }
 
 function fly(flylon,flylat) {
