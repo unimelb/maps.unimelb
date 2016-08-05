@@ -77,6 +77,13 @@ function initGL() {
     map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
     map.scrollZoom.disable();
     getloc();
+    
+// temporary fix to prevent form submitting when zoom controls are clicked
+var navControls = document.getElementsByClassName('mapboxgl-ctrl-icon');
+for ( var i = 0; i < navControls.length; i++ ) { 
+navControls[i].setAttribute('type', 'button'); 
+}
+
 }
 
 function initJS() {
