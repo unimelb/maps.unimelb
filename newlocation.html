@@ -1,0 +1,167 @@
+<link href="https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css" rel="stylesheet">
+<script type="text/javascript" src="https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js"></script>
+
+<div id='map'></div>
+<div id="cross"></div>
+<div id="info"></div>
+
+<script>
+var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ";
+
+// default values
+var maplat = "-37.79894";
+var maplon = "144.96073";
+
+%begin_globals_get_edit%
+// override if the URL contains a value for edit=
+var maplat = "%globals_get_edit^as_asset:asset_metadata_Latitude%";
+var maplon = "%globals_get_edit^as_asset:asset_metadata_Longitude%";
+%end_globals_get_edit%
+
+%begin_globals_get_lat%
+// override if the URL contains a value for lat=
+var maplat = "%globals_get_lat%";
+var maplon = "%globals_get_lng%";
+// var locname = "%globals_get_name%";
+%end_globals_get_lat%
+
+function initGL() {
+    mapboxgl.accessToken = myAccessToken;
+    map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk',
+        center: [maplon, maplat],
+        zoom: 16
+    });
+    map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+    getloc();
+
+// temporary fix to prevent form submitting when zoom controls are clicked
+var navControls = document.getElementsByClassName('mapboxgl-ctrl-icon');
+for ( var i = 0; i < navControls.length; i++ ) { 
+navControls[i].setAttribute('type', 'button'); 
+}
+
+}
+
+// probably should strip out the IE code!
+function initJS() {
+    mapzoom = parseInt(mapzoom)+1;
+    L.mapbox.accessToken = myAccessToken;
+    map = L.mapbox.map('map', 'maps-unimelb.2c79eb85')
+		.setView([-37.79894, 144.96073], 16);
+    map.scrollWheelZoom.disable();
+    getloc();
+}
+
+function getloc(){
+	map.on('move', function (e) {
+		var mapCtr = map.getCenter();
+		var mapCtrLat = Math.round(mapCtr.lat*100000)/100000;
+		var mapCtrLng = Math.round(mapCtr.lng*100000)/100000;
+		document.getElementById('metadata_field_text_104227_page_standard_value').value = mapCtrLat;
+		document.getElementById('metadata_field_text_104226_page_standard_value').value = mapCtrLng;
+		document.getElementById('info').innerHTML = "geo:" + mapCtrLat + "," + mapCtrLng;
+	});
+}
+
+function loadScript(sScriptSrc, cssSrc, oCallback) {
+/* adapted from - http://stackoverflow.com/questions/11160948/how-to-know-if-jquery-has-finished-loading/11161045#11161045.1 */
+
+    var oHead = document.getElementsByTagName('head')[0];
+    var oScript = document.createElement('script');
+
+    var oCss = document.createElement('link');
+    oCss.href = cssSrc;
+    oCss.rel = 'stylesheet';
+    oHead.appendChild(oCss);
+
+    // make sure callback isn't run more than once
+    function runCallback() {
+        if (oCallback) {
+            oCallback();
+            oScript.onload = oScript.onreadystatechange = null;
+            oCallback = null;
+        }
+    }
+
+    oScript.type = 'text/javascript';
+    // most browsers
+    oScript.onload = runCallback;
+    // IE 6 & 7
+    oScript.onreadystatechange = function() {
+        if (this.readyState === 'complete') {
+            runCallback();
+        }
+    }
+    oScript.src = sScriptSrc;
+    oHead.appendChild(oScript);
+}
+
+</script>
+
+
+%begin_globals_get_edit%
+<h2>You're editing an existing location!</h2>
+<ul>
+    <li><b>Latitude:</b> %globals_get_edit^as_asset:asset_metadata_Latitude%</li>
+    <li><b>Longitude:</b> %globals_get_edit^as_asset:asset_metadata_Longitude%</li>
+</ul>
+%end_globals_get_edit%
+
+%begin_globals_get_lat%
+<h2>You're adding an existing location with supplied data!</h2>
+<ul>
+    <li><b>Latitude:</b> %globals_get_lat%</li>
+    <li><b>Longitude:</b> %globals_get_lng%</li>
+    <li><b>name:</b> %globals_get_name%</li>
+</ul>
+%end_globals_get_lat%
+
+<fieldset>
+<div class="question">
+		<label for="page_standard_0_378">Page name <span class="importantnotice">(required)</span></label>
+		%details-F_name%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_104221_value">Object name (eg: Baillieu Library)</label>
+		%metadata-F_104221%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_104226_value">Longitude</label>
+		%metadata-F_104226%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_104227_value">Latitude</label>
+		%metadata-F_104227%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_104513_value">Alternate Name(s)</label>
+		%metadata-F_104513%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_104514_value">Street Address</label>
+		%metadata-F_104514%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_104515_value">Campus Map Reference (alpha)</label>
+		%metadata-F_104515%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_104516_value">Campus Map Reference (number)</label>
+		%metadata-F_104516%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_572123_value">Extra directions</label>
+		%metadata-F_572123%
+	</div>
+<div class="question">
+		<label for="metadata_field_text_106245_value">Building number</label>
+		%metadata-F_106245%
+	</div>
+<div class="question">
+		<label for="metadata_field_select_293326">Object Type</label>
+		%metadata-F_293326%
+	</div>
+</fieldset>
+<div class="submit">%commit_button_clean%</div>

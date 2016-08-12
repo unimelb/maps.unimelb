@@ -101,8 +101,8 @@ function getloc(){
 		var mapCtr = map.getCenter();
 		var mapCtrLat = Math.round(mapCtr.lat*100000)/100000;
 		var mapCtrLng = Math.round(mapCtr.lng*100000)/100000;
-		document.getElementById('q1998099_q2').value = mapCtrLat;
-		document.getElementById('q1998099_q3').value = mapCtrLng;
+		document.getElementById('q1998099_q2').value = mapCtrLng;
+		document.getElementById('q1998099_q3').value = mapCtrLat;
 		document.getElementById('info').innerHTML = "geo:" + mapCtrLat + "," + mapCtrLng;
 	});
 }
