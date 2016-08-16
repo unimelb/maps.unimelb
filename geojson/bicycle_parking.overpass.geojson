@@ -1,0 +1,1906 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-08-16T02:42:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/889593087",
+      "properties": {
+        "@id": "node/889593087",
+        "access": "public",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "fee": "yes",
+        "name": "University Square/Grattan Street",
+        "network": "Melbourne Bike Share",
+        "operator": "RACV",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "url": "http://www.melbournebikeshare.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9603254,
+          -37.8002249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/907778387",
+      "properties": {
+        "@id": "node/907778387",
+        "access": "public",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "fee": "yes",
+        "name": "Museum/Rathdowne St",
+        "network": "Melbourne Bike Share",
+        "operator": "RACV",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "url": "http://www.melbournebikeshare.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.969609,
+          -37.803868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/907778404",
+      "properties": {
+        "@id": "node/907778404",
+        "access": "public",
+        "amenity": "bicycle_rental",
+        "capacity": "11",
+        "fee": "yes",
+        "name": "Lygon Street/Argyle Square",
+        "network": "Melbourne Bike Share",
+        "operator": "RACV",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "url": "http://www.melbournebikeshare.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96677,
+          -37.802129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/907778405",
+      "properties": {
+        "@id": "node/907778405",
+        "access": "public",
+        "amenity": "bicycle_rental",
+        "capacity": "27",
+        "covered": "no",
+        "fee": "yes",
+        "name": "Melbourne Uni - Tin Alley",
+        "network": "Melbourne Bike Share",
+        "operator": "RACV",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "url": "http://www.melbournebikeshare.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960892,
+          -37.796359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040122894",
+      "properties": {
+        "@id": "node/1040122894",
+        "amenity": "bicycle_parking",
+        "capacity": "40",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9596392,
+          -37.802321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040350160",
+      "properties": {
+        "@id": "node/1040350160",
+        "amenity": "bicycle_parking",
+        "capacity": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9593262,
+          -37.8021631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040353109",
+      "properties": {
+        "@id": "node/1040353109",
+        "amenity": "bicycle_parking",
+        "capacity": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9596774,
+          -37.8019348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040355838",
+      "properties": {
+        "@id": "node/1040355838",
+        "amenity": "bicycle_parking",
+        "capacity": "4",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9605576,
+          -37.8020105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040358269",
+      "properties": {
+        "@id": "node/1040358269",
+        "amenity": "bicycle_parking",
+        "capacity": "4",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960556,
+          -37.802317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040360550",
+      "properties": {
+        "@id": "node/1040360550",
+        "amenity": "bicycle_parking",
+        "capacity": "4",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9608352,
+          -37.8020176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040363874",
+      "properties": {
+        "@id": "node/1040363874",
+        "amenity": "bicycle_parking",
+        "capacity": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9608617,
+          -37.8023045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040371934",
+      "properties": {
+        "@id": "node/1040371934",
+        "amenity": "bicycle_parking",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960463,
+          -37.804143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040374257",
+      "properties": {
+        "@id": "node/1040374257",
+        "amenity": "bicycle_parking",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960335,
+          -37.804609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040375579",
+      "properties": {
+        "@id": "node/1040375579",
+        "amenity": "bicycle_parking",
+        "capacity": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960056,
+          -37.8049735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040377947",
+      "properties": {
+        "@id": "node/1040377947",
+        "amenity": "bicycle_parking",
+        "capacity": "16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960277,
+          -37.805096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040431962",
+      "properties": {
+        "@id": "node/1040431962",
+        "amenity": "bicycle_parking",
+        "capacity": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958641,
+          -37.803822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1041981138",
+      "properties": {
+        "@id": "node/1041981138",
+        "amenity": "bicycle_parking",
+        "capacity": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958918,
+          -37.80272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1046709544",
+      "properties": {
+        "@id": "node/1046709544",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.970896,
+          -37.803857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1053430596",
+      "properties": {
+        "@id": "node/1053430596",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.961229,
+          -37.799377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1057893238",
+      "properties": {
+        "@id": "node/1057893238",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "44",
+        "covered": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9606224,
+          -37.7993703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1058079309",
+      "properties": {
+        "@id": "node/1058079309",
+        "amenity": "bicycle_parking",
+        "capacity": "6",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960422,
+          -37.797269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1058079915",
+      "properties": {
+        "@id": "node/1058079915",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959955,
+          -37.797125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1058080315",
+      "properties": {
+        "@id": "node/1058080315",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959735,
+          -37.797033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1058082328",
+      "properties": {
+        "@id": "node/1058082328",
+        "amenity": "bicycle_parking",
+        "capacity": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959174,
+          -37.799945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1058082464",
+      "properties": {
+        "@id": "node/1058082464",
+        "amenity": "bicycle_parking",
+        "capacity": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958831,
+          -37.801171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1058082648",
+      "properties": {
+        "@id": "node/1058082648",
+        "amenity": "bicycle_parking",
+        "capacity": "41",
+        "covered": "yes",
+        "fee": "$20 per annum",
+        "name": "The Spot Secure Bicycle Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9587103,
+          -37.8016682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1058084063",
+      "properties": {
+        "@id": "node/1058084063",
+        "amenity": "bicycle_parking",
+        "capacity": "16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959123,
+          -37.8015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1272684204",
+      "properties": {
+        "@id": "node/1272684204",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "capacity": "14",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.961738,
+          -37.796691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1636009874",
+      "properties": {
+        "@id": "node/1636009874",
+        "amenity": "bicycle_parking",
+        "capacity": "4",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9597331,
+          -37.8021408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1636009881",
+      "properties": {
+        "@id": "node/1636009881",
+        "addr:city": "Parkville",
+        "addr:postcode": "3000",
+        "addr:street": "Monash Road",
+        "amenity": "bicycle_parking",
+        "bicycle": "official",
+        "bicycle_parking": "stands",
+        "capacity": "80",
+        "covered": "no",
+        "fee": "no",
+        "name": "Richard Berry Secure Bicyle Hub",
+        "opening_hours": "24/7",
+        "website": "sustainablecampus.unimelb.edu.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963536,
+          -37.798328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1636009886",
+      "properties": {
+        "@id": "node/1636009886",
+        "amenity": "bicycle_parking",
+        "capacity": "83",
+        "covered": "yes",
+        "fee": "$20 per annum",
+        "name": "Alan Gilbert Secure Bicycle Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9591086,
+          -37.8006421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1636009901",
+      "properties": {
+        "@id": "node/1636009901",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "101",
+        "covered": "yes",
+        "fee": "$20 per annum",
+        "name": "Royal Parade Secure Bicycle Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9581531,
+          -37.7983112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1636009904",
+      "properties": {
+        "@id": "node/1636009904",
+        "amenity": "bicycle_parking",
+        "capacity": "2",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9604814,
+          -37.802232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1636009927",
+      "properties": {
+        "@id": "node/1636009927",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "60",
+        "covered": "no",
+        "name": "John Medley bicycle parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9603822,
+          -37.7994662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1636009934",
+      "properties": {
+        "@id": "node/1636009934",
+        "amenity": "bicycle_parking",
+        "capacity": "18",
+        "covered": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9582337,
+          -37.799373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1953946017",
+      "properties": {
+        "@id": "node/1953946017",
+        "amenity": "bicycle_parking",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9583932,
+          -37.8032021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1953946679",
+      "properties": {
+        "@id": "node/1953946679",
+        "amenity": "bicycle_parking",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9583748,
+          -37.8031031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1953948068",
+      "properties": {
+        "@id": "node/1953948068",
+        "amenity": "bicycle_parking",
+        "capacity": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9578674,
+          -37.8021043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1953949638",
+      "properties": {
+        "@id": "node/1953949638",
+        "amenity": "bicycle_parking",
+        "capacity": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9586077,
+          -37.8024392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1998095971",
+      "properties": {
+        "@id": "node/1998095971",
+        "amenity": "bicycle_parking",
+        "capacity": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9630694,
+          -37.8048099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1998100943",
+      "properties": {
+        "@id": "node/1998100943",
+        "amenity": "bicycle_parking",
+        "capacity": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9605155,
+          -37.8043813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2010044068",
+      "properties": {
+        "@id": "node/2010044068",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9653409,
+          -37.8049557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2010054110",
+      "properties": {
+        "@id": "node/2010054110",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9664439,
+          -37.8027602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2010057936",
+      "properties": {
+        "@id": "node/2010057936",
+        "access": "public",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "fee": "yes",
+        "name": "Argyle Square / Lygon Street",
+        "network": "Melbourne Bike Share",
+        "operator": "RACV",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "url": "http://www.melbournebikeshare.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9664997,
+          -37.8023861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2010061669",
+      "properties": {
+        "@id": "node/2010061669",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9655606,
+          -37.8018707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2037719626",
+      "properties": {
+        "@id": "node/2037719626",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "20",
+        "covered": "no",
+        "name": "Western Precinct "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9534524,
+          -37.7972507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2037733545",
+      "properties": {
+        "@id": "node/2037733545",
+        "access": "yes",
+        "addr:city": "Parkville",
+        "addr:postcode": "3000",
+        "addr:street": "Monash Road",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "62",
+        "covered": "no",
+        "fee": "no",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963354,
+          -37.798322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353031883",
+      "properties": {
+        "@id": "node/2353031883",
+        "access": "yes",
+        "addr:city": "Parkville",
+        "addr:postcode": "3000",
+        "addr:street": "Professor's Walk",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "20",
+        "covered": "no",
+        "fee": "no",
+        "name": "Baillieu Library bike racks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959673,
+          -37.798565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353034894",
+      "properties": {
+        "@id": "node/2353034894",
+        "access": "yes",
+        "addr:city": "Parkville",
+        "addr:postcode": "3000",
+        "addr:street": "Professor's Walk",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "14",
+        "covered": "no",
+        "fee": "no",
+        "name": "Arts West bike racks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959752,
+          -37.797672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353038616",
+      "properties": {
+        "@id": "node/2353038616",
+        "access": "official",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "14",
+        "covered": "yes",
+        "fee": "no",
+        "name": "Zoology building Covered bike racks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95906,
+          -37.797609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353038810",
+      "properties": {
+        "@id": "node/2353038810",
+        "access": "official",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10",
+        "covered": "no",
+        "fee": "no",
+        "name": "Zoology building southern bike rack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9589715,
+          -37.7977138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353039404",
+      "properties": {
+        "@id": "node/2353039404",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "16",
+        "covered": "no",
+        "fee": "no",
+        "name": "Granger Museum southern bike racks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958604,
+          -37.797434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353039725",
+      "properties": {
+        "@id": "node/2353039725",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "40",
+        "covered": "no",
+        "fee": "no",
+        "name": "Granger Museum northern bike racks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958628,
+          -37.797158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353039899",
+      "properties": {
+        "@id": "node/2353039899",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "anchors",
+        "capacity": "10",
+        "covered": "no",
+        "fee": "no",
+        "name": "School of Land and Environment bike rack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9584611,
+          -37.7968705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353041039",
+      "properties": {
+        "@id": "node/2353041039",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "anchors",
+        "capacity": "16",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9584,
+          -37.796563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353043662",
+      "properties": {
+        "@id": "node/2353043662",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959907,
+          -37.797268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353043694",
+      "properties": {
+        "@id": "node/2353043694",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959944,
+          -37.797084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353044372",
+      "properties": {
+        "@id": "node/2353044372",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95981,
+          -37.797107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2353045895",
+      "properties": {
+        "@id": "node/2353045895",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "14",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959887,
+          -37.796645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2358242658",
+      "properties": {
+        "@id": "node/2358242658",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9634284,
+          -37.7994835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361184026",
+      "properties": {
+        "@id": "node/2361184026",
+        "access": "yes",
+        "addr:city": "Parkville",
+        "addr:postcode": "3000",
+        "addr:street": "Monash Road",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "14",
+        "covered": "no",
+        "fee": "no",
+        "note": "behind Old Geology"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963007,
+          -37.798228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361185282",
+      "properties": {
+        "@id": "node/2361185282",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "28",
+        "covered": "yes",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963186,
+          -37.798761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361213552",
+      "properties": {
+        "@id": "node/2361213552",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "12",
+        "covered": "yes",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963104,
+          -37.798964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361223188",
+      "properties": {
+        "@id": "node/2361223188",
+        "access": "yes",
+        "addr:city": "Parkville",
+        "addr:street": "Stationary Lane",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "28",
+        "covered": "no",
+        "description": "Behind building 161",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9619806,
+          -37.7984973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361233183",
+      "properties": {
+        "@id": "node/2361233183",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "20",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962404,
+          -37.796606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361233532",
+      "properties": {
+        "@id": "node/2361233532",
+        "access": "yes",
+        "addr:city": "Parkville",
+        "addr:postcode": "3000",
+        "addr:street": "Tin Alley",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "28",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962326,
+          -37.796549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361235033",
+      "properties": {
+        "@id": "node/2361235033",
+        "access": "yes",
+        "addr:city": "Parkville",
+        "addr:postcode": "3000",
+        "addr:street": "Tin Alley",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.961735,
+          -37.796392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361238305",
+      "properties": {
+        "@id": "node/2361238305",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "18",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962142,
+          -37.796073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361249614",
+      "properties": {
+        "@id": "node/2361249614",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "7",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960238,
+          -37.795333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2379812760",
+      "properties": {
+        "@id": "node/2379812760",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963611,
+          -37.799849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2379812851",
+      "properties": {
+        "@id": "node/2379812851",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963656,
+          -37.799898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2410558928",
+      "properties": {
+        "@id": "node/2410558928",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962231,
+          -37.799488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2410559394",
+      "properties": {
+        "@id": "node/2410559394",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962622,
+          -37.799557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2418505224",
+      "properties": {
+        "@id": "node/2418505224",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958475,
+          -37.797956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2611842065",
+      "properties": {
+        "@id": "node/2611842065",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963998,
+          -37.799508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2700936609",
+      "properties": {
+        "@id": "node/2700936609",
+        "amenity": "bicycle_parking",
+        "capacity": "12",
+        "covered": "no",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9633617,
+          -37.8034056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2711792719",
+      "properties": {
+        "@id": "node/2711792719",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958263,
+          -37.799865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2713264994",
+      "properties": {
+        "@id": "node/2713264994",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958278,
+          -37.799869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2718534272",
+      "properties": {
+        "@id": "node/2718534272",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "24",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963747,
+          -37.799264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2753274565",
+      "properties": {
+        "@id": "node/2753274565",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9623307,
+          -37.800463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2753278894",
+      "properties": {
+        "@id": "node/2753278894",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9626047,
+          -37.8004727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2753280786",
+      "properties": {
+        "@id": "node/2753280786",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9625938,
+          -37.8005308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2753283418",
+      "properties": {
+        "@id": "node/2753283418",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9625583,
+          -37.8007396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2760171020",
+      "properties": {
+        "@id": "node/2760171020",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963678,
+          -37.797271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2765790799",
+      "properties": {
+        "@id": "node/2765790799",
+        "amenity": "bicycle_parking",
+        "capacity": "10",
+        "covered": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9579175,
+          -37.8001597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2886422552",
+      "properties": {
+        "@id": "node/2886422552",
+        "amenity": "bicycle_parking",
+        "capacity": "60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9600582,
+          -37.8020054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2910210468",
+      "properties": {
+        "@id": "node/2910210468",
+        "amenity": "bicycle_parking",
+        "capacity": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9621868,
+          -37.8013194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2973904098",
+      "properties": {
+        "@id": "node/2973904098",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9577777,
+          -37.8040906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2973904099",
+      "properties": {
+        "@id": "node/2973904099",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9575155,
+          -37.8042265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3060282225",
+      "properties": {
+        "@id": "node/3060282225",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9629264,
+          -37.7969026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3060282228",
+      "properties": {
+        "@id": "node/3060282228",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962689,
+          -37.7968755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3060282229",
+      "properties": {
+        "@id": "node/3060282229",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9624645,
+          -37.7968424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3155625166",
+      "properties": {
+        "@id": "node/3155625166",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963406,
+          -37.797119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3155625175",
+      "properties": {
+        "@id": "node/3155625175",
+        "amenity": "bicycle_parking",
+        "capacity": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9629913,
+          -37.7975893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3155625177",
+      "properties": {
+        "@id": "node/3155625177",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9635198,
+          -37.7972207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3155745739",
+      "properties": {
+        "@id": "node/3155745739",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9630897,
+          -37.7967914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3222806632",
+      "properties": {
+        "@id": "node/3222806632",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "20",
+        "covered": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9658499,
+          -37.7975094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3235553704",
+      "properties": {
+        "@id": "node/3235553704",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9593948,
+          -37.8017395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3327876405",
+      "properties": {
+        "@id": "node/3327876405",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9616219,
+          -37.8045932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3415579323",
+      "properties": {
+        "@id": "node/3415579323",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9640915,
+          -37.7987551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3440296512",
+      "properties": {
+        "@id": "node/3440296512",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9633286,
+          -37.7999985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3866610965",
+      "properties": {
+        "@id": "node/3866610965",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9675258,
+          -37.7980482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4013811990",
+      "properties": {
+        "@id": "node/4013811990",
+        "amenity": "bicycle_parking",
+        "capacity": "25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9648771,
+          -37.7980731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4013812005",
+      "properties": {
+        "@id": "node/4013812005",
+        "amenity": "bicycle_parking",
+        "capacity": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9648885,
+          -37.7969917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4013820212",
+      "properties": {
+        "@id": "node/4013820212",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9642689,
+          -37.7995955
+        ]
+      }
+    }
+  ]
+}
