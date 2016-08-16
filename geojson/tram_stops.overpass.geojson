@@ -1,0 +1,760 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-08-16T04:39:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/363386520",
+      "properties": {
+        "@id": "node/363386520",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position",
+        "ref": "40648"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9596309,
+          -37.7999499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1287222139",
+      "properties": {
+        "@id": "node/1287222139",
+        "bus": "yes",
+        "name": "Elgin Street",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Transdev",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.967538,
+          -37.7973248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2021079560",
+      "properties": {
+        "@id": "node/2021079560",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position",
+        "ref": "16830",
+        "route_ref": "505;546"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9579612,
+          -37.7986324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025654000",
+      "properties": {
+        "@id": "node/2025654000",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "943",
+        "name": "Faraday Street",
+        "public_transport": "stop_position",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9671106,
+          -37.79892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025654004",
+      "properties": {
+        "@id": "node/2025654004",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "2131",
+        "name": "Faraday Street",
+        "public_transport": "stop_position",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9673896,
+          -37.7989794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025664562",
+      "properties": {
+        "@id": "node/2025664562",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "957",
+        "name": "Argyle Square",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9664937,
+          -37.8025653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025664568",
+      "properties": {
+        "@id": "node/2025664568",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "949",
+        "name": "Grattan Street",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9667405,
+          -37.8011114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025664574",
+      "properties": {
+        "@id": "node/2025664574",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "2380",
+        "name": "Argyle Square",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9667405,
+          -37.8026119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025671038",
+      "properties": {
+        "@id": "node/2025671038",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "2581",
+        "name": "Queensberry Street",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9664132,
+          -37.8045786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025671040",
+      "properties": {
+        "@id": "node/2025671040",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "959",
+        "name": "Queensberry Street",
+        "public_transport": "stop_position",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9660592,
+          -37.8050618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2025676692",
+      "properties": {
+        "@id": "node/2025676692",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "19529",
+        "name": "Trades Hall",
+        "public_transport": "stop_position",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9660431,
+          -37.8067741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2707996389",
+      "properties": {
+        "@id": "node/2707996389",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Melbourne Museum",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9693052,
+          -37.8033718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2711791678",
+      "properties": {
+        "@id": "node/2711791678",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.953336,
+          -37.800804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2713249269",
+      "properties": {
+        "@id": "node/2713249269",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.953412,
+          -37.801041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3516754930",
+      "properties": {
+        "@id": "node/3516754930",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9589938,
+          -37.8018774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3924765037",
+      "properties": {
+        "@id": "node/3924765037",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9639876,
+          -37.7997546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3937111755",
+      "properties": {
+        "@id": "node/3937111755",
+        "bus": "yes",
+        "name": "Carlton Gardens",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9713744,
+          -37.8075292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3945799000",
+      "properties": {
+        "@id": "node/3945799000",
+        "bus": "yes",
+        "name": "Victoria Street",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9561051,
+          -37.8057022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3945799003",
+      "properties": {
+        "@id": "node/3945799003",
+        "bus": "yes",
+        "name": "Victoria Street",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9558378,
+          -37.8060263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3947038080",
+      "properties": {
+        "@id": "node/3947038080",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9589931,
+          -37.8019162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4061250640",
+      "properties": {
+        "@id": "node/4061250640",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9699314,
+          -37.8014428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4061250642",
+      "properties": {
+        "@id": "node/4061250642",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9711857,
+          -37.7927666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4061250648",
+      "properties": {
+        "@id": "node/4061250648",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9719931,
+          -37.7894594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4061250662",
+      "properties": {
+        "@id": "node/4061250662",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9697789,
+          -37.8008067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4061250667",
+      "properties": {
+        "@id": "node/4061250667",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9694907,
+          -37.8043731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4061250669",
+      "properties": {
+        "@id": "node/4061250669",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9708892,
+          -37.7958421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4061250674",
+      "properties": {
+        "@id": "node/4061250674",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9718104,
+          -37.7907173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4069715676",
+      "properties": {
+        "@id": "node/4069715676",
+        "bus": "yes",
+        "name": "Lincoln Square",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position",
+        "ref": "40647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9622824,
+          -37.801959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4069715677",
+      "properties": {
+        "@id": "node/4069715677",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position",
+        "ref": "7464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960053,
+          -37.7999944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4069715678",
+      "properties": {
+        "@id": "node/4069715678",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita;Dysons",
+        "public_transport": "stop_position",
+        "ref": "7588"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9609907,
+          -37.8000947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4069715680",
+      "properties": {
+        "@id": "node/4069715680",
+        "bus": "yes",
+        "name": "Royal Melbourne Hospital",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9556179,
+          -37.7995132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4069715681",
+      "properties": {
+        "@id": "node/4069715681",
+        "bus": "yes",
+        "name": "Royal Melbourne Hospital",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9557427,
+          -37.7995364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4308263749",
+      "properties": {
+        "@id": "node/4308263749",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Elgin St/Rathdowne St",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9705413,
+          -37.7979101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4308263767",
+      "properties": {
+        "@id": "node/4308263767",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Elgin St/Rathdowne St",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9703517,
+          -37.7977276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4326586137",
+      "properties": {
+        "@id": "node/4326586137",
+        "bus": "yes",
+        "name": "College Crescent",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9586823,
+          -37.7918994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4326586139",
+      "properties": {
+        "@id": "node/4326586139",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position",
+        "ref": "16830"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9578721,
+          -37.7986284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4326586141",
+      "properties": {
+        "@id": "node/4326586141",
+        "bus": "yes",
+        "name": "Morrah Street",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.957901,
+          -37.7954483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4326586143",
+      "properties": {
+        "@id": "node/4326586143",
+        "bus": "yes",
+        "name": "Royal Melbourne Hospital",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9576263,
+          -37.7976875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4326586153",
+      "properties": {
+        "@id": "node/4326586153",
+        "bus": "yes",
+        "name": "The Avenue",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9583513,
+          -37.7917548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4326586154",
+      "properties": {
+        "@id": "node/4326586154",
+        "bus": "yes",
+        "name": "Trinity College",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Dysons",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9582194,
+          -37.7957703
+        ]
+      }
+    }
+  ]
+}
