@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2016-08-16T23:53:02Z",
+  "timestamp": "2016-08-17T05:42:02Z",
   "features": [
     {
       "type": "Feature",
@@ -460,6 +460,26 @@
     },
     {
       "type": "Feature",
+      "id": "node/1046712346",
+      "properties": {
+        "@id": "node/1046712346",
+        "amenity": "bicycle_parking",
+        "@timestamp": "2010-12-18T23:55:28Z",
+        "@version": "4",
+        "@changeset": "6701864",
+        "@user": "Canley",
+        "@uid": "57437"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.972386,
+          -37.804031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1053430596",
       "properties": {
         "@id": "node/1053430596",
@@ -641,16 +661,16 @@
         "@id": "node/1058084063",
         "amenity": "bicycle_parking",
         "capacity": "16",
-        "@timestamp": "2010-12-23T01:21:53Z",
-        "@version": "1",
-        "@changeset": "6741700",
+        "@timestamp": "2016-08-17T05:35:39Z",
+        "@version": "2",
+        "@changeset": "41504635",
         "@user": "woowoowoo",
         "@uid": "4702"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.959123,
+          144.9590653,
           -37.8015
         ]
       }
@@ -932,6 +952,48 @@
         "coordinates": [
           144.9586077,
           -37.8024392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1955926333",
+      "properties": {
+        "@id": "node/1955926333",
+        "amenity": "bicycle_parking",
+        "capacity": "10",
+        "@timestamp": "2013-01-26T18:26:39Z",
+        "@version": "3",
+        "@changeset": "14796087",
+        "@user": "zacmccormick",
+        "@uid": "492311"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9614108,
+          -37.8055534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1955926540",
+      "properties": {
+        "@id": "node/1955926540",
+        "amenity": "bicycle_parking",
+        "capacity": "6",
+        "@timestamp": "2013-01-26T18:26:39Z",
+        "@version": "2",
+        "@changeset": "14796087",
+        "@user": "zacmccormick",
+        "@uid": "492311"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9613454,
+          -37.8058043
         ]
       }
     },
@@ -2137,6 +2199,26 @@
     },
     {
       "type": "Feature",
+      "id": "node/2973912744",
+      "properties": {
+        "@id": "node/2973912744",
+        "amenity": "bicycle_parking",
+        "@timestamp": "2014-07-22T03:32:43Z",
+        "@version": "1",
+        "@changeset": "24285349",
+        "@user": "woowoowoo",
+        "@uid": "4702"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9588356,
+          -37.8053848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3060282225",
       "properties": {
         "@id": "node/3060282225",
@@ -2377,17 +2459,17 @@
         "opening_hours": "24/7",
         "service:bicycle:chain_tool": "no",
         "source": "osmsync:dero",
-        "@timestamp": "2015-03-03T21:11:17Z",
-        "@version": "1",
-        "@changeset": "29231836",
-        "@user": "Bryce C Nesbitt",
-        "@uid": "355242"
+        "@timestamp": "2016-08-17T05:35:39Z",
+        "@version": "2",
+        "@changeset": "41504635",
+        "@user": "woowoowoo",
+        "@uid": "4702"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9594178,
-          -37.8014769
+          144.9590597,
+          -37.8015437
         ]
       }
     },
@@ -2431,6 +2513,30 @@
         "coordinates": [
           144.9633286,
           -37.7999985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3481124169",
+      "properties": {
+        "@id": "node/3481124169",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "4",
+        "covered": "no",
+        "source": "extrapolation",
+        "@timestamp": "2015-04-27T09:59:56Z",
+        "@version": "1",
+        "@changeset": "30533112",
+        "@user": "bigbug21",
+        "@uid": "15748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.956227,
+          -37.8058171
         ]
       }
     },
