@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "museum",
+        "Title": "Grainger Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95844662189484,
+          -37.79727608285233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "music",
+        "Title": "Melbourne Conservatorium of Music (Melba Hall)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95848149061203,
+          -37.797761432800435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking",
+        "Title": "Car park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95814085006714,
+          -37.798316720096196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "theatre",
+        "Title": "Arts West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95943635702133,
+          -37.797721163712076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rail-light",
+        "Title": "Tram stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95761245489118,
+          -37.79944847593558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96047973632812,
+          -37.799984676300014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96044218540192,
+          -37.80045517301838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9609625339508,
+          -37.7978271349501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96270060539246,
+          -37.79726336621694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9644923210144,
+          -37.79453347781235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96419191360474,
+          -37.79751769850893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rail-light"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96418118476868,
+          -37.79915388198382
+        ]
+      }
+    }
+  ]
+}
