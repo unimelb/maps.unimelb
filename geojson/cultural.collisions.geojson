@@ -71,7 +71,8 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "rail-light",
-        "Title": "Tram stop"
+        "Title": "Tram stop",
+        "Description": "Route 19, Stop 10. Royal Melbourne Hospital."
       },
       "geometry": {
         "type": "Point",
@@ -84,9 +85,11 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
+        "marker-color": "#007600",
         "marker-size": "medium",
-        "marker-symbol": "bus"
+        "marker-symbol": "bus",
+        "Title": "Visitor shuttle",
+        "Description": "From... to... ?"
       },
       "geometry": {
         "type": "Point",
@@ -101,7 +104,8 @@
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
-        "marker-symbol": "parking"
+        "marker-symbol": "parking",
+        "Title": "Car park"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +165,9 @@
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
-        "marker-symbol": "museum"
+        "marker-symbol": "museum",
+        "Title": "Ian Potter Museum of Art",
+        "Description": "Venue for…"
       },
       "geometry": {
         "type": "Point",
@@ -176,13 +182,83 @@
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
-        "marker-symbol": "rail-light"
+        "marker-symbol": "rail-light",
+        "Title": "Tram stop",
+        "Description": "Route 1, 8, stop 1. Melbourne University"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           144.96418118476868,
           -37.79915388198382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rail-light",
+        "Title": "Tram stop",
+        "Description": "Route 19, stop 11, University of Melbourne."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95775997638702,
+          -37.798104778872805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rail-light",
+        "Title": "Tram stop",
+        "Description": "Route 19, stop 12. Morrah Street."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9580442905426,
+          -37.79583061127853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rail-light",
+        "Title": "Tram stop",
+        "Description": "Route 19, stop 13. Gatehouse Street."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95845198631287,
+          -37.79261740893456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rail-light",
+        "Title": "Tram stop",
+        "Description": "Route 1, 8. Stop 112. Lygon Street."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96676683425903,
+          -37.79709381086915
         ]
       }
     }
