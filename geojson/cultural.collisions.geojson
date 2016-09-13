@@ -25,7 +25,7 @@
         "marker-size": "medium",
         "marker-symbol": "music",
         "title": "Melbourne Conservatorium of Music (Melba Hall)",
-        "description": "Venue for…"
+        "description": "Venue for <a href='https://www.festival.melbourne/2016/events/musical-maverick/'>Musical Maverick</a>"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +160,7 @@
         "marker-color": "#990033",
         "marker-size": "medium",
         "marker-symbol": "building",
-        "description": "Venue for…<ul><li><a href=\"https://www.festival.melbourne/2016/events/ethereal-eye/\">Ethereal Eye</a></li></ul>",
+        "description": "Venue for:<ul><li><a href='https://www.festival.melbourne/2016/events/ethereal-eye/'>Ethereal Eye</a></li></ul>",
         "title": "Newman College"
       },
       "geometry": {
