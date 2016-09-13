@@ -160,7 +160,7 @@
         "marker-color": "#990033",
         "marker-size": "medium",
         "marker-symbol": "building",
-        "Description": "Venue for…",
+        "Description": "Venue for…<ul><li><a href=\"https://www.festival.melbourne/2016/events/ethereal-eye/\">Ethereal Eye</a></li></ul>",
         "Title": "Newman College"
       },
       "geometry": {
