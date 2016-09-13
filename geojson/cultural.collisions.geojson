@@ -127,7 +127,7 @@
         "marker-size": "medium",
         "marker-symbol": "building",
         "title": "Old Quad",
-        "description": "Venue for…"
+        "description": "Venue for <a href='https://www.festival.melbourne/2016/events/the-vital-organ/'>The Vital Organ</a>"
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +144,7 @@
         "marker-size": "medium",
         "marker-symbol": "building",
         "title": "Melbourne School of Design",
-        "description": "Venue for…"
+        "description": "Venue for <a href='https://www.festival.melbourne/2016/events/pholiota-unlocked/'>Pholiota Unlocked</a>"
       },
       "geometry": {
         "type": "Point",
