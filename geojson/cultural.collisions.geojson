@@ -8,7 +8,7 @@
         "marker-size": "medium",
         "marker-symbol": "museum",
         "title": "Grainger Museum",
-        "description": "Venue for…"
+        "description": "Venue for <ul><li><a href='https://www.festival.melbourne/2016/events/percy-grainger-the-accidental-futurist/'>Percy Grainger The Accidental Futurist</a></li><li><a href="https://www.festival.melbourne/2016/events/experiments-in-freedom/">Experiments in Freedom</a></li></ul>"
       },
       "geometry": {
         "type": "Point",
