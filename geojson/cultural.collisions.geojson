@@ -8,7 +8,7 @@
         "marker-size": "medium",
         "marker-symbol": "museum",
         "title": "Grainger Museum",
-        "description": "<img src='http://grainger.unimelb.edu.au/__data/assets/image/0006/1308885/Museum-exterior-2010b.jpg' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/percy-grainger-the-accidental-futurist/'>Percy Grainger The Accidental Futurist</a></li><li><a href='https://www.festival.melbourne/2016/events/experiments-in-freedom/'>Experiments in Freedom</a></li></ul><h3>Directions</h3><p>Enter from Royal Parade. <a href='https://www.google.com.au/maps/dir//Grainger+Museum+13+Royal+Parade+Parkville+VIC+3052/'>Directions via Google</a></p>"
+        "description": "<img src='http://grainger.unimelb.edu.au/__data/assets/image/0006/1308885/Museum-exterior-2010b.jpg' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/percy-grainger-the-accidental-futurist/'>Percy Grainger The Accidental Futurist</a></li><li><a href='https://www.festival.melbourne/2016/events/experiments-in-freedom/'>Experiments in Freedom</a></li></ul><h3>Directions</h3><ul><li>Enter from Royal Parade.</li><li><a href='https://www.google.com.au/maps/dir//Grainger+Museum+13+Royal+Parade+Parkville+VIC+3052/'>Directions via Google</a></li></ul>"
       },
       "geometry": {
         "type": "Point",
