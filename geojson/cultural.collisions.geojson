@@ -25,30 +25,13 @@
         "marker-size": "medium",
         "marker-symbol": "music",
         "title": "Melbourne Conservatorium of Music (Melba Hall)",
-        "description": "Venue for <a href='https://www.festival.melbourne/2016/events/musical-maverick/'>Musical Maverick</a>"
+        "description": "Venue for… <a href='https://www.festival.melbourne/2016/events/musical-maverick/'>Musical Maverick</a>"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           144.95848149061203,
           -37.797761432800435
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#0080ff",
-        "marker-size": "medium",
-        "marker-symbol": "parking",
-        "title": "Car park",
-        "description": "Enter from Royal Parade"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95814085006714,
-          -37.798316720096196
         ]
       }
     },
@@ -66,57 +49,6 @@
         "coordinates": [
           144.95943635702133,
           -37.797721163712076
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#007600",
-        "marker-size": "medium",
-        "marker-symbol": "rail-light",
-        "title": "Tram stop",
-        "description": "Route 19. Stop 10. Royal Melbourne Hospital."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.95761245489118,
-          -37.79944847593558
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#007600",
-        "marker-size": "medium",
-        "marker-symbol": "bus",
-        "title": "Visitor shuttle",
-        "description": "From... to... ?"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96047973632812,
-          -37.799984676300014
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#0080ff",
-        "marker-size": "medium",
-        "marker-symbol": "parking",
-        "title": "Car park",
-        "description": "Enter from Berkeley Street, or Bouverie Street."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.96044218540192,
-          -37.80045517301838
         ]
       }
     },
@@ -144,7 +76,7 @@
         "marker-size": "medium",
         "marker-symbol": "building",
         "title": "Melbourne School of Design",
-        "description": "Venue for <a href='https://www.festival.melbourne/2016/events/pholiota-unlocked/'>Pholiota Unlocked</a>"
+        "description": "Venue for… <a href='https://www.festival.melbourne/2016/events/pholiota-unlocked/'>Pholiota Unlocked</a>"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +92,7 @@
         "marker-color": "#990033",
         "marker-size": "medium",
         "marker-symbol": "building",
-        "description": "Venue for:<ul><li><a href='https://www.festival.melbourne/2016/events/ethereal-eye/'>Ethereal Eye</a></li></ul>",
+        "description": "Venue for… <ul><li><a href='https://www.festival.melbourne/2016/events/ethereal-eye/'>Ethereal Eye</a></li></ul>",
         "title": "Newman College"
       },
       "geometry": {
@@ -178,13 +110,81 @@
         "marker-size": "medium",
         "marker-symbol": "museum",
         "title": "Ian Potter Museum of Art",
-        "description": "Venue for…"
+        "description": "Venue for… "
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           144.96419191360474,
           -37.79751769850893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "parking",
+        "title": "Car park",
+        "description": "Enter from Royal Parade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95814085006714,
+          -37.798316720096196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0080ff",
+        "marker-size": "medium",
+        "marker-symbol": "parking",
+        "title": "Car park",
+        "description": "Enter from Berkeley Street, or Bouverie Street."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96044218540192,
+          -37.80045517301838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#007600",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "title": "Visitor shuttle",
+        "description": "From... to... ?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96047973632812,
+          -37.799984676300014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#007600",
+        "marker-size": "medium",
+        "marker-symbol": "rail-light",
+        "title": "Tram stop",
+        "description": "Route 19. Stop 10. Royal Melbourne Hospital."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95761245489118,
+          -37.79944847593558
         ]
       }
     },
