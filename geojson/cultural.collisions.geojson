@@ -8,7 +8,7 @@
         "marker-size": "medium",
         "marker-symbol": "museum",
         "title": "Grainger Museum",
-        "description": "<img src='http://grainger.unimelb.edu.au/__data/assets/image/0006/1308885/Museum-exterior-2010b.jpg' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/percy-grainger-the-accidental-futurist/'>Percy Grainger The Accidental Futurist</a></li><li><a href='https://www.festival.melbourne/2016/events/experiments-in-freedom/'>Experiments in Freedom</a></li></ul><h3>Directions</h3><ul><li>Enter from Royal Parade.</li><li><a href='https://www.google.com.au/maps/dir//Grainger+Museum+13+Royal+Parade+Parkville+VIC+3052/'>Directions via Google</a></li></ul>"
+        "description": "<img src='./?a=2091752' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/percy-grainger-the-accidental-futurist/'>Percy Grainger The Accidental Futurist</a></li><li><a href='https://www.festival.melbourne/2016/events/experiments-in-freedom/'>Experiments in Freedom</a></li></ul><h3>Directions</h3><ul><li>Enter from Royal Parade.</li><li><a href='https://www.google.com.au/maps/dir//Grainger+Museum+13+Royal+Parade+Parkville+VIC+3052/'>Directions via Google</a></li></ul>"
       },
       "geometry": {
         "type": "Point",
@@ -25,7 +25,7 @@
         "marker-size": "medium",
         "marker-symbol": "music",
         "title": "Melbourne Conservatorium of Music (Melba Hall)",
-        "description": "Venue for… <a href='https://www.festival.melbourne/2016/events/musical-maverick/'>Musical Maverick</a>"
+        "description": "<img src='./?a=2091762' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/musical-maverick/'>Musical Maverick</a></li></ul>"
       },
       "geometry": {
         "type": "Point",
@@ -42,7 +42,7 @@
         "marker-size": "medium",
         "marker-symbol": "theatre",
         "title": "Arts West",
-        "description": "Venue for…"
+        "description": "<img src='./?a=2091753' alt=''><h3>Venue for</h3><ul><li></li></ul>"
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +59,7 @@
         "marker-size": "medium",
         "marker-symbol": "building",
         "title": "Old Quad",
-        "description": "Venue for <a href='https://www.festival.melbourne/2016/events/the-vital-organ/'>The Vital Organ</a>"
+        "description": "<img src='./?a=2091756' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/the-vital-organ/'>The Vital Organ</a></li></ul>"
       },
       "geometry": {
         "type": "Point",
@@ -76,7 +76,7 @@
         "marker-size": "medium",
         "marker-symbol": "building",
         "title": "Melbourne School of Design",
-        "description": "Venue for… <a href='https://www.festival.melbourne/2016/events/pholiota-unlocked/'>Pholiota Unlocked</a>"
+        "description": "<img src='./?a=2091759' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/pholiota-unlocked/'>Pholiota UNLOCKED</a></li></ul>"
       },
       "geometry": {
         "type": "Point",
@@ -92,7 +92,7 @@
         "marker-color": "#990033",
         "marker-size": "medium",
         "marker-symbol": "building",
-        "description": "Venue for… <ul><li><a href='https://www.festival.melbourne/2016/events/ethereal-eye/'>Ethereal Eye</a></li></ul>",
+        "description": "<img src='./?a=2091763' alt=''><h3>Venue for</h3><ul><li><a href='https://www.festival.melbourne/2016/events/ethereal-eye/'>Ethereal Eye</a></li></ul>",
         "title": "Newman College"
       },
       "geometry": {
@@ -110,7 +110,7 @@
         "marker-size": "medium",
         "marker-symbol": "museum",
         "title": "Ian Potter Museum of Art",
-        "description": "Venue for… "
+        "description": "<img src='./?a=2091760' alt=''><h3>Venue for</h3><ul><li></li></ul>"
       },
       "geometry": {
         "type": "Point",
