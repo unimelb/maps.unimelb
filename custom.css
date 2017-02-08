@@ -7,10 +7,10 @@ body { margin:0; padding:0; }
 .uomcontent .where ul li {list-style: none;}
 .uomcontent .where ul.extras li span {display: block;color: #999;font-size: small;}
 #embed-code input {border: 1px solid lightblue; font-size: 100%; padding: 0.5rem; width:75%;border-radius: 4px; color: #666; font-weight: 300;}
-.uomcontent .detail .upper .mapboxgl-popup-tip {border-top: 10px solid #fff;}
-.uomcontent .popup h3 {padding-top: .2rem;line-height: 1.2;padding-bottom: .3rem;
-}
+.detail .upper .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip, .detail .upper .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip, .detail .upper .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {border-top: 10px solid #fff;}
+.uomcontent .popup h3 {padding-top: .2rem;line-height: 1.2;padding-bottom: .3rem;}
 .uomcontent .popup p {padding-bottom: .2rem;}
+.mapboxgl-popup-close-button {display:none;}
 
 .uomcontent div#info {
     margin-top: -1em;
