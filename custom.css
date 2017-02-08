@@ -48,12 +48,47 @@ body { margin:0; padding:0; }
 }
 
 @media only screen and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
-    .uomcontent [role="main"]>*:first-child {padding-top:3rem;}
-    .uomcontent .detail aside div.where {padding-top: 0; padding-bottom: 0;}
-    .uomcontent .detail aside .where div {padding-top: 0; padding-bottom: 1rem;}
+    .uomcontent .location aside div.where {padding-top: 0; padding-bottom: 0;}
+    .uomcontent .location aside .where div {padding-top: 0; padding-bottom: 1rem;}
     #map { height:20rem;}
     .where div {padding:0 inherit;}
     #cross {margin:-12rem 0 10rem 50%;}
+    .uomcontent .location h1 {
+    	padding: 2rem 0;
+    	margin: 0;
+    }
+    .uomcontent .location h1 [data-icon] {
+    	display: none;
+    }
+	.uomcontent .location .aside {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.where * {
+		text-align: left;
+	}
+	.where div p {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	ul.extras {
+		padding: 16px 0;
+		padding: 1rem 0;
+		margin: 0;
+	}
+	ul.extras li {
+		margin: 0;
+	}
+	.where .building-number {
+		display: inline;
+		font-size: inherit;
+		line-height: 1.5;
+	}
+	.aside .where ul.extras li span {
+		display: inline;
+		font-size: inherit;
+	}
+    
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #map { height:30rem;}
