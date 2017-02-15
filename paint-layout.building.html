@@ -2,7 +2,6 @@
 <div class="headerless"></div>
 <div class="detail location">
     <h1 class="aligned-title"><span data-icon="faculty"></span> %asset_metadata_Name%</h1>
-
   <div class="upper">
     <div class="aside">
       <div class="where">
@@ -45,30 +44,29 @@
       </div>
     </div>
 <!-- here goes! -->    
-%begin_globals_asset_metadata_VirtualURL%
+%begin_asset_metadata_VirtualURL%
 <section id="display">
-  <div class="tabbed" data-tabbed="true">
-    <nav role="tablist">
-		<a href="#map-tab" role="tab">Map</a>
-		<a href="#virtual-tab" role="tab">Virtual</a>
-		%begin_globals_asset_metadata_Photo%
-			<a href="#photo-tab" role="tab">Photo</a>
-		%end_globals_asset_metadata_Photo%
-	</nav>
-	<section id="map-tab" role="tabpanel">
-		<div id='map'></div>
-	</section>
-	<section id="virtual-tab" role="tabpanel">
-		%asset_metadata_VirtualURL^replace:(width="\d{3}"):width="100&#37;"^replace:(height="\d{3}"):height="640"%
-	</section>
-		%begin_globals_asset_metadata_Photo%
-			<section id="photo-tab" role="tabpanel">
-			    <figure class="full-width" role="group"><img src="%globals_asset_metadata_Photo^as_asset:asset_url%" alt="Photograph of %globals_asset_metadata_Name%" />%begin_asset_metadata_Photo^as_asset:asset_attribute_caption%<figcaption>%asset_metadata_Photo^as_asset:asset_attribute_caption%</figcaption>%end_asset_metadata%</figure><!--@@ <img src="%globals_asset_metadata_Photo^as_asset:asset_url%" alt="Photograph of %globals_asset_metadata_Name%" /> @@--></section>
-		%end_globals_asset_metadata_Photo%
-	</display>
-  </div>
+    <div class="tabbed" data-tabbed="true">
+        <nav role="tablist">
+    		<a href="#map-tab" role="tab">Map</a>
+    		<a href="#virtual-tab" role="tab">Virtual</a>
+    		%begin_asset_metadata_Photo%
+    			<a href="#photo-tab" role="tab">Photo</a>
+    		%end_asset_metadata_Photo%
+    	</nav>
+    	<section id="map-tab" role="tabpanel">
+    		<div id='map'></div>
+    	</section>
+    	<section id="virtual-tab" role="tabpanel">
+    	    %asset_metadata_VirtualURL^replace:(width="\d{3}"):width="100&#37;"^replace:(height="\d{3}"):height="640"%
+    	</section>
+		%begin_asset_metadata_Photo%
+		<section id="photo-tab" role="tabpanel">
+		    <figure class="full-width" role="group"><img src="%asset_metadata_Photo^as_asset:asset_url%" alt="Photograph of %asset_metadata_Name%" />%begin_asset_metadata_Photo^as_asset:asset_attribute_caption%<figcaption>%asset_metadata_Photo^as_asset:asset_attribute_caption%</figcaption>%end_asset_metadata%</figure></section>
+		%end_asset_metadata_Photo%
+    </div>
 </section>
-%else_begin_globals_asset_metadata_Photo%
+%else_begin_asset_metadata_Photo%
 <section id="display">
   <div class="tabbed" data-tabbed="true">
     <nav role="tablist">
@@ -79,7 +77,7 @@
 		<div id='map'></div>
 	</section>
 	<section id="photo-tab" role="tabpanel">
-	    <figure class="full-width" role="group"><img src="%globals_asset_metadata_Photo^as_asset:asset_url%" alt="Photograph of %globals_asset_metadata_Name%" />%begin_asset_metadata_Photo^as_asset:asset_attribute_caption%<figcaption>%asset_metadata_Photo^as_asset:asset_attribute_caption%</figcaption>%end_asset_metadata%</figure>
+	    <figure class="full-width" role="group"><img src="%asset_metadata_Photo^as_asset:asset_url%" alt="Photograph of %asset_metadata_Name%" />%begin_asset_metadata_Photo^as_asset:asset_attribute_caption%<figcaption>%asset_metadata_Photo^as_asset:asset_attribute_caption%</figcaption>%end_asset_metadata%</figure>
 	</section>
   </div>
 </section>
