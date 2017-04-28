@@ -16,8 +16,8 @@ if(mapboxgl.supported() === false) {
         cssUrl = 'https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css';
     loadScript(JsUrl, cssUrl, initJS);
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css';
+    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js',
+        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css';
     loadScript(JsUrl, cssUrl, initGL);
 }
 
@@ -29,7 +29,7 @@ function initGL() {
         center: [maplon, maplat],
         zoom: mapzoom
     });
-    map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+	map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     map.scrollZoom.disable();
 }
 
