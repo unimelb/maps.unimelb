@@ -6,6 +6,11 @@
     <title><MySource_PRINT id_name="__global__" var="asset_metadata_Name" /> : Embed</title>  
     <meta name="robots" content="noindex, nofollow">
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script>
+        if (window.location.protocol != "https:") {
+            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        }
+    </script>    
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-supported/v0.0.1/mapbox-gl-supported.js'></script>
 <!--
     Asset ID: %globals_asset_assetid%
@@ -14,7 +19,8 @@
     <style>
         body {font: 13px/1.231 sans-serif;line-height: 1.5;}
         .mapboxgl-popup-tip {border-top: 10px solid #fff;}
-        .popup h3, .popup p {padding: 0;line-height: 1.2;}
+        .popup h3, .popup p {line-height:1;letter-spacing:0.5px;}
+        .mapboxgl-popup-close-button {display:none;}
         .mapbox-improve-map {display:none;}
         h1 {font-size: 18px;color: #777;margin: 0;}
         #map {height:350px;border:1px solid #999;margin: 0 0 10px 0;}
@@ -52,8 +58,8 @@
     <ul id="map-extras">
       <li>Campus Grid Ref: %globals_asset_metadata_CampusMapRefA% %globals_asset_metadata_CampusMapRefN%</li>
       <li>View in:
-        <a href="http://www.google.com.au/maps/?q=%globals_asset_metadata_Latitude%,%globals_asset_metadata_Longitude%">Google maps</a>,
-        <a href="https://www.openstreetmap.org/?mlat=%globals_asset_metadata_Latitude%&mlon=%globals_asset_metadata_Longitude%#map=17/%globals_asset_metadata_Latitude%/%globals_asset_metadata_Longitude%"><abbr title="Open Street Map">OSM</abbr></a>
+        <a href="http://www.google.com.au/maps/?q=%globals_asset_metadata_Latitude%,%globals_asset_metadata_Longitude%" target="_blank">Google maps</a>,
+        <a href="https://www.openstreetmap.org/?mlat=%globals_asset_metadata_Latitude%&mlon=%globals_asset_metadata_Longitude%#map=17/%globals_asset_metadata_Latitude%/%globals_asset_metadata_Longitude%" target="_blank"><abbr title="Open Street Map">OSM</abbr></a>
       </li>
     </ul>
   </MySource_THEN>
@@ -76,8 +82,8 @@ if(mapboxgl.supported() === false) {
     loadScript(JsUrl, cssUrl, initJS);
 
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css';
+    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js',
+        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css';
 
     loadScript(JsUrl, cssUrl, initGL);
 
@@ -91,10 +97,10 @@ function initGL() {
         center: [maplon, maplat],
         zoom: mapzoom
     });
-    map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+    map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     map.scrollZoom.disable();
 
-    var tooltip = new mapboxgl.Popup({anchor:"bottom-left",closeOnClick: false})
+    var tooltip = new mapboxgl.Popup({closeOnClick: false})
         .setLngLat([maplon, maplat])
         .setHTML('<div class="popup">' + locname + locaddr + '</div>')
         .addTo(map);
@@ -110,7 +116,11 @@ function initJS() {
 }
 
 function loadScript(sScriptSrc, cssSrc, oCallback) {
-/* adapted from - http://stackoverflow.com/questions/11160948/how-to-know-if-jquery-has-finished-loading/11161045#11161045.1 */
+
+    /**
+     * adapted from - http://stackoverflow.com/questions/11160948/how-to-know-if-jquery-has-finished-loading/11161045#11161045.1
+     *
+     */
 
     var oHead = document.getElementsByTagName('head')[0];
     var oScript = document.createElement('script');
