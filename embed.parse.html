@@ -66,8 +66,8 @@
 </MySource_AREA>
 </div>
 
+<!--@@ // note: embed token used @@-->
 <script>
-
 var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNqMjFoNXE5ZTAwMzkzN3Fpajg2NmpwMGwifQ.Y2QIfMStkM34QqnqkqZEDQ";
 var maplat = "%globals_asset_metadata_Latitude%";
 var maplon = "%globals_asset_metadata_Longitude%";
@@ -82,8 +82,8 @@ if(mapboxgl.supported() === false) {
     loadScript(JsUrl, cssUrl, initJS);
 
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css';
+    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js',
+        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css';
 
     loadScript(JsUrl, cssUrl, initGL);
 
@@ -95,6 +95,7 @@ function initGL() {
         container: 'map',
         style: 'mapbox://styles/maps-unimelb/cj1rdzyxl000d2rlbhzhdt62x',
         center: [maplon, maplat],
+        maxZoom: 19,
         zoom: mapzoom
     });
     map.addControl(new mapboxgl.NavigationControl(), 'top-left');
