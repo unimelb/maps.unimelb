@@ -6,7 +6,7 @@
 %asset_contents%
 
 <script>
-var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ";
+var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpbXZpeTNubjAyczJ3Ymx1bnVkb3U0eGgifQ.Qh57v8McWX4iiAyucBXntg";
 var maplat = "%begin_asset_metadata_Latitude%%asset_metadata_Latitude^maxchars:10%%else_asset_metadata_Latitude%%asset_parent^as_asset:asset_metadata_Latitude^maxchars:10%%end_asset_metadata_Latitude%";
 var maplon = "%begin_asset_metadata_Longitude%%asset_metadata_Longitude^maxchars:10%%else_asset_metadata_Longitude%%asset_parent^as_asset:asset_metadata_Longitude^maxchars:10%%end_asset_metadata_Longitude%";
 var mapzoom = "%asset_metadata_Zoom^empty:16%";
@@ -16,8 +16,8 @@ if(mapboxgl.supported() === false) {
         cssUrl = 'https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css';
     loadScript(JsUrl, cssUrl, initJS);
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css';
+    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js',
+        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css';
     loadScript(JsUrl, cssUrl, initGL);
 }
 
@@ -26,29 +26,30 @@ function initGL() {
     mapboxgl.accessToken = myAccessToken;
     var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk',
+        style: 'mapbox://styles/maps-unimelb/cj1rdzyxl000d2rlbhzhdt62x',
         center: [maplon, maplat],
+        maxZoom: 18,
         zoom: mapzoom
     });
-    map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
-	map.addControl(new mapboxgl.Geolocate({position: 'top-left'}));
+	map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+//	map.addControl(new mapboxgl.GeolocateControl(), 'top-left');
     map.scrollZoom.disable();
 
 // when map loads, get the json data
 	map.on('load', function () {
-		var source = new mapboxgl.GeoJSONSource({
-			data:{
+		map.addSource("markers", {
+			"type": "geojson",
+			"data": {
 				"type": "FeatureCollection",
 				"features": geojson
 			}
 		});
-		map.addSource('markers', source);
 		map.addLayer({
 			"id": "markers",
 			"type": "symbol",
 			"source": "markers",
 			"layout": {
-				"icon-image": "marker-blue-15",
+				"icon-image": "marker-unimelb-s-15",
 				"icon-allow-overlap": true
 			}
 		});

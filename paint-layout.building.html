@@ -2,14 +2,12 @@
 <div class="headerless"></div>
 <div class="detail location">
     <h1 class="aligned-title"><span data-icon="faculty"></span> %asset_metadata_Name%</h1>
-
   <div class="upper">
-    <aside>
+    <div class="aside">
       <div class="where">
 %begin_asset_metadata_BuildingNumber%
       	<div>
-      		<p>Building Number:<br>
-			<span class="building-number">%asset_metadata_BuildingNumber%</span></p>
+      		<p>Building Number: <span class="building-number">%asset_metadata_BuildingNumber%</span></p>
 		</div>
 %end_asset_metadata_BuildingNumber%
         <ul class="extras">
@@ -23,7 +21,7 @@
 			<li><span>Extra directions:</span> %asset_metadata_Directions%</li>
 %end_asset_metadata_Directions%
 %begin_asset_metadata_CampusMapRefA%
-            <li><span>Campus Grid Ref:</span> %asset_metadata_CampusMapRefA% %asset_metadata_CampusMapRefN%</li>
+            <li><span title="From the downloadable map">Campus Grid Ref:</span> %asset_metadata_CampusMapRefA% %asset_metadata_CampusMapRefN%</li>
 %end_asset_metadata_CampusMapRefA%
 %begin_asset_metadata_InfoURL%
 			<li><a href="%asset_metadata_InfoURL%">More information</a></li>
@@ -44,17 +42,56 @@
           </li>
         </ul>
       </div>
-    </aside>
+    </div>
+%begin_asset_metadata_VirtualURL%
+<section id="display">
+    <div class="tabbed" data-tabbed="true">
+        <nav role="tablist">
+    		<a href="#map-tab" role="tab">Map</a>
+    		<a href="#virtual-tab" role="tab">Virtual</a>
+    		%begin_asset_metadata_Photo%
+    			<a href="#photo-tab" role="tab">Photo</a>
+    		%end_asset_metadata_Photo%
+    	</nav>
+    	<section id="map-tab" role="tabpanel">
+    		<div id='map'></div>
+    	</section>
+    	<section id="virtual-tab" role="tabpanel">
+    	    %asset_metadata_VirtualURL^replace:(width="\d{3}"):width="100&#37;"^replace:(height="\d{3}"):height="640"%
+    	</section>
+		%begin_asset_metadata_Photo%
+		<section id="photo-tab" role="tabpanel">
+		    <figure class="full-width" role="group"><img src="%asset_metadata_Photo^as_asset:asset_url%" alt="Photograph of %asset_metadata_Name%" />%begin_asset_metadata_Photo^as_asset:asset_attribute_caption%<figcaption>%asset_metadata_Photo^as_asset:asset_attribute_caption%</figcaption>%end_asset_metadata%</figure></section>
+		%end_asset_metadata_Photo%
+    </div>
+</section>
+%else_begin_asset_metadata_Photo%
+<section id="display">
+  <div class="tabbed" data-tabbed="true">
+    <nav role="tablist">
+		<a href="#map-tab" role="tab">Map</a>
+		<a href="#photo-tab" role="tab">Photo</a>
+	</nav>
+	<section id="map-tab" role="tabpanel">
+		<div id='map'></div>
+	</section>
+	<section id="photo-tab" role="tabpanel">
+	    <figure class="full-width" role="group"><img src="%asset_metadata_Photo^as_asset:asset_url%" alt="Photograph of %asset_metadata_Name%" />%begin_asset_metadata_Photo^as_asset:asset_attribute_caption%<figcaption>%asset_metadata_Photo^as_asset:asset_attribute_caption%</figcaption>%end_asset_metadata%</figure>
+	</section>
+  </div>
+</section>
+%else_globals%
     <div id='map'></div>
+%end_globals%
 </div>
 
 <div class="modal__dialog" id="share-modal">		<h2>Use this map</h2>
 	<ul class="use-map">
 		<li>View in:
 		<a href="http://www.google.com.au/maps/?q=%asset_metadata_Latitude^maxchars:10%,%asset_metadata_Longitude^maxchars:10%">Google maps</a>,
-		<a href="https://www.openstreetmap.org/?mlat=%asset_metadata_Latitude^maxchars:10%&mlon=%asset_metadata_Longitude^maxchars:10%#map=17/%asset_metadata_Latitude^maxchars:10%/%asset_metadata_Longitude^maxchars:10%"><abbr title="Open Street Map">OSM</abbr></a>
+		<a href="https://www.openstreetmap.org/?mlat=%asset_metadata_Latitude^maxchars:10%&mlon=%asset_metadata_Longitude^maxchars:10%#map=17/%asset_metadata_Latitude^maxchars:10%/%asset_metadata_Longitude^maxchars:10%">Open Street Map</a>
 		</li>
-		<li>Get a short URL: <a href="http://go.unimelb.edu.au/add?link_location=%asset_url%" rel="nofollow">go.unimelb</a></li>
+		<li>Get a short URL at <a href="http://go.unimelb.edu.au/add?link_location=%asset_url%" rel="nofollow">go.unimelb</a></li>
 		<li id="embed-code">Embed this map: <input aria-label="Not a form input. Contains embed code for copying." onfocus="select()" type="text" value="&lt;iframe src='%asset_url%?SQ_DESIGN_NAME=embed' height='450' width='100%' frameborder='0'&gt;&lt;a href='%asset_url%'&gt;%asset_metadata_Name%&lt;/a&gt;&lt;/iframe&gt;"></li>
 		<li>
 		<a href="geo:%asset_metadata_Latitude^maxchars:10%,%asset_metadata_Longitude^maxchars:10%">Geo <small>(Latitude, Longitude)</small>: <span class="latitude">%asset_metadata_Latitude^maxchars:10%</span>, <span class="longitude">%asset_metadata_Longitude^maxchars:10%</span></a>
@@ -70,7 +107,7 @@
 </div>
 
 <script>
-var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ";
+var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpbXZpeTNubjAyczJ3Ymx1bnVkb3U0eGgifQ.Qh57v8McWX4iiAyucBXntg";
 var maplat = "%globals_asset_metadata_Latitude^maxchars:10%";
 var maplon = "%globals_asset_metadata_Longitude^maxchars:10%";
 var mapzoom = "%asset_metadata_Zoom^empty:16%";
@@ -82,8 +119,8 @@ if(mapboxgl.supported() === false) {
         cssUrl = 'https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css';
     loadScript(JsUrl, cssUrl, initJS);
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css';
+    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js',
+        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css';
     loadScript(JsUrl, cssUrl, initGL);
 }
 
@@ -91,13 +128,14 @@ function initGL() {
     mapboxgl.accessToken = myAccessToken;
     var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk',
+        style: 'mapbox://styles/maps-unimelb/cj1rdzyxl000d2rlbhzhdt62x',
         center: [maplon, maplat],
+        maxZoom: 19,
         zoom: mapzoom
     });
-    map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+	map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     map.scrollZoom.disable();
-    var tooltip = new mapboxgl.Popup({anchor:"bottom-left",closeOnClick: false})
+    var tooltip = new mapboxgl.Popup({closeOnClick: false})
         .setLngLat([maplon, maplat])
         .setHTML('<div class="popup">' + locname + locaddr + '</div>')
         .addTo(map);

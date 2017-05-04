@@ -6,7 +6,7 @@
 %asset_contents%
 
 <script>
-var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpZmkxajZyNGJtYWJzeWx4ZjRwbmdvMzAifQ.CahREikX9S7i791MIkHrAQ";
+var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpbXZpeTNubjAyczJ3Ymx1bnVkb3U0eGgifQ.Qh57v8McWX4iiAyucBXntg";
 var maplat = "%globals_asset_metadata_Latitude^maxchars:10%";
 var maplon = "%globals_asset_metadata_Longitude^maxchars:10%";
 var mapzoom = "%asset_metadata_Zoom^empty:16%";
@@ -16,8 +16,8 @@ if(mapboxgl.supported() === false) {
         cssUrl = 'https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css';
     loadScript(JsUrl, cssUrl, initJS);
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css';
+    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js',
+        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css';
     loadScript(JsUrl, cssUrl, initGL);
 }
 
@@ -25,11 +25,12 @@ function initGL() {
     mapboxgl.accessToken = myAccessToken;
     var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/maps-unimelb/cih6p39i800fh90m6dgkkgotk',
+        style: 'mapbox://styles/maps-unimelb/cj1rdzyxl000d2rlbhzhdt62x',
         center: [maplon, maplat],
+        maxZoom: 18,
         zoom: mapzoom
     });
-    map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+	map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     map.scrollZoom.disable();
 }
 

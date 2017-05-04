@@ -1,0 +1,96 @@
+body { margin:0; padding:0; }
+#map { height:40rem; width:100%; outline: #ccc 1px solid;}
+.mapboxgl-ctrl-attrib .mapbox-improve-map, .leaflet-control-attribution .mapbox-improve-map {display: none;}
+.location h1 span {color:#82A1BD;}
+.uomcontent .detail .aside div.where, .uomcontent .detail .aside div.where div:first-child {padding: 0;}
+.where .building-number {font-weight:bold;font-size:3rem;line-height:4rem;color:#666;display:block;}
+.uomcontent .where ul li {list-style: none;}
+.uomcontent .where ul.extras li span {display: block;color: #999;font-size: small;}
+#embed-code input {border: 1px solid lightblue; font-size: 100%; padding: 0.5rem; width:75%;border-radius: 4px; color: #666; font-weight: 300;}
+.detail .upper .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip, .detail .upper .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip, .detail .upper .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {border-top: 10px solid #fff;}
+.uomcontent .popup h3 {padding-top: .2rem;line-height: 1.2;padding-bottom: .3rem;}
+.uomcontent .popup p {padding-bottom: .2rem;}
+.mapboxgl-popup-close-button {display:none;}
+
+.uomcontent div#info {
+    margin-top: -1em;
+    font-size: small;
+    text-align: right;
+    color: #777;
+}
+
+#cross {
+   width: 4rem;
+   height: 4rem;
+   margin:-22rem 0 20rem 50%;
+   position: relative;
+   z-index:1;
+   pointer-events: none;
+}
+#cross:before, #cross:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #d00;
+}
+#cross:before {
+  left: 0rem;
+  width: 1px;
+  margin-left: 0;
+  height: 4rem;
+}
+#cross:after {
+  top: 2rem;
+  left: -2rem;
+  height: 1px;
+  margin-top: 0;
+  width: 4rem;
+}
+
+@media only screen and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
+    .uomcontent .location aside div.where {padding-top: 0; padding-bottom: 0;}
+    .uomcontent .location aside .where div {padding-top: 0; padding-bottom: 1rem;}
+    #map { height:20rem;}
+    .where div {padding:0 inherit;}
+    #cross {margin:-12rem 0 10rem 50%;}
+    .uomcontent .location h1 {
+    	padding: 2rem 0;
+    	margin: 0;
+    }
+    .uomcontent .location h1 [data-icon] {
+    	display: none;
+    }
+	.uomcontent .location .aside {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.where * {
+		text-align: left;
+	}
+	.where div p {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	ul.extras {
+		padding: 16px 0;
+		padding: 1rem 0;
+		margin: 0;
+	}
+	ul.extras li {
+		margin: 0;
+	}
+	.where .building-number {
+		display: inline;
+		font-size: inherit;
+		line-height: 1.5;
+	}
+	.aside .where ul.extras li span {
+		display: inline;
+		font-size: inherit;
+	}
+    
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #map { height:30rem;}
+    #cross {margin:-17rem 0 15rem 50%;}
+}
