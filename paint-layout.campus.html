@@ -9,6 +9,8 @@
 var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpbXZpeTNubjAyczJ3Ymx1bnVkb3U0eGgifQ.Qh57v8McWX4iiAyucBXntg";
 var maplat = "%globals_asset_metadata_Latitude^maxchars:10%";
 var maplon = "%globals_asset_metadata_Longitude^maxchars:10%";
+var mappitch = "%asset_metadata_Map-pitch^empty:0%";
+var mapbearing = "%asset_metadata_Map-bearing^empty:0%";
 var mapzoom = "%asset_metadata_Zoom^empty:16%";
 
 if(mapboxgl.supported() === false) {
@@ -27,8 +29,10 @@ function initGL() {
         container: 'map',
         style: 'mapbox://styles/maps-unimelb/cj1rdzyxl000d2rlbhzhdt62x',
         center: [maplon, maplat],
-        maxZoom: 18,
-        zoom: mapzoom
+	    pitch: mappitch,
+		bearing: mapbearing,
+        zoom: mapzoom,
+        maxZoom: 18
     });
 	map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     map.scrollZoom.disable();
