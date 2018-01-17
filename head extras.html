@@ -1,0 +1,15 @@
+<!-- first div contents -->
+
+<script>
+    if (window.location.protocol != "https:") {
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    }
+</script>
+<link href='./?a=1982913' rel='stylesheet' />
+<!--@@ allows testing of browser support script @@-->%begin_globals_get_SQ_PAINT_LAYOUT_NAME^eq:dev%<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-supported/v1.3.0/mapbox-gl-supported.js'></script>
+%else_globals%<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-supported/v1.2.0/mapbox-gl-supported.js'></script>
+%end_globals%
+
+<!-- second div (thumbnail) contents -->
+
+%begin_globals_asset_thumbnail%%else_globals_asset_thumbnail%<meta name="thumbnail" content="https://maps.googleapis.com/maps/api/staticmap?center=%globals_asset_metadata_Latitude%,%globals_asset_metadata_Longitude%&zoom=17&size=100x100&maptype=roadmap&markers=color:blue%7Clabel:%7C%globals_asset_metadata_Latitude%,%globals_asset_metadata_Longitude%&key=ABQIAAAAiyB82HhkurXo2yQb4yhhrBSFy3UyLHGYbnfiptkcJ-JmdudVLBRNLs-_97LzFf90dpuI1MfhUog3uA" />%end_globals_asset_thumbnail%
