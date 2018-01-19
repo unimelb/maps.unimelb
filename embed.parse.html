@@ -113,11 +113,9 @@ if(mapboxgl.supported() === false) {
     loadScript(JsUrl, cssUrl, initJS);
 
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css';
-
+    var JsUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js',
+        cssUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css';
     loadScript(JsUrl, cssUrl, initGL);
-
 }
 
 function initGL() {
