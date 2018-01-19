@@ -107,7 +107,13 @@
 </div>
 
 <script>
+%begin_globals_get_SQ_PAINT_LAYOUT_NAME^eq:dev%
+/* development token*/
+var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpcngzZ2dtbDAwNjgyb295dmF4NXhmd3YifQ.ppLiwBrTk-F9AMzPNuvIqA";
+%else_globals%
+/* production token */
 var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpbXZpeTNubjAyczJ3Ymx1bnVkb3U0eGgifQ.Qh57v8McWX4iiAyucBXntg";
+%end_globals%
 var maplat = "%globals_asset_metadata_Latitude^maxchars:10%";
 var maplon = "%globals_asset_metadata_Longitude^maxchars:10%";
 var mapzoom = "%asset_metadata_Zoom^empty:16%";
