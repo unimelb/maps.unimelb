@@ -6,7 +6,8 @@
 %asset_contents%
 
 <script>
-var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpbXZpeTNubjAyczJ3Ymx1bnVkb3U0eGgifQ.Qh57v8McWX4iiAyucBXntg";
+/* development token*/
+var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNpcngzZ2dtbDAwNjgyb295dmF4NXhmd3YifQ.ppLiwBrTk-F9AMzPNuvIqA";
 var maplat = "%globals_asset_metadata_Latitude^maxchars:10%";
 var maplon = "%globals_asset_metadata_Longitude^maxchars:10%";
 var mappitch = "%asset_metadata_Map-pitch^empty:0%";
@@ -28,14 +29,53 @@ function initGL() {
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/maps-unimelb/cj1rdzyxl000d2rlbhzhdt62x',
+        attributionControl: false,
         center: [maplon, maplat],
-	pitch: mappitch,
-	bearing: mapbearing,
+	    pitch: mappitch,
+		bearing: mapbearing,
         zoom: mapzoom,
         maxZoom: 18
     });
 	map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     map.scrollZoom.disable();
+    map.addControl(new mapboxgl.ScaleControl({
+    	maxWidth: 150
+    }));
+    map.addControl(new mapboxgl.AttributionControl({
+        compact: true
+    }));
+// map.addControl(new mapboxgl.FullscreenControl());
+
+var geolocator = new mapboxgl.GeolocateControl();
+map.addControl(geolocator);
+
+map.on('load', function() {
+    map.addSource('single-point', {
+        "type": "geojson",
+        "data": {
+            "type": "FeatureCollection",
+            "features": []
+        }
+    });
+
+    map.addLayer({
+        "id": "point",
+        "source": "single-point",
+        "type": "circle",
+        "paint": {
+            "circle-radius": 10,
+            "circle-color": "#007cbf"
+        }
+    });
+
+    // Listen for the `geocoder.input` event that is triggered when a user
+    // makes a selection and add a symbol that matches the result.
+    geolocator.on('geolocate', function(ev) {
+        map.getSource('single-point').setData(-37.8,144.5);
+//        map.getSource('single-point').setData(ev.position.geometry);
+    });
+});
+
 }
 
 function initJS() {
