@@ -77,6 +77,7 @@
 <!--@@ // note: embed token used @@-->
 <script>
 var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNqMjFoNXE5ZTAwMzkzN3Fpajg2NmpwMGwifQ.Y2QIfMStkM34QqnqkqZEDQ";
+var oldToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNqY3ppY2YyNTE4djEzM28xeHlkbnVzYWIifQ.WjUQHFobcvVs5G4gPNw8kA";
 var maplat = "%globals_asset_metadata_Latitude%";
 var maplon = "%globals_asset_metadata_Longitude%";
 <MySource_AREA id_name="get_zoom" design_area="show_if">
@@ -113,8 +114,8 @@ if(mapboxgl.supported() === false) {
     loadScript(JsUrl, cssUrl, initJS);
 
 } else {
-    var JsUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js',
-        cssUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css';
+    var JsUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js',
+        cssUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css';
     loadScript(JsUrl, cssUrl, initGL);
 }
 
@@ -140,7 +141,7 @@ function initGL() {
 
 function initJS() {
     mapzoom = parseInt(mapzoom)+1;
-    L.mapbox.accessToken = myAccessToken;
+    L.mapbox.accessToken = oldToken;
     var map = L.mapbox.map('map', 'maps-unimelb.2c79eb85')
         .setView([maplat, maplon], mapzoom);
     L.marker([maplat, maplon]).addTo(map)
