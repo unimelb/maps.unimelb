@@ -31,7 +31,15 @@
 </MySource_THEN>
     <MySource_ELSE>     #map {height:350px;}</MySource_ELSE>
 </MySource_AREA>
-        #map {border:1px solid #999;margin: 0 0 10px 0;}
+<MySource_AREA id_name="get_borderwidth" design_area="show_if">
+    <MySource_SET name="condition" value="keyword_regexp"/>
+    <MySource_SET name="condition_keyword" value="globals_get_borderwidth"/>
+    <MySource_SET name="condition_keyword_match" value="[0-9]|10" />
+    <MySource_THEN>     #map {border:%globals_get_borderwidth%px solid #999;}
+</MySource_THEN>
+    <MySource_ELSE>     #map {border:1px solid #999;}</MySource_ELSE>
+</MySource_AREA>
+		#map {margin: 0 0 10px 0;}
         #map-extras {margin: 0;padding: 0;list-style: none;}
         #map-extras li {font-size: 90%;color: #777;margin: 0;padding: 0;float: left;margin-right: 20px;}
         #map-extras li:last-child {float: right;margin-right: 0;}
