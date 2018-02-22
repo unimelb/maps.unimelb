@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2018-02-12T05:01:02Z",
+  "timestamp": "2018-02-22T03:40:02Z",
   "features": [
     {
       "type": "Feature",
@@ -78,6 +78,79 @@
         ]
       },
       "id": "way/31152559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113105823",
+        "landuse": "construction",
+        "name": "Metro Rail Project",
+        "source": "nearmap"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.9577199,
+              -37.8009807
+            ],
+            [
+              144.9576924,
+              -37.8011582
+            ],
+            [
+              144.9576509,
+              -37.8014507
+            ],
+            [
+              144.9576522,
+              -37.8015535
+            ],
+            [
+              144.9577541,
+              -37.8017209
+            ],
+            [
+              144.9581055,
+              -37.8017559
+            ],
+            [
+              144.958135,
+              -37.8015927
+            ],
+            [
+              144.9581491,
+              -37.8015275
+            ],
+            [
+              144.9581615,
+              -37.8014608
+            ],
+            [
+              144.9581742,
+              -37.8013928
+            ],
+            [
+              144.9584314,
+              -37.80142
+            ],
+            [
+              144.9585548,
+              -37.8007651
+            ],
+            [
+              144.9577628,
+              -37.8006798
+            ],
+            [
+              144.9577199,
+              -37.8009807
+            ]
+          ]
+        ]
+      },
+      "id": "way/113105823"
     },
     {
       "type": "Feature",
@@ -393,49 +466,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/511606905",
-        "landuse": "construction"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              144.9589728,
-              -37.7981779
-            ],
-            [
-              144.9589678,
-              -37.7982494
-            ],
-            [
-              144.9589975,
-              -37.7982827
-            ],
-            [
-              144.9589843,
-              -37.7984097
-            ],
-            [
-              144.9591414,
-              -37.7984226
-            ],
-            [
-              144.959168,
-              -37.7981964
-            ],
-            [
-              144.9589728,
-              -37.7981779
-            ]
-          ]
-        ]
-      },
-      "id": "way/511606905"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/540885940",
         "landuse": "construction",
         "name": "Australia 108"
@@ -457,36 +487,20 @@
               -37.8231233
             ],
             [
-              144.9644276,
-              -37.8230525
+              144.9644221,
+              -37.8230666
             ],
             [
-              144.9644249,
-              -37.8230129
+              144.9643166,
+              -37.822991
             ],
             [
-              144.9643381,
-              -37.8229585
+              144.9641087,
+              -37.8228901
             ],
             [
-              144.9642693,
-              -37.8229205
-            ],
-            [
-              144.9641977,
-              -37.8228911
-            ],
-            [
-              144.9641206,
-              -37.8228639
-            ],
-            [
-              144.9640462,
-              -37.8228541
-            ],
-            [
-              144.9639738,
-              -37.8228609
+              144.9640112,
+              -37.8228637
             ],
             [
               144.9639388,
@@ -637,12 +651,12 @@
               -37.7990879
             ],
             [
-              144.9637704,
-              -37.7989248
+              144.9637591,
+              -37.7989224
             ],
             [
-              144.9637952,
-              -37.7987894
+              144.9637819,
+              -37.7987878
             ],
             [
               144.9636779,
@@ -759,6 +773,117 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/563172671",
+        "landuse": "construction",
+        "name": "Metro Rail Project"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.9578999,
+              -37.7996541
+            ],
+            [
+              144.957882,
+              -37.7998225
+            ],
+            [
+              144.9597859,
+              -37.8000276
+            ],
+            [
+              144.9597614,
+              -37.8002057
+            ],
+            [
+              144.9599949,
+              -37.8002405
+            ],
+            [
+              144.9600145,
+              -37.8001218
+            ],
+            [
+              144.9602399,
+              -37.8001489
+            ],
+            [
+              144.9602186,
+              -37.8002715
+            ],
+            [
+              144.9606595,
+              -37.8003257
+            ],
+            [
+              144.9606807,
+              -37.8002005
+            ],
+            [
+              144.9609779,
+              -37.8002341
+            ],
+            [
+              144.9610155,
+              -37.8000108
+            ],
+            [
+              144.9578999,
+              -37.7996541
+            ]
+          ]
+        ]
+      },
+      "id": "way/563172671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563172672",
+        "landuse": "construction"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.9597509,
+              -37.800271
+            ],
+            [
+              144.9594809,
+              -37.8017911
+            ],
+            [
+              144.9597092,
+              -37.8018146
+            ],
+            [
+              144.9599176,
+              -37.8006663
+            ],
+            [
+              144.960007,
+              -37.8005424
+            ],
+            [
+              144.9600507,
+              -37.8003039
+            ],
+            [
+              144.9597509,
+              -37.800271
+            ]
+          ]
+        ]
+      },
+      "id": "way/563172672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/291211136",
         "amenity": "bicycle_parking",
         "covered": "no",
@@ -772,26 +897,6 @@
         ]
       },
       "id": "node/291211136"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/363386520",
-        "bus": "yes",
-        "name": "Melbourne University",
-        "network": "PTV - Metropolitan Buses",
-        "operator": "Sita",
-        "public_transport": "stop_position",
-        "ref": "40648"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9596309,
-          -37.7999499
-        ]
-      },
-      "id": "node/363386520"
     },
     {
       "type": "Feature",
@@ -2241,8 +2346,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9600493,
-          -37.8000549
+          144.9603031,
+          -37.8020314
         ]
       },
       "id": "node/1877451198"
@@ -2267,8 +2372,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9610068,
-          -37.7999955
+          144.9612375,
+          -37.80004
         ]
       },
       "id": "node/1877472375"
@@ -6735,8 +6840,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.9596234,
-          -37.8000007
+          144.9592703,
+          -37.8021152
         ]
       },
       "id": "node/3924597379"
@@ -8739,46 +8844,6 @@
         ]
       },
       "id": "node/4069715676"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4069715677",
-        "bus": "yes",
-        "name": "Melbourne University",
-        "network": "PTV - Metropolitan Buses",
-        "operator": "Sita",
-        "public_transport": "stop_position",
-        "ref": "7464"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.960053,
-          -37.7999944
-        ]
-      },
-      "id": "node/4069715677"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4069715678",
-        "bus": "yes",
-        "name": "Melbourne University",
-        "network": "PTV - Metropolitan Buses",
-        "operator": "Sita;Dysons",
-        "public_transport": "stop_position",
-        "ref": "7588"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.9609907,
-          -37.8000947
-        ]
-      },
-      "id": "node/4069715678"
     },
     {
       "type": "Feature",
@@ -11371,6 +11436,96 @@
         ]
       },
       "id": "node/4961206989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5411299175",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.969,
+          -37.8215306
+        ]
+      },
+      "id": "node/5411299175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5411299807",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9694738,
+          -37.8225066
+        ]
+      },
+      "id": "node/5411299807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5427927100",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position",
+        "ref": "7464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9602961,
+          -37.8020566
+        ]
+      },
+      "id": "node/5427927100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5427930595",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita",
+        "public_transport": "stop_position",
+        "ref": "40648"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9593032,
+          -37.801948
+        ]
+      },
+      "id": "node/5427930595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5427944926",
+        "bus": "yes",
+        "name": "Melbourne University",
+        "network": "PTV - Metropolitan Buses",
+        "operator": "Sita;Dysons",
+        "public_transport": "stop_position",
+        "ref": "7588"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9612283,
+          -37.8001201
+        ]
+      },
+      "id": "node/5427944926"
     }
   ]
 }
