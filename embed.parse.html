@@ -11,7 +11,7 @@
             window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
         }
     </script>    
-    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-supported/v0.0.1/mapbox-gl-supported.js'></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-supported/v1.3.0/mapbox-gl-supported.js'></script>
 <!--
     Asset ID: %globals_asset_assetid%
 -->
@@ -23,7 +23,23 @@
         .mapboxgl-popup-close-button {display:none;}
         .mapbox-improve-map {display:none;}
         h1 {font-size: 18px;color: #777;margin: 0;}
-        #map {height:350px;border:1px solid #999;margin: 0 0 10px 0;}
+<MySource_AREA id_name="get_height" design_area="show_if">
+    <MySource_SET name="condition" value="keyword_regexp"/>
+    <MySource_SET name="condition_keyword" value="globals_get_height"/>
+    <MySource_SET name="condition_keyword_match" value="[2-6][0-9][0-9]|700" />
+    <MySource_THEN>     #map {height:%globals_get_height%px;}
+</MySource_THEN>
+    <MySource_ELSE>     #map {height:350px;}</MySource_ELSE>
+</MySource_AREA>
+<MySource_AREA id_name="get_borderwidth" design_area="show_if">
+    <MySource_SET name="condition" value="keyword_regexp"/>
+    <MySource_SET name="condition_keyword" value="globals_get_borderwidth"/>
+    <MySource_SET name="condition_keyword_match" value="[0-9]|10" />
+    <MySource_THEN>     #map {border:%globals_get_borderwidth%px solid #999;}
+</MySource_THEN>
+    <MySource_ELSE>     #map {border:1px solid #999;}</MySource_ELSE>
+</MySource_AREA>
+		#map {margin: 0 0 10px 0;}
         #map-extras {margin: 0;padding: 0;list-style: none;}
         #map-extras li {font-size: 90%;color: #777;margin: 0;padding: 0;float: left;margin-right: 20px;}
         #map-extras li:last-child {float: right;margin-right: 0;}
@@ -69,9 +85,33 @@
 <!--@@ // note: embed token used @@-->
 <script>
 var myAccessToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNqMjFoNXE5ZTAwMzkzN3Fpajg2NmpwMGwifQ.Y2QIfMStkM34QqnqkqZEDQ";
+var oldToken = "pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNqY3ppY2YyNTE4djEzM28xeHlkbnVzYWIifQ.WjUQHFobcvVs5G4gPNw8kA";
 var maplat = "%globals_asset_metadata_Latitude%";
 var maplon = "%globals_asset_metadata_Longitude%";
-var mapzoom = "%asset_metadata_Zoom^empty:16%";
+<MySource_AREA id_name="get_zoom" design_area="show_if">
+    <MySource_SET name="condition" value="keyword_regexp"/>
+    <MySource_SET name="condition_keyword" value="globals_get_z"/>
+    <MySource_SET name="condition_keyword_match" value="1[0-9]" />
+    <MySource_THEN>var mapzoom = "%globals_get_z%";</MySource_THEN>
+    <MySource_ELSE>var mapzoom = "%asset_metadata_Zoom^empty:16%";</MySource_ELSE>
+</MySource_AREA>
+
+<MySource_AREA id_name="get_pitch" design_area="show_if">
+    <MySource_SET name="condition" value="keyword_regexp"/>
+    <MySource_SET name="condition_keyword" value="globals_get_pitch"/>
+    <MySource_SET name="condition_keyword_match" value="[0-9]{2}" />
+    <MySource_THEN>var mappitch = "%globals_get_pitch%";</MySource_THEN>
+    <MySource_ELSE>var mappitch = "%asset_metadata_Map-pitch^empty:0%";</MySource_ELSE>
+</MySource_AREA>
+
+<MySource_AREA id_name="get_bearing" design_area="show_if">
+    <MySource_SET name="condition" value="keyword_regexp"/>
+    <MySource_SET name="condition_keyword" value="globals_get_bearing"/>
+    <MySource_SET name="condition_keyword_match" value="-*[0-9]{2,3}" />
+    <MySource_THEN>var mapbearing = "%globals_get_bearing%";</MySource_THEN>
+    <MySource_ELSE>var mapbearing = "%asset_metadata_Map-bearing^empty:0%";</MySource_ELSE>
+</MySource_AREA>
+
 var locname = "%globals_asset_metadata_Name^escapehtml^escapequotes^tagif:h3%";
 var locaddr = "%globals_asset_metadata_StreetAddress^escapehtml^escapequotes^tagif:p%";
 
@@ -82,11 +122,9 @@ if(mapboxgl.supported() === false) {
     loadScript(JsUrl, cssUrl, initJS);
 
 } else {
-    var JsUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js',
-        cssUrl = 'https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css';
-
+    var JsUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js',
+        cssUrl = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css';
     loadScript(JsUrl, cssUrl, initGL);
-
 }
 
 function initGL() {
@@ -96,7 +134,9 @@ function initGL() {
         style: 'mapbox://styles/maps-unimelb/cj1rdzyxl000d2rlbhzhdt62x',
         center: [maplon, maplat],
         maxZoom: 19,
-        zoom: mapzoom
+        zoom: mapzoom,
+        pitch: mappitch,
+        bearing: mapbearing
     });
     map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     map.scrollZoom.disable();
@@ -109,7 +149,7 @@ function initGL() {
 
 function initJS() {
     mapzoom = parseInt(mapzoom)+1;
-    L.mapbox.accessToken = myAccessToken;
+    L.mapbox.accessToken = oldToken;
     var map = L.mapbox.map('map', 'maps-unimelb.2c79eb85')
         .setView([maplat, maplon], mapzoom);
     L.marker([maplat, maplon]).addTo(map)
