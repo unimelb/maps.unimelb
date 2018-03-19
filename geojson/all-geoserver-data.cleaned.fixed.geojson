@@ -1,6 +1,5 @@
 {
 "type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4283" } },
 "features": [
 { "type": "Feature", "properties": { "X": 144.959704, "Y": -37.803763, "id": "map-features.120", "campusId": "PAR", "title": "11 Barry Street", "locTypeId": "1", "version": "62023", "bldgId": "266", "description": "University Services", "addr1": "11 Barry Street", "addr2": "", "locationId": "120" }, "geometry": { "type": "Point", "coordinates": [ 144.959704, -37.803763 ] } },
 { "type": "Feature", "properties": { "X": 144.95839, "Y": -37.80178, "id": "map-features.293", "campusId": "PAR", "title": "Books 'n Bites", "locTypeId": "14", "version": "62022", "bldgId": "", "description": "Café Style Food", "addr1": "", "addr2": "", "locationId": "293" }, "geometry": { "type": "Point", "coordinates": [ 144.95839, -37.80178 ] } },
