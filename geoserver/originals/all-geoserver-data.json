@@ -602,4 +602,4 @@
 {"type":"Feature","id":"map-features.155","geometry":{"type":"Point","coordinates":[-37.889588,144.692693]},"geometry_name":"geom","properties":{"campusId":"WER","title":"Veterinary Hospital","locTypeId":1,"version":10400,"bldgId":"411","description":null,"addr1":"Cnr Princess Highway & North Road","addr2":null,"locationId":155,"bbox":[-37.889588,144.692693,-37.889588,144.692693]}},
 {"type":"Feature","id":"map-features.501","geometry":{"type":"Point","coordinates":[-37.889665,144.693736]},"geometry_name":"geom","properties":{"campusId":"WER","title":"Pathology Building","locTypeId":21,"version":10248,"bldgId":"416","description":null,"addr1":"Cnr Princess Highway & North Road","addr2":null,"locationId":501,"bbox":[-37.889665,144.693736,-37.889665,144.693736]}},
 {"type":"Feature","id":"map-features.500","geometry":{"type":"Point","coordinates":[-37.889588,144.692693]},"geometry_name":"geom","properties":{"campusId":"WER","title":"Veterinary Hospital","locTypeId":21,"version":10247,"bldgId":"411","description":null,"addr1":"Cnr Princess Highway & North Road","addr2":null,"locationId":500,"bbox":[-37.889588,144.692693,-37.889588,144.692693]}}
-]
+]}
