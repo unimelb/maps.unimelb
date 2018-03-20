@@ -1,0 +1,1684 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Forum Theatre (Arts West)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 46016,
+			"bldgId": 148,
+			"description": "Room 153",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 667
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959351, -37.797763]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Malaysian Theatre (MSD)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 46013,
+			"bldgId": 133,
+			"description": "Room B121",
+			"addr1": "University of Melbourne",
+			"addr2": "",
+			"locationId": 666
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9626315, -37.797212]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Singapore Theatre (MSD)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 46012,
+			"bldgId": 133,
+			"description": "Room B120",
+			"addr1": "University of Melbourne",
+			"addr2": "",
+			"locationId": 665
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9626315, -37.797212]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Basement Lecture Theatre (MSD)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 46011,
+			"bldgId": 133,
+			"description": "Room B117",
+			"addr1": "University of Melbourne",
+			"addr2": "",
+			"locationId": 664
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9626315, -37.797212]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Kathleen Fitzpatrick Theatre (Arts West)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38074,
+			"bldgId": 148,
+			"description": "Room B101",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 558
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959351, -37.797763]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Wright Theatre (Medical)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38073,
+			"bldgId": 181,
+			"description": "Room C403",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 603
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Turner Theatre (Biosciences 2)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38072,
+			"bldgId": "",
+			"description": "Room 124",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 602
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9597, -37.7968]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre (Thomas Cherry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38071,
+			"bldgId": 184,
+			"description": "Room 124",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 601
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958417, -37.798666]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Level 1 Lecture Theatre (The Spot)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38070,
+			"bldgId": 110,
+			"description": "Room L01",
+			"addr1": "198 Berkeley Street",
+			"addr2": "",
+			"locationId": 599
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958796, -37.801593]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Sunderland Theatre (Medical)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38069,
+			"bldgId": 181,
+			"description": "Room C216",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 598
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Steve Howard Theatre (Doug McDonnell)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38068,
+			"bldgId": 168,
+			"description": "Room 503",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 597
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962968, -37.798977]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Senior Theatre (Chemistry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38067,
+			"bldgId": 153,
+			"description": "Room 370",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 596
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962111, -37.797946]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Russell Love Theatre (Peter Hall)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38066,
+			"bldgId": 160,
+			"description": "Room M01",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 595
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963642, -37.798088]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Rivett Theatre (Redmond Barry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38065,
+			"bldgId": 115,
+			"description": "Room 200",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 591
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962726, -37.796635]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Evan Williams Theatre (Peter Hall)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38064,
+			"bldgId": 160,
+			"description": "Room G03",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 590
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963642, -37.798088]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Rand Theatre (Medical)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38063,
+			"bldgId": 181,
+			"description": "Room N817",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 589
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Prest Theatrette (Arts West)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38062,
+			"bldgId": 148,
+			"description": "Room 115",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 588
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959351, -37.797763]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Level 2 Theatre (200 Berkeley St)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38061,
+			"bldgId": 260,
+			"description": "Room 219",
+			"addr1": "200 Berkeley Street",
+			"addr2": "",
+			"locationId": 525
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958899, -37.801164]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Masters Seminar Room 2 (Old Metallurgy)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38060,
+			"bldgId": 166,
+			"description": "Room 202",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 587
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961786, -37.799038]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Masters Seminar Room 1 (Old Metallurgy)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38059,
+			"bldgId": 166,
+			"description": "Room 103",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 586
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961786, -37.799038]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 2 (Old Geology)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38058,
+			"bldgId": 155,
+			"description": "Room B25",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 585
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96294, -37.797902]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 1 (Old Geology)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38057,
+			"bldgId": 155,
+			"description": "Room G04",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 584
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96294, -37.797902]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "A1 Theatre (Old Engineering)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38056,
+			"bldgId": 173,
+			"description": "Room 107",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 583
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961748, -37.799506]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre D (Old Arts)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38055,
+			"bldgId": 149,
+			"description": "Room 155",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 582
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960163, -37.797766]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre C (Old Arts)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38054,
+			"bldgId": 149,
+			"description": "Room 124",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 581
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960163, -37.797766]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre B (Old Arts)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38053,
+			"bldgId": 149,
+			"description": "Room 129",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 580
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960163, -37.797766]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre A (Old Arts)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38052,
+			"bldgId": 149,
+			"description": "Room 103",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 579
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960163, -37.797766]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Public Lecture Theatre (Old Arts)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38051,
+			"bldgId": 149,
+			"description": "Room 122",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 578
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960163, -37.797766]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Lower Theatre (FVAS)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38050,
+			"bldgId": 142,
+			"description": "Room B01",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 577
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958582, -37.796569]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melba Hall (Conservatorium of Music)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38049,
+			"bldgId": 141,
+			"description": "Room 117",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 605
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958489, -37.797664]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Medley Theatre (Redmond Barry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38048,
+			"bldgId": 115,
+			"description": "Room 103",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 575
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962726, -37.796635]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Masson Theatre (Chemistry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38047,
+			"bldgId": "",
+			"description": "Room 189",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 574
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9622, -37.798]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "William Macmahon Ball Theatre (Old Arts)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38046,
+			"bldgId": 149,
+			"description": "Room 107",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 573
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960163, -37.797766]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Lyle Theatre (Redmond Barry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38045,
+			"bldgId": 115,
+			"description": "Room 101",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 572
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962726, -37.796635]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Lowe Theatre (Redmond Barry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38044,
+			"bldgId": 115,
+			"description": "Room 103",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 570
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962726, -37.796635]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "GM17 (Law)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38043,
+			"bldgId": 106,
+			"description": "Room GM17",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 569
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "GM16 (Law)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38042,
+			"bldgId": 106,
+			"description": "Room GM16",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 568
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "David P Derham Theatre (Law)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38041,
+			"bldgId": 106,
+			"description": "Room GM15",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 567
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Latham Theatre (Redmond Barry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38040,
+			"bldgId": 115,
+			"description": "Room 102",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 560
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962726, -37.796635]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Laby Theatre (David Caro)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38039,
+			"bldgId": "192s",
+			"description": "Room L108",
+			"addr1": "Spencer Road",
+			"addr2": "",
+			"locationId": 559
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9637, -37.7971]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "JH Michell Theatre (Peter Hall)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38038,
+			"bldgId": 160,
+			"description": "Room G01",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 557
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963642, -37.798088]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Hercus Theatre (David Caro)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38037,
+			"bldgId": "192s",
+			"description": "Room L105",
+			"addr1": "Spencer Road",
+			"addr2": "",
+			"locationId": 556
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9637, -37.7971]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Herbert Wilson Theatre (Doug McDonell)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38036,
+			"bldgId": 168,
+			"description": "Room 103",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 555
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962968, -37.798977]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Harold Woodruff Theatre (Bldg 184)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38035,
+			"bldgId": 184,
+			"description": "Room 127",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 554
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958417, -37.798666]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Harold White Theatre (757 Swanston)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38034,
+			"bldgId": 199,
+			"description": "Room 224",
+			"addr1": "757 Swanston Street",
+			"addr2": "",
+			"locationId": 553
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96376, -37.799908]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "G16 Theatre (142 Pelham)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38033,
+			"bldgId": 249,
+			"description": "Room G16",
+			"addr1": "142 Pelham St",
+			"addr2": "",
+			"locationId": 551
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9619, -37.8021]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Fritz Loewe Theatre (McCoy)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38032,
+			"bldgId": 200,
+			"description": "Room 201",
+			"addr1": "253-275 Elgin Street",
+			"addr2": "",
+			"locationId": 550
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965252, -37.797107]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Frederic Wood Jones Theatre (Medical)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38031,
+			"bldgId": 181,
+			"description": "Room E307",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 549
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 3 (FBE)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38030,
+			"bldgId": 105,
+			"description": "Room 205",
+			"addr1": "95-129 Barry Street",
+			"addr2": "",
+			"locationId": 548
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959228, -37.801548]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Prest Theatre (FBE)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38029,
+			"bldgId": 105,
+			"description": "Room G06",
+			"addr1": "95-129 Barry Street",
+			"addr2": "",
+			"locationId": 547
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959228, -37.801548]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 4 (FBE)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38028,
+			"bldgId": 105,
+			"description": "Room 221",
+			"addr1": "95-129 Barry Street",
+			"addr2": "",
+			"locationId": 546
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959228, -37.801548]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 2 (FBE)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38027,
+			"bldgId": 105,
+			"description": "Room 211",
+			"addr1": "95-129 Barry Street",
+			"addr2": "",
+			"locationId": 545
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959228, -37.801548]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "ESJ King Theatre (Medical)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38026,
+			"bldgId": 181,
+			"description": "Room W312",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 544
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "C2 Theatre (Engineering Block C)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38025,
+			"bldgId": 174,
+			"description": "Room 413",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 543
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961306, -37.799861]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "C1 Theatre (Engineering Block C)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38024,
+			"bldgId": 174,
+			"description": "Room 407",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 542
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961306, -37.799861]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre A (Elisabeth Murdoch)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38023,
+			"bldgId": 134,
+			"description": "Room G06",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 600
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96344, -37.797415]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Brown Theatre (Electrical Engineering)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38022,
+			"bldgId": 193,
+			"description": "Room 106",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 541
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961184, -37.798847]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Denis Driscoll Theatre (Doug McDonell)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38021,
+			"bldgId": 168,
+			"description": "Room 309",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 540
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962968, -37.798977]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Cuming Theatre (Chemistry)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38020,
+			"bldgId": 153,
+			"description": "Room 178",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 539
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962111, -37.797946]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Copland Theatre (The Spot)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38019,
+			"bldgId": 110,
+			"description": "Room B01",
+			"addr1": "198 Berkeley Street",
+			"addr2": "",
+			"locationId": 538
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958796, -37.801593]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Chisholm Theatre (Babel)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38018,
+			"bldgId": 139,
+			"description": "Room 305",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 536
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959619, -37.797297]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre (Chemical Engineering)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38017,
+			"bldgId": 165,
+			"description": "Room G20",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 535
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962243, -37.798687]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Charles Pearson Theatre (ERC)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38016,
+			"bldgId": 171,
+			"description": "Room 132",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 534
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963067, -37.799658]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Carillo Gantner Theatre (Sidney Myer Asia Centre)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38015,
+			"bldgId": 158,
+			"description": "Room B02",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 533
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963916, -37.798903]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre (Baldwin Spencer)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38014,
+			"bldgId": "",
+			"description": "Room 101",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 532
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962, -37.7966]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Middle Theatre (Babel)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38013,
+			"bldgId": 139,
+			"description": "Room 106",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 576
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959619, -37.797297]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Lower Theatre (Babel)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38012,
+			"bldgId": 139,
+			"description": "Room G03",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 571
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959619, -37.797297]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 3 (Alan Gilbert)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38011,
+			"bldgId": 104,
+			"description": "Room 121",
+			"addr1": "161 Barry Street",
+			"addr2": "",
+			"locationId": 531
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959135, -37.800203]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 2 (Alan Gilbert)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38010,
+			"bldgId": 104,
+			"description": "Room 109",
+			"addr1": "161 Barry Street",
+			"addr2": "",
+			"locationId": 530
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959135, -37.800203]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 1 (Alan Gilbert)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38009,
+			"bldgId": 104,
+			"description": "Room G21",
+			"addr1": "161 Barry Street",
+			"addr2": "",
+			"locationId": 529
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959135, -37.800203]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Agar Theatre (Biosciences 4)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38008,
+			"bldgId": 147,
+			"description": "Room G003",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 528
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.95895, -37.79725]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "230 (234 Queensberry St)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38007,
+			"bldgId": 263,
+			"description": "Room 230",
+			"addr1": "234 Queensberry Street",
+			"addr2": "",
+			"locationId": 594
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960826, -37.80397]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "227 (234 Queensberry St)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38006,
+			"bldgId": 263,
+			"description": "Room 227",
+			"addr1": "234 Queensberry Street",
+			"addr2": "",
+			"locationId": 593
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960826, -37.80397]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "219 (234 Queensberry St)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38005,
+			"bldgId": 263,
+			"description": "Room 219",
+			"addr1": "234 Queensberry Street",
+			"addr2": "",
+			"locationId": 592
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960826, -37.80397]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 2 (207-221 Bouverie St)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38004,
+			"bldgId": 379,
+			"description": "Room B120",
+			"addr1": "207-221 Bouverie Street",
+			"addr2": "",
+			"locationId": 527
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961882, -37.801306]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Theatre 1 (207-221 Bouverie St)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38003,
+			"bldgId": 379,
+			"description": "Room B103",
+			"addr1": "207-221 Bouverie Street",
+			"addr2": "",
+			"locationId": 526
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961882, -37.801306]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "G73 Theatrette (200 Berkeley St)",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 38002,
+			"bldgId": 260,
+			"description": "Room G73",
+			"addr1": "200 Berkeley Street",
+			"addr2": "",
+			"locationId": 552
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958899, -37.801164]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Coles Theatre",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 10146,
+			"bldgId": 202,
+			"description": "",
+			"addr1": "200 Leicester Street",
+			"addr2": "",
+			"locationId": 537
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96114, -37.801557]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "University Hall",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 10130,
+			"bldgId": 150,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 604
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960747, -37.79772]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Law G08",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 10092,
+			"bldgId": 106,
+			"description": "Room G08",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 566
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Law 108",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 10091,
+			"bldgId": 106,
+			"description": "Room 108",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 564
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Law 106",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 10090,
+			"bldgId": 106,
+			"description": "Room 106",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 563
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Law 104",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 10089,
+			"bldgId": 106,
+			"description": "Room 104",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 562
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Law 102",
+			"locTypeId": 4,
+			"locType": "room",
+			"version": 10088,
+			"bldgId": 106,
+			"description": "Room 102",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 561
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}]
+}

@@ -1,0 +1,5004 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Stop 1 (Parkville)",
+			"locTypeId": 2,
+			"locType": "stop1",
+			"version": 22005,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "757 Swanston Street",
+			"locationId": 656
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963717, -37.800154]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Stop 1 (Southbank)",
+			"locTypeId": 2,
+			"locType": "stop1",
+			"version": 14003,
+			"bldgId": 860,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 657
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.970127, -37.824748]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "SPT",
+			"title": "Student Administration",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10184,
+			"bldgId": 696,
+			"description": "",
+			"addr1": "35-49 Graham Street",
+			"addr2": "",
+			"locationId": 394
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.406671, -36.361939]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "SPT",
+			"title": "Rural Health Academic Centre",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10181,
+			"bldgId": 696,
+			"description": "Reception",
+			"addr1": "35-49 Graham Street",
+			"addr2": "",
+			"locationId": 390
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.406671, -36.361939]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "DOO",
+			"title": "Melbourne School of Land and Environment",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10172,
+			"bldgId": 505,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 378
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.705947, -36.383173]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "BUR",
+			"title": "Department of Forests and Ecosystem Science",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10148,
+			"bldgId": 903,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 353
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.022532, -37.828551]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Murrup Barak",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10548,
+			"bldgId": 128,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 384
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960615, -37.797309]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "University Communications",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10187,
+			"bldgId": 257,
+			"description": "",
+			"addr1": "187 Grattan Street",
+			"addr2": "",
+			"locationId": 398
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962776, -37.800537]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Student Support Services",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10186,
+			"bldgId": 113,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 396
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961977, -37.796512]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Student Health Service",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10185,
+			"bldgId": 385,
+			"description": "",
+			"addr1": "138 Cardigan Steet",
+			"addr2": "",
+			"locationId": 395
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965503, -37.801689]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Student Administration",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10183,
+			"bldgId": 152,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 393
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961603, -37.797436]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Psychology Clinic",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10180,
+			"bldgId": 236,
+			"description": "",
+			"addr1": "14-20 Blackwood Street",
+			"addr2": "",
+			"locationId": 389
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.955033, -37.801675]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Peter McPhee Centre",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10179,
+			"bldgId": 344,
+			"description": "",
+			"addr1": "272-278 Faraday Street",
+			"addr2": "",
+			"locationId": 388
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964898, -37.798161]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Optometry and Vision Sciences",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10178,
+			"bldgId": 162,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 386
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963271, -37.798636]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Office for Environmental Programs",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10177,
+			"bldgId": 163,
+			"description": "OEP",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 385
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961788, -37.798526]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne Institute of Applied Economic and Social Research",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10175,
+			"bldgId": 104,
+			"description": "MIAESR",
+			"addr1": "161 Barry Street",
+			"addr2": "",
+			"locationId": 381
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959135, -37.800203]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne Students and Learning",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10174,
+			"bldgId": 152,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 380
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961603, -37.797436]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Microbiological Diagnostic Unit",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10171,
+			"bldgId": 184,
+			"description": "MDU",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 374
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958417, -37.798666]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Marketing Office",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10170,
+			"bldgId": 220,
+			"description": "",
+			"addr1": "780, Elizabeth Street",
+			"addr2": "",
+			"locationId": 373
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.957997, -37.800419]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "University Eyecare Clinic",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10169,
+			"bldgId": 244,
+			"description": "",
+			"addr1": "Optometry & Vision Scienc",
+			"addr2": "",
+			"locationId": 368
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964691, -37.797811]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne Medical School",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10168,
+			"bldgId": 181,
+			"description": "MMS",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 382
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne Scholarships",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10167,
+			"bldgId": 113,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 377
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961977, -37.796512]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne Institute",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10166,
+			"bldgId": 105,
+			"description": "",
+			"addr1": "95-129 Barry Street",
+			"addr2": "",
+			"locationId": 376
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959228, -37.801548]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "LH Martin Institute",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10165,
+			"bldgId": 243,
+			"description": "",
+			"addr1": "715 Swanston Street",
+			"addr2": "",
+			"locationId": 372
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963422, -37.801146]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "International Relations Office",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10164,
+			"bldgId": 197,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 371
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963741, -37.799435]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "International Centre",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10163,
+			"bldgId": 197,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 370
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963741, -37.799435]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Grattan Institute",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10162,
+			"bldgId": 242,
+			"description": "",
+			"addr1": "8-14 Malvina Place",
+			"addr2": "",
+			"locationId": 369
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961822, -37.800579]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Department of Resource Management and Geography",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10160,
+			"bldgId": 379,
+			"description": "",
+			"addr1": "207-221 Bouverie Street",
+			"addr2": "",
+			"locationId": 365
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961882, -37.801306]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Department of Pharmacology",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10159,
+			"bldgId": 181,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 364
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Department of Anatomy and Neuroscience",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10158,
+			"bldgId": 181,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 363
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Centre for the Study of Higher Education",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10157,
+			"bldgId": 243,
+			"description": "CSHE",
+			"addr1": "715 Swanston Street",
+			"addr2": "",
+			"locationId": 362
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963422, -37.801146]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Community Medicine",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10155,
+			"bldgId": 260,
+			"description": "",
+			"addr1": "200 Berkeley Street",
+			"addr2": "",
+			"locationId": 360
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958899, -37.801164]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Chaplain",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10154,
+			"bldgId": 385,
+			"description": "",
+			"addr1": "138 Cardigan Steet",
+			"addr2": "",
+			"locationId": 359
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965503, -37.801689]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Cardigan Street Childcare",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10152,
+			"bldgId": 335,
+			"description": "",
+			"addr1": "427-429 Cardigan Street",
+			"addr2": "",
+			"locationId": 357
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965788, -37.796048]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Biomedical Sciences Academic Centre",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10151,
+			"bldgId": 181,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 356
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Audiology and Speech Pathology",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10150,
+			"bldgId": 246,
+			"description": "",
+			"addr1": "550 Swanston Street",
+			"addr2": "",
+			"locationId": 355
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96386, -37.803848]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Australian Mathematical Sciences Institute",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10149,
+			"bldgId": 161,
+			"description": "AMSI",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 354
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962149, -37.798436]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Department of Surgery, St Vincent's Hospital",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10028,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 397
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9744, -37.8066]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "St Vincent's Hospital Clinical School",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10025,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 392
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9746, -37.8065]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Department of Otolaryngology",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10021,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 387
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9762, -37.8088]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Department of Medicine, St Vincent's Hospital",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10014,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 375
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9745, -37.8067]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Victorian Life Sciences Computation Initiative",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 7023,
+			"bldgId": "",
+			"description": "VLSCI",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 399
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9627, -37.8004]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne University Publishing",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 7007,
+			"bldgId": "",
+			"description": "MUP",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 383
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96565, -37.80366]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "The Early Learning Centre",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 6991,
+			"bldgId": "",
+			"description": "ELC",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 367
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.002644, -37.801583]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "CRE",
+			"title": "Melbourne School of Land and Environment (Creswick)",
+			"locTypeId": 3,
+			"locType": "department",
+			"version": 10173,
+			"bldgId": 744,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 379
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [143.900247, -37.42273]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "BUR",
+			"title": "Burnley Library",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10197,
+			"bldgId": 914,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 423
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.021787, -37.828218]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Eastern Resource Centre",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 22009,
+			"bldgId": 171,
+			"description": "ERC",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 426
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963067, -37.799658]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Dulcie Hollyock",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10199,
+			"bldgId": 177,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 425
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959395, -37.798366]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Veterinary Science",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10196,
+			"bldgId": 403,
+			"description": "",
+			"addr1": "Flemington Road",
+			"addr2": "",
+			"locationId": 432
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.95403, -37.79708]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Rowden White",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10195,
+			"bldgId": 130,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 431
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960902, -37.796863]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Louise Hanson-Dyer Music Library",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10194,
+			"bldgId": 171,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 430
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963067, -37.799658]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Law Library",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10193,
+			"bldgId": 106,
+			"description": "",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 428
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Giblin Eunson Library",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10192,
+			"bldgId": 105,
+			"description": "",
+			"addr1": "95-129 Barry Street",
+			"addr2": "",
+			"locationId": 427
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959228, -37.801548]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Brownless Biomedical library",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10190,
+			"bldgId": 182,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 422
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959446, -37.798984]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Baillieu",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10189,
+			"bldgId": 177,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 421
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959395, -37.798366]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Architecture, Building, and Planning",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10188,
+			"bldgId": 133,
+			"description": "",
+			"addr1": "University of Melbourne",
+			"addr2": "",
+			"locationId": 420
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9626315, -37.797212]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "CRE",
+			"title": "Creswick Library",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10198,
+			"bldgId": 719,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 424
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [143.898896, -37.422283]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Lenton Parr Library",
+			"locTypeId": 7,
+			"locType": "library",
+			"version": 10200,
+			"bldgId": 863,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 429
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.969314, -37.824389]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Books 'n Bites",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62022,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 293
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.95839, -37.80178]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Stovetop Cafe",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62021,
+			"bldgId": "",
+			"description": "Cafe and light meals",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 680
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960681, -37.803419]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "La Bonne Bouffe",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62020,
+			"bldgId": "",
+			"description": "Sandwiches, Wraps and Rolls",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 679
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960751, -37.796848]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Sweet Tooth",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62019,
+			"bldgId": "",
+			"description": "Sweets, Snacks and Ice-cream",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 681
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960469, -37.796939]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Standing Room",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62018,
+			"bldgId": "",
+			"description": "Coffee, Hot drinks",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 677
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960645, -37.796943]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Ho Ho's canteen",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62017,
+			"bldgId": "",
+			"description": "Cafe Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 676
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96112, -37.797122]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Subway (Union House)",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62016,
+			"bldgId": "",
+			"description": "Sandwiches and Rolls",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 675
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960483, -37.796779]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "House of Cards",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62015,
+			"bldgId": "",
+			"description": "Take Away Coffee",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 663
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961611, -37.799189]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Uni Catch",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62014,
+			"bldgId": "",
+			"description": "Seafood/Australian",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 304
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960805, -37.796794]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Boost Juice",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62013,
+			"bldgId": "",
+			"description": "Juices and Shakes",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 298
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960649, -37.796818]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Express Kebabs",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62012,
+			"bldgId": "",
+			"description": "Middle Eastern",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 301
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960572, -37.796805]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Vegi Patch",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62011,
+			"bldgId": "",
+			"description": "Health Food, vegetarian, wraps and burgers",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 286
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960401, -37.796918]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Uni Curry",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62010,
+			"bldgId": "",
+			"description": "Indian",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 306
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960645, -37.796773]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Saigon Noodle Bar",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62009,
+			"bldgId": "",
+			"description": "Asian",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 299
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960545, -37.797016]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bubble Cup",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62008,
+			"bldgId": "",
+			"description": "Drink Station",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 297
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960571, -37.796955]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Plush Fish Coffee and Sushi Bar",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62007,
+			"bldgId": "",
+			"description": "Japanese",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 285
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961307, -37.796933]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Chill Out",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62006,
+			"bldgId": "",
+			"description": "Drinks, Juices, sandwiches",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 303
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96091, -37.796789]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Oriental House",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62005,
+			"bldgId": "",
+			"description": "Asian",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 305
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961327, -37.797074]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Pronto Pizza",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 62004,
+			"bldgId": "",
+			"description": "Pizza",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 287
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961299, -37.797142]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Professor's Walk Cafe",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 22006,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 296
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959557, -37.79834]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Norsiah's Kitchen",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6976,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 352
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96391, -37.802011]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Oke Oke",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6975,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 351
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96391, -37.80189]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Momo Sushi",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6974,
+			"bldgId": "",
+			"description": "Japanese",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 350
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964007, -37.801231]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Subway",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6973,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 349
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96406, -37.800909]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Colourful Yunnan",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6972,
+			"bldgId": "",
+			"description": "Chinese",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 348
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964101, -37.800612]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Animal Orchestra",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6971,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 347
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963331, -37.800531]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "KFC",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6970,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 346
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963763, -37.800578]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Toothpicks Café",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6969,
+			"bldgId": "",
+			"description": "Café",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 345
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964377, -37.799175]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Krunchy Role",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6968,
+			"bldgId": "",
+			"description": "Middle Eastern",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 344
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964431, -37.798953]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Nori Sushi",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6967,
+			"bldgId": "",
+			"description": "Japanese",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 343
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964425, -37.798861]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Huoyanshan",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6966,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 342
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964723, -37.797562]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Lucky Yu",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6965,
+			"bldgId": "",
+			"description": "Chinese",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 341
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964777, -37.797371]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bento King",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6964,
+			"bldgId": "",
+			"description": "Japanese",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 340
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964849, -37.796704]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Carte",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6962,
+			"bldgId": "",
+			"description": "Crepes",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 338
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960477, -37.799099]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Tsubu",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6961,
+			"bldgId": "",
+			"description": "Japanese",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 337
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963248, -37.799665]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Zambrero",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6931,
+			"bldgId": "",
+			"description": "Mexican",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 307
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960732, -37.797024]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Real Meal ",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6926,
+			"bldgId": "",
+			"description": "Italian",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 302
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9608, -37.79691]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Eastern Kitchen",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6924,
+			"bldgId": "",
+			"description": "Asian",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 300
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9608, -37.79691]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Dr Dax Kitchen",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6919,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 295
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958098, -37.798151]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Haymarket Place",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6918,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 294
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.95886, -37.800521]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Pearls Café and Sandwhich Bar",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6916,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 292
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.95937, -37.80191]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Castro's Kiosk",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6915,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 291
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96349, -37.79723]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Percy's",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6914,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 290
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958414, -37.797316]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Kere Kere",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6913,
+			"bldgId": "",
+			"description": "Coffee",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 289
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961716, -37.798806]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Food Co-op",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6911,
+			"bldgId": "",
+			"description": "Health Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 288
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9608, -37.79691]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bar Baretto",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6906,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 283
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959638, -37.800099]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bar Commercio",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6905,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 282
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958632, -37.801687]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Porta Via Espresso Bar ",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6904,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 281
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960096, -37.802174]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Seven Seeds",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6903,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 280
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959222, -37.802892]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bar Scopa",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6901,
+			"bldgId": "",
+			"description": "Café",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 278
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960383, -37.802911]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Briscola Café",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6900,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 277
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961349, -37.802365]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Café Tre Sette",
+			"locTypeId": 14,
+			"locType": "food_and_drink",
+			"version": 6899,
+			"bldgId": "",
+			"description": "Café Style Food",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 276
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96181, -37.803212]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 14",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10049,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 419
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9582097, -37.79601275]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 13",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10048,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 418
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9580435, -37.79751861]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 12",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10047,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 417
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.957958, -37.79802104]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 11",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10046,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 416
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9578556, -37.79891853]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 10",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10045,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 415
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9605787, -37.79985654]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 9",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10044,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 414
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961691, -37.80007916]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 8",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10043,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 413
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9625971, -37.80019061]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 7",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10041,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 411
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9634946, -37.8003312]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 6",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10040,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 410
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9639421, -37.79960476]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 4",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10037,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 407
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9640859, -37.79851543]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 3",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10035,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 405
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9642625, -37.79783447]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 2",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10032,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 402
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9643446, -37.79712854]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Gate 1",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10031,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 401
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9644097, -37.79667543]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Gate 7",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10042,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 412
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9692, -37.8237]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Gate 6",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10039,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 409
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9671, -37.8251]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Gate 5",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10038,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 408
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9669, -37.8256]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Gate 4",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10036,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 406
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9681, -37.8253]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Gate 3",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10034,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 404
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9685, -37.8244]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Gate 2",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10033,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 403
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9695, -37.8253]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Gate 1",
+			"locTypeId": 15,
+			"locType": "gate",
+			"version": 10030,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 400
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9701, -37.8252]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "NAB",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6960,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 336
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.968261, -37.797658]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "ANZ",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6959,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 335
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.968261, -37.798098]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Westpac",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6958,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 334
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.967998, -37.797967]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bank of Melbourne",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6957,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 333
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96729, -37.799872]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "NAB",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6956,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 332
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.967185, -37.799696]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "ANZ",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6955,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 331
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.967185, -37.800515]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "CBA",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6954,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 330
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.966947, -37.799387]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Westpac",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6953,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 329
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.966863, -37.80017]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bendigo Bank",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6952,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 328
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96673, -37.80272]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Independent",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6898,
+			"bldgId": "",
+			"description": "Inside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 275
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960276, -37.804709]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Independent",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6897,
+			"bldgId": "",
+			"description": "Inside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 274
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960276, -37.803509]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Independent",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6896,
+			"bldgId": "",
+			"description": "Inside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 273
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96107, -37.80239]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "NAB",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6895,
+			"bldgId": "",
+			"description": "Outside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 272
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961365, -37.796846]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bendigo Bank",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6894,
+			"bldgId": "",
+			"description": "Inside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 271
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9608, -37.79691]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "CBA",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6893,
+			"bldgId": "",
+			"description": "Inside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 270
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960584, -37.797066]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "CBA",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6892,
+			"bldgId": "",
+			"description": "Outside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 269
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960372, -37.797147]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Redi",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6891,
+			"bldgId": "",
+			"description": "Outside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 268
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963006, -37.798344]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "ANZ",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6890,
+			"bldgId": "",
+			"description": "Inside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 267
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961078, -37.796786]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "NAB",
+			"locTypeId": 17,
+			"locType": "atm",
+			"version": 6889,
+			"bldgId": "",
+			"description": "Outside",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 266
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960316, -37.797251]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Entrance 10",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6951,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 327
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960539, -37.799874]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "University Square",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6950,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 326
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96022, -37.80153]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "John Smyth/ Ross McKay Courtyard",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6949,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 325
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963406, -37.799531]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "ERC South - West Corner",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6948,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 324
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962516, -37.799448]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Old Metallurgy South Side Ramp",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6947,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 323
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963326, -37.798444]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "South Lawn Path",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6946,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 322
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963326, -37.798444]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Monash Road/Alice Hoy",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6945,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 321
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963326, -37.798444]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Wilson Hall",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6944,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 320
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961523, -37.798323]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Mason Road/Richard Berry",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6943,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 319
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963639, -37.79781]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Physics/Castro's Kiosk",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6942,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 318
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961531, -37.796979]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Concrete Lawn",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6941,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 317
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961531, -37.796979]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "MSLE/Tin Alley",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6940,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 316
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958653, -37.79607]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "North Court",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6939,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 315
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96118, -37.796693]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Union House (south entrance)",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6938,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 314
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960584, -37.797077]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Old Arts (West entrance)",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6937,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 313
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959807, -37.797675]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Music Conservatorium",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6936,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 312
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958425, -37.79753]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne Brain Center",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6935,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 311
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958492, -37.79795]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Medical Building (North/West Entrance)",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6934,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 310
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958731, -37.799016]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Medical Building (Grattan St Entrance)",
+			"locTypeId": 18,
+			"locType": "drinking_water",
+			"version": 6933,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 309
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958954, -37.799597]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Bookshop (Co-op)",
+			"locTypeId": 19,
+			"locType": "shop",
+			"version": 62003,
+			"bldgId": "",
+			"description": "The Co-op at the University of Melbourne is located in the Alan Gilbert Building, 161 Barry Street, Parkville",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 433
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959395, -37.800074]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Royal Melbourne Hospital Post Office",
+			"locTypeId": 19,
+			"locType": "shop",
+			"version": 7061,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 437
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9556, -37.7992]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Parkville Post Office",
+			"locTypeId": 19,
+			"locType": "shop",
+			"version": 7060,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 436
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9567, -37.7946]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Carlton South Post Office",
+			"locTypeId": 19,
+			"locType": "shop",
+			"version": 7059,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 435
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9662, -37.804]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Carlton Post Office",
+			"locTypeId": 19,
+			"locType": "shop",
+			"version": 7058,
+			"bldgId": "",
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 434
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9698, -37.7973]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Melbourne Campus Pharmacy",
+			"locTypeId": 19,
+			"locType": "shop",
+			"version": 6932,
+			"bldgId": "",
+			"description": "Union House",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 308
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9608, -37.79691]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "SPT",
+			"title": "49 Graham St, Shepparton",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10250,
+			"bldgId": 696,
+			"description": "",
+			"addr1": "35-49 Graham Street",
+			"addr2": "",
+			"locationId": 503
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.406671, -36.361939]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "DOO",
+			"title": "Dookie-Building 527",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10249,
+			"bldgId": 527,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 502
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.705736, -36.384466]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "BUR",
+			"title": "Bur-Student Recreation Ct",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10266,
+			"bldgId": 916,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 519
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.02308, -37.828863]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "BUR",
+			"title": "Bur-Seminar & Training Rm",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10265,
+			"bldgId": 912,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 518
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.024007, -37.829808]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "BUR",
+			"title": "Burnley-Main Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10264,
+			"bldgId": 901,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 517
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [145.021391, -37.82917]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Vri Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10246,
+			"bldgId": 403,
+			"description": "",
+			"addr1": "Flemington Road",
+			"addr2": "",
+			"locationId": 499
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.95403, -37.79708]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "138-146 Cardigan Steet",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10245,
+			"bldgId": 385,
+			"description": "",
+			"addr1": "138 Cardigan Steet",
+			"addr2": "",
+			"locationId": 498
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965503, -37.801689]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "207-221 Bouverie Street",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10244,
+			"bldgId": 379,
+			"description": "",
+			"addr1": "207-221 Bouverie Street",
+			"addr2": "",
+			"locationId": 497
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961882, -37.801306]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "723 Swanston Street",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10243,
+			"bldgId": 348,
+			"description": "",
+			"addr1": "723 Swanston Street",
+			"addr2": "",
+			"locationId": 496
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963455, -37.800875]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Peter McPhee Centre",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10242,
+			"bldgId": 344,
+			"description": "",
+			"addr1": "272-278 Faraday Street",
+			"addr2": "",
+			"locationId": 495
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964898, -37.798161]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "234 Queensberry Street",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10241,
+			"bldgId": 263,
+			"description": "",
+			"addr1": "234 Queensberry Street",
+			"addr2": "",
+			"locationId": 494
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960826, -37.80397]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "228 Queensberry Street",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10239,
+			"bldgId": 262,
+			"description": "",
+			"addr1": "228 Queensberry Street",
+			"addr2": "",
+			"locationId": 493
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961245, -37.804097]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "200 Berkeley Street",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10238,
+			"bldgId": 260,
+			"description": "",
+			"addr1": "200 Berkeley Street",
+			"addr2": "",
+			"locationId": 492
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958899, -37.801164]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "800 Swanston Street",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10237,
+			"bldgId": 244,
+			"description": "",
+			"addr1": "Optometry & Vision Scienc",
+			"addr2": "",
+			"locationId": 491
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964691, -37.797811]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Mccoy Building/Earth Scie",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10236,
+			"bldgId": 200,
+			"description": "",
+			"addr1": "253-275 Elgin Street",
+			"addr2": "",
+			"locationId": 490
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965252, -37.797107]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "1888 Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10235,
+			"bldgId": 198,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 489
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963202, -37.799821]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Elec. And Electron Eng.",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10234,
+			"bldgId": 193,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 488
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961184, -37.798847]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "David Caro Buliding",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10233,
+			"bldgId": 192,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 487
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963988, -37.796839]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "John Medley Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10232,
+			"bldgId": 191,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 486
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960523, -37.799238]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Frank Tate Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10231,
+			"bldgId": 189,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 485
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963292, -37.799293]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Microbiology Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10230,
+			"bldgId": 184,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 484
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958417, -37.798666]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Brownless Medical Library",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10229,
+			"bldgId": 182,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 483
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959446, -37.798984]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Medical Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10228,
+			"bldgId": 181,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 482
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958905, -37.799241]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Baillieu Library",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10227,
+			"bldgId": 177,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 481
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959395, -37.798366]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Old Engineering School",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10226,
+			"bldgId": 173,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 480
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961748, -37.799506]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Erc Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10225,
+			"bldgId": 171,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 479
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963067, -37.799658]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Mechanical Engineering",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10224,
+			"bldgId": 170,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 478
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962283, -37.799845]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Doug Mcdonell Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10223,
+			"bldgId": 168,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 477
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962968, -37.798977]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Alice Hoy Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10222,
+			"bldgId": 162,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 476
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963271, -37.798636]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Building 161",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10221,
+			"bldgId": 161,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 475
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962149, -37.798436]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Richard Berry Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10220,
+			"bldgId": 160,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 474
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963642, -37.798088]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Sidney Myer Asia Centre",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10219,
+			"bldgId": 158,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 473
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963916, -37.798903]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Chemistry",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10218,
+			"bldgId": 153,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 472
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962111, -37.797946]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Wilson Hall",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10217,
+			"bldgId": 151,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 471
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961297, -37.798214]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Old Arts Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10216,
+			"bldgId": 149,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 470
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960163, -37.797766]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Arts West",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10215,
+			"bldgId": 148,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 469
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959351, -37.797763]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Zoology Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10214,
+			"bldgId": 147,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 468
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.95895, -37.79725]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Conservatorium Of Music",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10213,
+			"bldgId": 141,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 467
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958489, -37.797664]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Babel Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10212,
+			"bldgId": 139,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 466
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959619, -37.797297]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Ian Potter Museum Of Art",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10211,
+			"bldgId": 136,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 465
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.964142, -37.797487]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Union House",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10210,
+			"bldgId": 130,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 464
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960902, -37.796863]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Redmond Barry Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10209,
+			"bldgId": 115,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 463
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962726, -37.796635]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Baldwin Spencer Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10208,
+			"bldgId": 113,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 462
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961977, -37.796512]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "The Spot",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10207,
+			"bldgId": 110,
+			"description": "",
+			"addr1": "198 Berkeley Street",
+			"addr2": "",
+			"locationId": 461
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.958796, -37.801593]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Law Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10206,
+			"bldgId": 106,
+			"description": "",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 460
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Business And Economics",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10205,
+			"bldgId": 105,
+			"description": "",
+			"addr1": "95-129 Barry Street",
+			"addr2": "",
+			"locationId": 459
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959228, -37.801548]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Alan Gilbert",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10204,
+			"bldgId": 104,
+			"description": "",
+			"addr1": "161 Barry Street",
+			"addr2": "",
+			"locationId": 458
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.959135, -37.800203]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Sports Centre",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10203,
+			"bldgId": 103,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 457
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.962302, -37.795917]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "David Penington Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10202,
+			"bldgId": 102,
+			"description": "",
+			"addr1": "30 Flemington Road",
+			"addr2": "",
+			"locationId": 456
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.953884, -37.797951]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Beaurepaire Centre",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10201,
+			"bldgId": 101,
+			"description": "",
+			"addr1": "University Of Melbourne",
+			"addr2": "",
+			"locationId": 455
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960892, -37.79601]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "CRE",
+			"title": "Gymnasium",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10255,
+			"bldgId": 754,
+			"description": "",
+			"addr1": "Creswick",
+			"addr2": "",
+			"locationId": 508
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [143.901352, -37.422996]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "CRE",
+			"title": "Forestry Institute 2",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10254,
+			"bldgId": 744,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 507
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [143.900247, -37.42273]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "CRE",
+			"title": "Semmens Hall",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10253,
+			"bldgId": 731,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 506
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [143.899967, -37.421614]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "CRE",
+			"title": "Stage 1",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10252,
+			"bldgId": 716,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 505
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [143.900159, -37.423431]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "CRE",
+			"title": "Seminar Centre",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10251,
+			"bldgId": 713,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 504
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [143.898941, -37.423454]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Performing Arts",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10263,
+			"bldgId": 879,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 516
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.967871, -37.824648]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Art Admin, Production Admin And Design",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10262,
+			"bldgId": 878,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 515
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.968101, -37.82501]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Sculpture",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10261,
+			"bldgId": 876,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 514
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.9671, -37.82527]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Workshop, Painting And Photography",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10260,
+			"bldgId": 874,
+			"description": "",
+			"addr1": "Grant Sturt Dodds Sts",
+			"addr2": "",
+			"locationId": 513
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.967511, -37.825612]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Hub Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10259,
+			"bldgId": 863,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 512
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.969314, -37.824389]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Music",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10258,
+			"bldgId": 862,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 511
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.969812, -37.824388]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Film & Television",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10257,
+			"bldgId": 861,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 510
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.969624, -37.824949]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Elisabeth Murdoch Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10256,
+			"bldgId": 860,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 509
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.970127, -37.824748]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "WER",
+			"title": "Pathology Building",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10248,
+			"bldgId": 416,
+			"description": "",
+			"addr1": "Cnr Princess Highway & North Road",
+			"addr2": "",
+			"locationId": 501
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.693736, -37.889665]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "WER",
+			"title": "Veterinary Hospital",
+			"locTypeId": 21,
+			"locType": "accessible_toilet",
+			"version": 10247,
+			"bldgId": 411,
+			"description": "",
+			"addr1": "Cnr Princess Highway & North Road",
+			"addr2": "",
+			"locationId": 500
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.692693, -37.889588]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Woodward Conference Centre",
+			"locTypeId": 22,
+			"locType": "conference",
+			"version": 10132,
+			"bldgId": 106,
+			"description": "10th Floor",
+			"addr1": "185 Pelham Street",
+			"addr2": "",
+			"locationId": 606
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960029, -37.802408]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Queensberry Children's Centre",
+			"locTypeId": 23,
+			"locType": "health_and_wellbeing",
+			"version": 22008,
+			"bldgId": 262,
+			"description": "",
+			"addr1": "228 Queensberry Street",
+			"addr2": "",
+			"locationId": 658
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.961245, -37.804097]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Health Services",
+			"locTypeId": 23,
+			"locType": "health_and_wellbeing",
+			"version": 22004,
+			"bldgId": 385,
+			"description": "",
+			"addr1": "138 Cardigan Steet",
+			"addr2": "",
+			"locationId": 634
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965503, -37.801689]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Children Services",
+			"locTypeId": 23,
+			"locType": "health_and_wellbeing",
+			"version": 22002,
+			"bldgId": 308,
+			"description": "",
+			"addr1": "856-858 Swanston Street",
+			"addr2": "",
+			"locationId": 632
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96515, -37.796266]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Counselling and Psychological Services",
+			"locTypeId": 23,
+			"locType": "health_and_wellbeing",
+			"version": 22001,
+			"bldgId": 385,
+			"description": "",
+			"addr1": "138 Cardigan Steet",
+			"addr2": "",
+			"locationId": 361
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.965503, -37.801689]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "STH",
+			"title": "Counselling and Psychological Services",
+			"locTypeId": 23,
+			"locType": "health_and_wellbeing",
+			"version": 22003,
+			"bldgId": 863,
+			"description": "",
+			"addr1": "",
+			"addr2": "",
+			"locationId": 633
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.969314, -37.824389]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Global Opportunities at Melbourne",
+			"locTypeId": 24,
+			"locType": "special",
+			"version": 54005,
+			"bldgId": 199,
+			"description": "The best time to start exploring overseas study opportunities is right now! In this session, learn about opportunities for semester-long and short-term overseas study - which will not only enhance your UniMelb degree, but also develop your personal and professional attributes for your CV and overall employability.",
+			"addr1": "Harold White Lecture Theatre, Level  1, Stop1",
+			"addr2": "",
+			"locationId": 674
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963788, -37.799998]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Clubs and Societies Days",
+			"locTypeId": 24,
+			"locType": "special",
+			"version": 54004,
+			"bldgId": 195,
+			"description": "Come and meet half of the course and general interest clubs.",
+			"addr1": "South Lawn",
+			"addr2": "",
+			"locationId": 673
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96055, -37.798275]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "UMSU Carnival Day",
+			"locTypeId": 24,
+			"locType": "special",
+			"version": 54003,
+			"bldgId": 195,
+			"description": "Hosted by the University of Melbourne Student Union, this is the official welcome to campus for new and returning students.",
+			"addr1": "South Lawn and Concrete Lawns",
+			"addr2": "",
+			"locationId": 672
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.96186, -37.797074]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "UMSU Carnival Day",
+			"locTypeId": 24,
+			"locType": "special",
+			"version": 54002,
+			"bldgId": 195,
+			"description": "Hosted by the University of Melbourne Student Union, this is the official welcome to campus for new and returning students.",
+			"addr1": "South Lawn and Concrete Lawns",
+			"addr2": "",
+			"locationId": 671
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.960323, -37.798619]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"altitude": "",
+			"geometry": "Point",
+			"campusId": "PAR",
+			"title": "Unimelb Essentials",
+			"locTypeId": 24,
+			"locType": "special",
+			"version": 54001,
+			"bldgId": 199,
+			"description": "This 30 minute session provides you with the inside knowledge you need to be a successful student at the University of Melbourne – whether you're new to university, new to Melbourne, or new to your undergraduate or graduate course!",
+			"addr1": "Level 1, Stop 1",
+			"addr2": "757 Swanston Street",
+			"locationId": 670
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [144.963717, -37.800154]
+		}
+	}]
+}
