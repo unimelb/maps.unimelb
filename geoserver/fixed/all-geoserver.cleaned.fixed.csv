@@ -1,0 +1,251 @@
+altitude,geometry,campusId,title,locTypeId,locType,version,bldgId,description,addr1,addr2,locationId,lon,lat
+,Point,PAR,Stop 1 (Parkville),2,stop1,22005,,,,757 Swanston Street,656,144.963717,-37.800154
+,Point,STH,Stop 1 (Southbank),2,stop1,14003,860,,,,657,144.970127,-37.824748
+,Point,SPT,Student Administration,3,department,10184,696,,35-49 Graham Street,,394,145.406671,-36.361939
+,Point,SPT,Rural Health Academic Centre,3,department,10181,696,Reception,35-49 Graham Street,,390,145.406671,-36.361939
+,Point,DOO,Melbourne School of Land and Environment,3,department,10172,505,,,,378,145.705947,-36.383173
+,Point,BUR,Department of Forests and Ecosystem Science,3,department,10148,903,,,,353,145.022532,-37.828551
+,Point,PAR,Murrup Barak,3,department,10548,128,,University Of Melbourne,,384,144.960615,-37.797309
+,Point,PAR,University Communications,3,department,10187,257,,187 Grattan Street,,398,144.962776,-37.800537
+,Point,PAR,Student Support Services,3,department,10186,113,,University Of Melbourne,,396,144.961977,-37.796512
+,Point,PAR,Student Health Service,3,department,10185,385,,138 Cardigan Steet,,395,144.965503,-37.801689
+,Point,PAR,Student Administration,3,department,10183,152,,University Of Melbourne,,393,144.961603,-37.797436
+,Point,PAR,Psychology Clinic,3,department,10180,236,,14-20 Blackwood Street,,389,144.955033,-37.801675
+,Point,PAR,Peter McPhee Centre,3,department,10179,344,,272-278 Faraday Street,,388,144.964898,-37.798161
+,Point,PAR,Optometry and Vision Sciences,3,department,10178,162,,University Of Melbourne,,386,144.963271,-37.798636
+,Point,PAR,Office for Environmental Programs,3,department,10177,163,OEP,University Of Melbourne,,385,144.961788,-37.798526
+,Point,PAR,Melbourne Institute of Applied Economic and Social Research,3,department,10175,104,MIAESR,161 Barry Street,,381,144.959135,-37.800203
+,Point,PAR,Melbourne Students and Learning,3,department,10174,152,,University Of Melbourne,,380,144.961603,-37.797436
+,Point,PAR,Microbiological Diagnostic Unit,3,department,10171,184,MDU,University Of Melbourne,,374,144.958417,-37.798666
+,Point,PAR,Marketing Office,3,department,10170,220,,"780, Elizabeth Street",,373,144.957997,-37.800419
+,Point,PAR,University Eyecare Clinic,3,department,10169,244,,Optometry & Vision Scienc,,368,144.964691,-37.797811
+,Point,PAR,Melbourne Medical School,3,department,10168,181,MMS,University Of Melbourne,,382,144.958905,-37.799241
+,Point,PAR,Melbourne Scholarships,3,department,10167,113,,University Of Melbourne,,377,144.961977,-37.796512
+,Point,PAR,Melbourne Institute,3,department,10166,105,,95-129 Barry Street,,376,144.959228,-37.801548
+,Point,PAR,LH Martin Institute,3,department,10165,243,,715 Swanston Street,,372,144.963422,-37.801146
+,Point,PAR,International Relations Office,3,department,10164,197,,University Of Melbourne,,371,144.963741,-37.799435
+,Point,PAR,International Centre,3,department,10163,197,,University Of Melbourne,,370,144.963741,-37.799435
+,Point,PAR,Grattan Institute,3,department,10162,242,,8-14 Malvina Place,,369,144.961822,-37.800579
+,Point,PAR,Department of Resource Management and Geography,3,department,10160,379,,207-221 Bouverie Street,,365,144.961882,-37.801306
+,Point,PAR,Department of Pharmacology,3,department,10159,181,,University Of Melbourne,,364,144.958905,-37.799241
+,Point,PAR,Department of Anatomy and Neuroscience,3,department,10158,181,,University Of Melbourne,,363,144.958905,-37.799241
+,Point,PAR,Centre for the Study of Higher Education,3,department,10157,243,CSHE,715 Swanston Street,,362,144.963422,-37.801146
+,Point,PAR,Community Medicine,3,department,10155,260,,200 Berkeley Street,,360,144.958899,-37.801164
+,Point,PAR,Chaplain,3,department,10154,385,,138 Cardigan Steet,,359,144.965503,-37.801689
+,Point,PAR,Cardigan Street Childcare,3,department,10152,335,,427-429 Cardigan Street,,357,144.965788,-37.796048
+,Point,PAR,Biomedical Sciences Academic Centre,3,department,10151,181,,University Of Melbourne,,356,144.958905,-37.799241
+,Point,PAR,Audiology and Speech Pathology,3,department,10150,246,,550 Swanston Street,,355,144.96386,-37.803848
+,Point,PAR,Australian Mathematical Sciences Institute,3,department,10149,161,AMSI,University Of Melbourne,,354,144.962149,-37.798436
+,Point,PAR,"Department of Surgery, St Vincent's Hospital",3,department,10028,,,,,397,144.9744,-37.8066
+,Point,PAR,St Vincent's Hospital Clinical School,3,department,10025,,,,,392,144.9746,-37.8065
+,Point,PAR,Department of Otolaryngology,3,department,10021,,,,,387,144.9762,-37.8088
+,Point,PAR,"Department of Medicine, St Vincent's Hospital",3,department,10014,,,,,375,144.9745,-37.8067
+,Point,PAR,Victorian Life Sciences Computation Initiative,3,department,7023,,VLSCI,,,399,144.9627,-37.8004
+,Point,PAR,Melbourne University Publishing,3,department,7007,,MUP,,,383,144.96565,-37.80366
+,Point,PAR,The Early Learning Centre,3,department,6991,,ELC,,,367,145.002644,-37.801583
+,Point,CRE,Melbourne School of Land and Environment (Creswick),3,department,10173,744,,,,379,143.900247,-37.42273
+,Point,BUR,Burnley Library,7,library,10197,914,,,,423,145.021787,-37.828218
+,Point,PAR,Eastern Resource Centre,7,library,22009,171,ERC,University Of Melbourne,,426,144.963067,-37.799658
+,Point,PAR,Dulcie Hollyock,7,library,10199,177,,University Of Melbourne,,425,144.959395,-37.798366
+,Point,PAR,Veterinary Science,7,library,10196,403,,Flemington Road,,432,144.95403,-37.79708
+,Point,PAR,Rowden White,7,library,10195,130,,University Of Melbourne,,431,144.960902,-37.796863
+,Point,PAR,Louise Hanson-Dyer Music Library,7,library,10194,171,,University Of Melbourne,,430,144.963067,-37.799658
+,Point,PAR,Law Library,7,library,10193,106,,185 Pelham Street,,428,144.960029,-37.802408
+,Point,PAR,Giblin Eunson Library,7,library,10192,105,,95-129 Barry Street,,427,144.959228,-37.801548
+,Point,PAR,Brownless Biomedical library,7,library,10190,182,,University Of Melbourne,,422,144.959446,-37.798984
+,Point,PAR,Baillieu,7,library,10189,177,,University Of Melbourne,,421,144.959395,-37.798366
+,Point,PAR,"Architecture, Building, and Planning",7,library,10188,133,,University of Melbourne,,420,144.9626315,-37.797212
+,Point,CRE,Creswick Library,7,library,10198,719,,,,424,143.898896,-37.422283
+,Point,STH,Lenton Parr Library,7,library,10200,863,,,,429,144.969314,-37.824389
+,Point,PAR,Books 'n Bites,14,food_and_drink,62022,,Café Style Food,,,293,144.95839,-37.80178
+,Point,PAR,Stovetop Cafe,14,food_and_drink,62021,,Cafe and light meals,,,680,144.960681,-37.803419
+,Point,PAR,La Bonne Bouffe,14,food_and_drink,62020,,"Sandwiches, Wraps and Rolls",,,679,144.960751,-37.796848
+,Point,PAR,Sweet Tooth,14,food_and_drink,62019,,"Sweets, Snacks and Ice-cream",,,681,144.960469,-37.796939
+,Point,PAR,Standing Room,14,food_and_drink,62018,,"Coffee, Hot drinks",,,677,144.960645,-37.796943
+,Point,PAR,Ho Ho's canteen,14,food_and_drink,62017,,Cafe Style Food,,,676,144.96112,-37.797122
+,Point,PAR,Subway (Union House),14,food_and_drink,62016,,Sandwiches and Rolls,,,675,144.960483,-37.796779
+,Point,PAR,House of Cards,14,food_and_drink,62015,,Take Away Coffee,,,663,144.961611,-37.799189
+,Point,PAR,Uni Catch,14,food_and_drink,62014,,Seafood/Australian,,,304,144.960805,-37.796794
+,Point,PAR,Boost Juice,14,food_and_drink,62013,,Juices and Shakes,,,298,144.960649,-37.796818
+,Point,PAR,Express Kebabs,14,food_and_drink,62012,,Middle Eastern,,,301,144.960572,-37.796805
+,Point,PAR,Vegi Patch,14,food_and_drink,62011,,"Health Food, vegetarian, wraps and burgers",,,286,144.960401,-37.796918
+,Point,PAR,Uni Curry,14,food_and_drink,62010,,Indian,,,306,144.960645,-37.796773
+,Point,PAR,Saigon Noodle Bar,14,food_and_drink,62009,,Asian,,,299,144.960545,-37.797016
+,Point,PAR,Bubble Cup,14,food_and_drink,62008,,Drink Station,,,297,144.960571,-37.796955
+,Point,PAR,Plush Fish Coffee and Sushi Bar,14,food_and_drink,62007,,Japanese,,,285,144.961307,-37.796933
+,Point,PAR,Chill Out,14,food_and_drink,62006,,"Drinks, Juices, sandwiches",,,303,144.96091,-37.796789
+,Point,PAR,Oriental House,14,food_and_drink,62005,,Asian,,,305,144.961327,-37.797074
+,Point,PAR,Pronto Pizza,14,food_and_drink,62004,,Pizza,,,287,144.961299,-37.797142
+,Point,PAR,Professor's Walk Cafe,14,food_and_drink,22006,,Café Style Food,,,296,144.959557,-37.79834
+,Point,PAR,Norsiah's Kitchen,14,food_and_drink,6976,,,,,352,144.96391,-37.802011
+,Point,PAR,Oke Oke,14,food_and_drink,6975,,,,,351,144.96391,-37.80189
+,Point,PAR,Momo Sushi,14,food_and_drink,6974,,Japanese,,,350,144.964007,-37.801231
+,Point,PAR,Subway,14,food_and_drink,6973,,,,,349,144.96406,-37.800909
+,Point,PAR,Colourful Yunnan,14,food_and_drink,6972,,Chinese,,,348,144.964101,-37.800612
+,Point,PAR,Animal Orchestra,14,food_and_drink,6971,,,,,347,144.963331,-37.800531
+,Point,PAR,KFC,14,food_and_drink,6970,,,,,346,144.963763,-37.800578
+,Point,PAR,Toothpicks Café,14,food_and_drink,6969,,Café,,,345,144.964377,-37.799175
+,Point,PAR,Krunchy Role,14,food_and_drink,6968,,Middle Eastern,,,344,144.964431,-37.798953
+,Point,PAR,Nori Sushi,14,food_and_drink,6967,,Japanese,,,343,144.964425,-37.798861
+,Point,PAR,Huoyanshan,14,food_and_drink,6966,,,,,342,144.964723,-37.797562
+,Point,PAR,Lucky Yu,14,food_and_drink,6965,,Chinese,,,341,144.964777,-37.797371
+,Point,PAR,Bento King,14,food_and_drink,6964,,Japanese,,,340,144.964849,-37.796704
+,Point,PAR,Carte,14,food_and_drink,6962,,Crepes,,,338,144.960477,-37.799099
+,Point,PAR,Tsubu,14,food_and_drink,6961,,Japanese,,,337,144.963248,-37.799665
+,Point,PAR,Zambrero,14,food_and_drink,6931,,Mexican,,,307,144.960732,-37.797024
+,Point,PAR,Real Meal ,14,food_and_drink,6926,,Italian,,,302,144.9608,-37.79691
+,Point,PAR,Eastern Kitchen,14,food_and_drink,6924,,Asian,,,300,144.9608,-37.79691
+,Point,PAR,Dr Dax Kitchen,14,food_and_drink,6919,,Café Style Food,,,295,144.958098,-37.798151
+,Point,PAR,Haymarket Place,14,food_and_drink,6918,,Café Style Food,,,294,144.95886,-37.800521
+,Point,PAR,Pearls Café and Sandwhich Bar,14,food_and_drink,6916,,Café Style Food,,,292,144.95937,-37.80191
+,Point,PAR,Castro's Kiosk,14,food_and_drink,6915,,Café Style Food,,,291,144.96349,-37.79723
+,Point,PAR,Percy's,14,food_and_drink,6914,,Café Style Food,,,290,144.958414,-37.797316
+,Point,PAR,Kere Kere,14,food_and_drink,6913,,Coffee,,,289,144.961716,-37.798806
+,Point,PAR,Food Co-op,14,food_and_drink,6911,,Health Food,,,288,144.9608,-37.79691
+,Point,PAR,Bar Baretto,14,food_and_drink,6906,,Café Style Food,,,283,144.959638,-37.800099
+,Point,PAR,Bar Commercio,14,food_and_drink,6905,,Café Style Food,,,282,144.958632,-37.801687
+,Point,PAR,Porta Via Espresso Bar ,14,food_and_drink,6904,,Café Style Food,,,281,144.960096,-37.802174
+,Point,PAR,Seven Seeds,14,food_and_drink,6903,,Café Style Food,,,280,144.959222,-37.802892
+,Point,PAR,Bar Scopa,14,food_and_drink,6901,,Café,,,278,144.960383,-37.802911
+,Point,PAR,Briscola Café,14,food_and_drink,6900,,Café Style Food,,,277,144.961349,-37.802365
+,Point,PAR,Café Tre Sette,14,food_and_drink,6899,,Café Style Food,,,276,144.96181,-37.803212
+,Point,PAR,Gate 14,15,gate,10049,,,,,419,144.9582097,-37.79601275
+,Point,PAR,Gate 13,15,gate,10048,,,,,418,144.9580435,-37.79751861
+,Point,PAR,Gate 12,15,gate,10047,,,,,417,144.957958,-37.79802104
+,Point,PAR,Gate 11,15,gate,10046,,,,,416,144.9578556,-37.79891853
+,Point,PAR,Gate 10,15,gate,10045,,,,,415,144.9605787,-37.79985654
+,Point,PAR,Gate 9,15,gate,10044,,,,,414,144.961691,-37.80007916
+,Point,PAR,Gate 8,15,gate,10043,,,,,413,144.9625971,-37.80019061
+,Point,PAR,Gate 7,15,gate,10041,,,,,411,144.9634946,-37.8003312
+,Point,PAR,Gate 6,15,gate,10040,,,,,410,144.9639421,-37.79960476
+,Point,PAR,Gate 4,15,gate,10037,,,,,407,144.9640859,-37.79851543
+,Point,PAR,Gate 3,15,gate,10035,,,,,405,144.9642625,-37.79783447
+,Point,PAR,Gate 2,15,gate,10032,,,,,402,144.9643446,-37.79712854
+,Point,PAR,Gate 1,15,gate,10031,,,,,401,144.9644097,-37.79667543
+,Point,STH,Gate 7,15,gate,10042,,,,,412,144.9692,-37.8237
+,Point,STH,Gate 6,15,gate,10039,,,,,409,144.9671,-37.8251
+,Point,STH,Gate 5,15,gate,10038,,,,,408,144.9669,-37.8256
+,Point,STH,Gate 4,15,gate,10036,,,,,406,144.9681,-37.8253
+,Point,STH,Gate 3,15,gate,10034,,,,,404,144.9685,-37.8244
+,Point,STH,Gate 2,15,gate,10033,,,,,403,144.9695,-37.8253
+,Point,STH,Gate 1,15,gate,10030,,,,,400,144.9701,-37.8252
+,Point,PAR,NAB,17,atm,6960,,,,,336,144.968261,-37.797658
+,Point,PAR,ANZ,17,atm,6959,,,,,335,144.968261,-37.798098
+,Point,PAR,Westpac,17,atm,6958,,,,,334,144.967998,-37.797967
+,Point,PAR,Bank of Melbourne,17,atm,6957,,,,,333,144.96729,-37.799872
+,Point,PAR,NAB,17,atm,6956,,,,,332,144.967185,-37.799696
+,Point,PAR,ANZ,17,atm,6955,,,,,331,144.967185,-37.800515
+,Point,PAR,CBA,17,atm,6954,,,,,330,144.966947,-37.799387
+,Point,PAR,Westpac,17,atm,6953,,,,,329,144.966863,-37.80017
+,Point,PAR,Bendigo Bank,17,atm,6952,,,,,328,144.96673,-37.80272
+,Point,PAR,Independent,17,atm,6898,,Inside,,,275,144.960276,-37.804709
+,Point,PAR,Independent,17,atm,6897,,Inside,,,274,144.960276,-37.803509
+,Point,PAR,Independent,17,atm,6896,,Inside,,,273,144.96107,-37.80239
+,Point,PAR,NAB,17,atm,6895,,Outside,,,272,144.961365,-37.796846
+,Point,PAR,Bendigo Bank,17,atm,6894,,Inside,,,271,144.9608,-37.79691
+,Point,PAR,CBA,17,atm,6893,,Inside,,,270,144.960584,-37.797066
+,Point,PAR,CBA,17,atm,6892,,Outside,,,269,144.960372,-37.797147
+,Point,PAR,Redi,17,atm,6891,,Outside,,,268,144.963006,-37.798344
+,Point,PAR,ANZ,17,atm,6890,,Inside,,,267,144.961078,-37.796786
+,Point,PAR,NAB,17,atm,6889,,Outside,,,266,144.960316,-37.797251
+,Point,PAR,Entrance 10,18,drinking_water,6951,,,,,327,144.960539,-37.799874
+,Point,PAR,University Square,18,drinking_water,6950,,,,,326,144.96022,-37.80153
+,Point,PAR,John Smyth/ Ross McKay Courtyard,18,drinking_water,6949,,,,,325,144.963406,-37.799531
+,Point,PAR,ERC South - West Corner,18,drinking_water,6948,,,,,324,144.962516,-37.799448
+,Point,PAR,Old Metallurgy South Side Ramp,18,drinking_water,6947,,,,,323,144.963326,-37.798444
+,Point,PAR,South Lawn Path,18,drinking_water,6946,,,,,322,144.963326,-37.798444
+,Point,PAR,Monash Road/Alice Hoy,18,drinking_water,6945,,,,,321,144.963326,-37.798444
+,Point,PAR,Wilson Hall,18,drinking_water,6944,,,,,320,144.961523,-37.798323
+,Point,PAR,Mason Road/Richard Berry,18,drinking_water,6943,,,,,319,144.963639,-37.79781
+,Point,PAR,Physics/Castro's Kiosk,18,drinking_water,6942,,,,,318,144.961531,-37.796979
+,Point,PAR,Concrete Lawn,18,drinking_water,6941,,,,,317,144.961531,-37.796979
+,Point,PAR,MSLE/Tin Alley,18,drinking_water,6940,,,,,316,144.958653,-37.79607
+,Point,PAR,North Court,18,drinking_water,6939,,,,,315,144.96118,-37.796693
+,Point,PAR,Union House (south entrance),18,drinking_water,6938,,,,,314,144.960584,-37.797077
+,Point,PAR,Old Arts (West entrance),18,drinking_water,6937,,,,,313,144.959807,-37.797675
+,Point,PAR,Music Conservatorium,18,drinking_water,6936,,,,,312,144.958425,-37.79753
+,Point,PAR,Melbourne Brain Center,18,drinking_water,6935,,,,,311,144.958492,-37.79795
+,Point,PAR,Medical Building (North/West Entrance),18,drinking_water,6934,,,,,310,144.958731,-37.799016
+,Point,PAR,Medical Building (Grattan St Entrance),18,drinking_water,6933,,,,,309,144.958954,-37.799597
+,Point,PAR,Bookshop (Co-op),19,shop,62003,,"The Co-op at the University of Melbourne is located in the Alan Gilbert Building, 161 Barry Street, Parkville",,,433,144.959395,-37.800074
+,Point,PAR,Royal Melbourne Hospital Post Office,19,shop,7061,,,,,437,144.9556,-37.7992
+,Point,PAR,Parkville Post Office,19,shop,7060,,,,,436,144.9567,-37.7946
+,Point,PAR,Carlton South Post Office,19,shop,7059,,,,,435,144.9662,-37.804
+,Point,PAR,Carlton Post Office,19,shop,7058,,,,,434,144.9698,-37.7973
+,Point,PAR,Melbourne Campus Pharmacy,19,shop,6932,,Union House,,,308,144.9608,-37.79691
+,Point,SPT,"49 Graham St, Shepparton",21,accessible_toilet,10250,696,,35-49 Graham Street,,503,145.406671,-36.361939
+,Point,DOO,Dookie-Building 527,21,accessible_toilet,10249,527,,,,502,145.705736,-36.384466
+,Point,BUR,Bur-Student Recreation Ct,21,accessible_toilet,10266,916,,,,519,145.02308,-37.828863
+,Point,BUR,Bur-Seminar & Training Rm,21,accessible_toilet,10265,912,,,,518,145.024007,-37.829808
+,Point,BUR,Burnley-Main Building,21,accessible_toilet,10264,901,,,,517,145.021391,-37.82917
+,Point,PAR,Vri Building,21,accessible_toilet,10246,403,,Flemington Road,,499,144.95403,-37.79708
+,Point,PAR,138-146 Cardigan Steet,21,accessible_toilet,10245,385,,138 Cardigan Steet,,498,144.965503,-37.801689
+,Point,PAR,207-221 Bouverie Street,21,accessible_toilet,10244,379,,207-221 Bouverie Street,,497,144.961882,-37.801306
+,Point,PAR,723 Swanston Street,21,accessible_toilet,10243,348,,723 Swanston Street,,496,144.963455,-37.800875
+,Point,PAR,Peter McPhee Centre,21,accessible_toilet,10242,344,,272-278 Faraday Street,,495,144.964898,-37.798161
+,Point,PAR,234 Queensberry Street,21,accessible_toilet,10241,263,,234 Queensberry Street,,494,144.960826,-37.80397
+,Point,PAR,228 Queensberry Street,21,accessible_toilet,10239,262,,228 Queensberry Street,,493,144.961245,-37.804097
+,Point,PAR,200 Berkeley Street,21,accessible_toilet,10238,260,,200 Berkeley Street,,492,144.958899,-37.801164
+,Point,PAR,800 Swanston Street,21,accessible_toilet,10237,244,,Optometry & Vision Scienc,,491,144.964691,-37.797811
+,Point,PAR,Mccoy Building/Earth Scie,21,accessible_toilet,10236,200,,253-275 Elgin Street,,490,144.965252,-37.797107
+,Point,PAR,1888 Building,21,accessible_toilet,10235,198,,University Of Melbourne,,489,144.963202,-37.799821
+,Point,PAR,Elec. And Electron Eng.,21,accessible_toilet,10234,193,,University Of Melbourne,,488,144.961184,-37.798847
+,Point,PAR,David Caro Buliding,21,accessible_toilet,10233,192,,University Of Melbourne,,487,144.963988,-37.796839
+,Point,PAR,John Medley Building,21,accessible_toilet,10232,191,,University Of Melbourne,,486,144.960523,-37.799238
+,Point,PAR,Frank Tate Building,21,accessible_toilet,10231,189,,University Of Melbourne,,485,144.963292,-37.799293
+,Point,PAR,Microbiology Building,21,accessible_toilet,10230,184,,University Of Melbourne,,484,144.958417,-37.798666
+,Point,PAR,Brownless Medical Library,21,accessible_toilet,10229,182,,University Of Melbourne,,483,144.959446,-37.798984
+,Point,PAR,Medical Building,21,accessible_toilet,10228,181,,University Of Melbourne,,482,144.958905,-37.799241
+,Point,PAR,Baillieu Library,21,accessible_toilet,10227,177,,University Of Melbourne,,481,144.959395,-37.798366
+,Point,PAR,Old Engineering School,21,accessible_toilet,10226,173,,University Of Melbourne,,480,144.961748,-37.799506
+,Point,PAR,Erc Building,21,accessible_toilet,10225,171,,University Of Melbourne,,479,144.963067,-37.799658
+,Point,PAR,Mechanical Engineering,21,accessible_toilet,10224,170,,University Of Melbourne,,478,144.962283,-37.799845
+,Point,PAR,Doug Mcdonell Building,21,accessible_toilet,10223,168,,University Of Melbourne,,477,144.962968,-37.798977
+,Point,PAR,Alice Hoy Building,21,accessible_toilet,10222,162,,University Of Melbourne,,476,144.963271,-37.798636
+,Point,PAR,Building 161,21,accessible_toilet,10221,161,,University Of Melbourne,,475,144.962149,-37.798436
+,Point,PAR,Richard Berry Building,21,accessible_toilet,10220,160,,University Of Melbourne,,474,144.963642,-37.798088
+,Point,PAR,Sidney Myer Asia Centre,21,accessible_toilet,10219,158,,University Of Melbourne,,473,144.963916,-37.798903
+,Point,PAR,Chemistry,21,accessible_toilet,10218,153,,University Of Melbourne,,472,144.962111,-37.797946
+,Point,PAR,Wilson Hall,21,accessible_toilet,10217,151,,University Of Melbourne,,471,144.961297,-37.798214
+,Point,PAR,Old Arts Building,21,accessible_toilet,10216,149,,University Of Melbourne,,470,144.960163,-37.797766
+,Point,PAR,Arts West,21,accessible_toilet,10215,148,,University Of Melbourne,,469,144.959351,-37.797763
+,Point,PAR,Zoology Building,21,accessible_toilet,10214,147,,University Of Melbourne,,468,144.95895,-37.79725
+,Point,PAR,Conservatorium Of Music,21,accessible_toilet,10213,141,,University Of Melbourne,,467,144.958489,-37.797664
+,Point,PAR,Babel Building,21,accessible_toilet,10212,139,,University Of Melbourne,,466,144.959619,-37.797297
+,Point,PAR,Ian Potter Museum Of Art,21,accessible_toilet,10211,136,,University Of Melbourne,,465,144.964142,-37.797487
+,Point,PAR,Union House,21,accessible_toilet,10210,130,,University Of Melbourne,,464,144.960902,-37.796863
+,Point,PAR,Redmond Barry Building,21,accessible_toilet,10209,115,,University Of Melbourne,,463,144.962726,-37.796635
+,Point,PAR,Baldwin Spencer Building,21,accessible_toilet,10208,113,,University Of Melbourne,,462,144.961977,-37.796512
+,Point,PAR,The Spot,21,accessible_toilet,10207,110,,198 Berkeley Street,,461,144.958796,-37.801593
+,Point,PAR,Law Building,21,accessible_toilet,10206,106,,185 Pelham Street,,460,144.960029,-37.802408
+,Point,PAR,Business And Economics,21,accessible_toilet,10205,105,,95-129 Barry Street,,459,144.959228,-37.801548
+,Point,PAR,Alan Gilbert,21,accessible_toilet,10204,104,,161 Barry Street,,458,144.959135,-37.800203
+,Point,PAR,Sports Centre,21,accessible_toilet,10203,103,,University Of Melbourne,,457,144.962302,-37.795917
+,Point,PAR,David Penington Building,21,accessible_toilet,10202,102,,30 Flemington Road,,456,144.953884,-37.797951
+,Point,PAR,Beaurepaire Centre,21,accessible_toilet,10201,101,,University Of Melbourne,,455,144.960892,-37.79601
+,Point,CRE,Gymnasium,21,accessible_toilet,10255,754,,Creswick,,508,143.901352,-37.422996
+,Point,CRE,Forestry Institute 2,21,accessible_toilet,10254,744,,,,507,143.900247,-37.42273
+,Point,CRE,Semmens Hall,21,accessible_toilet,10253,731,,,,506,143.899967,-37.421614
+,Point,CRE,Stage 1,21,accessible_toilet,10252,716,,,,505,143.900159,-37.423431
+,Point,CRE,Seminar Centre,21,accessible_toilet,10251,713,,,,504,143.898941,-37.423454
+,Point,STH,Performing Arts,21,accessible_toilet,10263,879,,,,516,144.967871,-37.824648
+,Point,STH,"Art Admin, Production Admin And Design",21,accessible_toilet,10262,878,,,,515,144.968101,-37.82501
+,Point,STH,Sculpture,21,accessible_toilet,10261,876,,,,514,144.9671,-37.82527
+,Point,STH,"Workshop, Painting And Photography",21,accessible_toilet,10260,874,,Grant Sturt Dodds Sts,,513,144.967511,-37.825612
+,Point,STH,Hub Building,21,accessible_toilet,10259,863,,,,512,144.969314,-37.824389
+,Point,STH,Music,21,accessible_toilet,10258,862,,,,511,144.969812,-37.824388
+,Point,STH,Film & Television,21,accessible_toilet,10257,861,,,,510,144.969624,-37.824949
+,Point,STH,Elisabeth Murdoch Building,21,accessible_toilet,10256,860,,,,509,144.970127,-37.824748
+,Point,WER,Pathology Building,21,accessible_toilet,10248,416,,Cnr Princess Highway & North Road,,501,144.693736,-37.889665
+,Point,WER,Veterinary Hospital,21,accessible_toilet,10247,411,,Cnr Princess Highway & North Road,,500,144.692693,-37.889588
+,Point,PAR,Woodward Conference Centre,22,conference,10132,106,10th Floor,185 Pelham Street,,606,144.960029,-37.802408
+,Point,PAR,Queensberry Children's Centre,23,health_and_wellbeing,22008,262,,228 Queensberry Street,,658,144.961245,-37.804097
+,Point,PAR,Health Services,23,health_and_wellbeing,22004,385,,138 Cardigan Steet,,634,144.965503,-37.801689
+,Point,PAR,Children Services,23,health_and_wellbeing,22002,308,,856-858 Swanston Street,,632,144.96515,-37.796266
+,Point,PAR,Counselling and Psychological Services,23,health_and_wellbeing,22001,385,,138 Cardigan Steet,,361,144.965503,-37.801689
+,Point,STH,Counselling and Psychological Services,23,health_and_wellbeing,22003,863,,,,633,144.969314,-37.824389
+,Point,PAR,Global Opportunities at Melbourne,24,special,54005,199,"The best time to start exploring overseas study opportunities is right now! In this session, learn about opportunities for semester-long and short-term overseas study - which will not only enhance your UniMelb degree, but also develop your personal and professional attributes for your CV and overall employability.","Harold White Lecture Theatre, Level  1, Stop1",,674,144.963788,-37.799998
+,Point,PAR,Clubs and Societies Days,24,special,54004,195,Come and meet half of the course and general interest clubs.,South Lawn,,673,144.96055,-37.798275
+,Point,PAR,UMSU Carnival Day,24,special,54003,195,"Hosted by the University of Melbourne Student Union, this is the official welcome to campus for new and returning students.",South Lawn and Concrete Lawns,,672,144.96186,-37.797074
+,Point,PAR,UMSU Carnival Day,24,special,54002,195,"Hosted by the University of Melbourne Student Union, this is the official welcome to campus for new and returning students.",South Lawn and Concrete Lawns,,671,144.960323,-37.798619
+,Point,PAR,Unimelb Essentials,24,special,54001,199,"This 30 minute session provides you with the inside knowledge you need to be a successful student at the University of Melbourne – whether you're new to university, new to Melbourne, or new to your undergraduate or graduate course!","Level 1, Stop 1",757 Swanston Street,670,144.963717,-37.800154
