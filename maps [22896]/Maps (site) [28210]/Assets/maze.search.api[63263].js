@@ -1,6 +1,6 @@
 var jsonResponse = JSON.parse(_REST.responses[0].body);
 
-// convert all the get variables to local variables
+// convert all the get variables to local variables 
 var qGet = "%globals_get_q%";
 var rowsGet = "%globals_get_rows^empty:10%";
 var startGet = "%globals_get_start^empty:0%";
