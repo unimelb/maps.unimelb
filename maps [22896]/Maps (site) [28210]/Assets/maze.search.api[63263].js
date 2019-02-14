@@ -1,6 +1,7 @@
 var jsonResponse = JSON.parse(_REST.responses[0].body);
 
-// convert all the get variables to local variables 
+// convert all the get variables to local variables
+var qURL = "%globals_asset_url%";
 var qGet = "%globals_get_q%";
 var rowsGet = "%globals_get_rows^empty:10%";
 var startGet = "%globals_get_start^empty:0%";
@@ -131,7 +132,7 @@ function parseFacets(facets){ // processes facets in json output from API
 	const docs = facets.doctype;
 	parseTotal(docs);
 	const campuses = facets.campus_ids;
-	parseCampuses(campuses);
+//	parseCampuses(campuses);
 }
 
 function parseTotal(docs){ // processes the docs facet to get a total number of results
@@ -143,12 +144,11 @@ function parseTotal(docs){ // processes the docs facet to get a total number of 
 }
 
 function outTotalHTML(totalResults){ // builds the total count html
-	startGetN = parseInt(startGet, 10);
-	rowsGetN = parseInt(rowsGet, 10);
-	totalOut = "<p class='pager'>"
-	// FIX if startGet + rowsGet > totalResults
+	var startGetN = parseInt(startGet, 10);
+	var rowsGetN = parseInt(rowsGet, 10);
+	var totalOut = "<p class='pager'>"
 	totalOut += "Showing " + (startGetN + 1) + "-" + (startGetN + rowsGetN) + " of " + totalResults;
-	linkUrl = qURL + "?q=" + qGet + "&campusid=" + campusidGet + "&rows=" + rowsGet;
+	var linkUrl = qURL + "?q=" + qGet + "&campusid=" + campusidGet + "&rows=" + rowsGet;
 	if (startGetN > rowsGetN){
 		// if we're not on the first page of results
 		totalOut += " <a href='" + linkUrl + "&start=" + (startGetN - rowsGetN) + "'>Prev " + rowsGet + "<\/a>";
@@ -157,15 +157,8 @@ function outTotalHTML(totalResults){ // builds the total count html
 		// if we're not on the last page of results
 		totalOut += " <a href='" + linkUrl + "&start=" + (startGetN + rowsGetN) + "'>Next " + rowsGet + "<\/a>";
 	}
-/*
-var qURL = "https://maps.unimelb.edu.au/search-test/_recache";
-var qGet = "library";
-var rowsGet = "10";
-var startGet = "0";
-var campusidGet = "200";
-*/
 	totalOut += "<\/p>";
-	console.log(totalOut);
+	print(totalOut);
 }
 
 function parseCampuses(campuses){ // processes the campusID facet
@@ -184,7 +177,7 @@ function parseCampuses(campuses){ // processes the campusID facet
 }
 
 function outCampusFacets(cI,cFname,cfID,cfCount){ //
-//	console.log(cI,cFname,cfID,cfCount);
+	print(cI,cFname,cfID,cfCount);
 }
 
 if (jsonResponse.result){
