@@ -132,7 +132,7 @@ function parseFacets(facets){ // processes facets in json output from API
 	const docs = facets.doctype;
 	parseTotal(docs);
 	const campuses = facets.campus_ids;
-//	parseCampuses(campuses);
+	parseCampuses(campuses);
 }
 
 function parseTotal(docs){ // processes the docs facet to get a total number of results
@@ -163,21 +163,19 @@ function outTotalHTML(totalResults){ // builds the total count html
 
 function parseCampuses(campuses){ // processes the campusID facet
 	const cIDs = Object.keys(campuses);
-	const cCount = Object.values(campuses);
-	var cfID = "", cFname = "";
-//	console.log(cIDs,cCount);
-//	console.log(campusArray);
+	var campusKey = "",
+		campusVal = "",
+		cFname = "";
 	for(var cI = 0, cTotal = cIDs.length, cCurr = ""; cI<cTotal; cI++) {
-		cI = cI;
-		cfID = cIDs[cI];
-		cFname = campusArray[cfID];
-		cfCount = cCount[cI];
-		outCampusFacets(cI,cFname,cfID,cfCount);
-	}	
+		campusKey = cIDs[cI];
+		campusVal = campuses[campusKey];
+		cFname = campusArray[campusKey];
+		outCampusFacets(cFname, campusKey, campusVal);
+	}
 }
 
-function outCampusFacets(cI,cFname,cfID,cfCount){ //
-	print(cI,cFname,cfID,cfCount);
+function outCampusFacets(cFname, campusKey, campusVal){ //
+	print(cFname, campusKey, campusVal);
 }
 
 if (jsonResponse.result){
