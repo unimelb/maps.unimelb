@@ -115,7 +115,7 @@ function outJson() {
     print('];\n<\/script>');
 }
 
-function outHtml(ou) {
+function outHtml(ou) { // prints the html output
     if (ou == "results"){
         print('<ul class="search-results">\n');
     	print(htmlOut);
@@ -126,9 +126,71 @@ function outHtml(ou) {
     }
 }
 
+function parseFacets(facets){ // processes facets in json output from API
+	// split into two parts for separate processing
+	const docs = facets.doctype;
+	parseTotal(docs);
+	const campuses = facets.campus_ids;
+	parseCampuses(campuses);
+}
+
+function parseTotal(docs){ // processes the docs facet to get a total number of results
+	totalResults = 0;
+	for (var docN in docs) {
+		totalResults = parseInt(totalResults, 10) + parseInt(docs[docN], 10);
+	}
+	outTotalHTML(totalResults);
+}
+
+function outTotalHTML(totalResults){ // builds the total count html
+	startGetN = parseInt(startGet, 10);
+	rowsGetN = parseInt(rowsGet, 10);
+	totalOut = "<p class='pager'>"
+	// FIX if startGet + rowsGet > totalResults
+	totalOut += "Showing " + (startGetN + 1) + "-" + (startGetN + rowsGetN) + " of " + totalResults;
+	linkUrl = qURL + "?q=" + qGet + "&campusid=" + campusidGet + "&rows=" + rowsGet;
+	if (startGetN > rowsGetN){
+		// if we're not on the first page of results
+		totalOut += " <a href='" + linkUrl + "&start=" + (startGetN - rowsGetN) + "'>Prev " + rowsGet + "<\/a>";
+	}
+    if((startGetN + rowsGetN) < totalResults){
+		// if we're not on the last page of results
+		totalOut += " <a href='" + linkUrl + "&start=" + (startGetN + rowsGetN) + "'>Next " + rowsGet + "<\/a>";
+	}
+/*
+var qURL = "https://maps.unimelb.edu.au/search-test/_recache";
+var qGet = "library";
+var rowsGet = "10";
+var startGet = "0";
+var campusidGet = "200";
+*/
+	totalOut += "<\/p>";
+	console.log(totalOut);
+}
+
+function parseCampuses(campuses){ // processes the campusID facet
+	const cIDs = Object.keys(campuses);
+	const cCount = Object.values(campuses);
+	var cfID = "", cFname = "";
+//	console.log(cIDs,cCount);
+//	console.log(campusArray);
+	for(var cI = 0, cTotal = cIDs.length, cCurr = ""; cI<cTotal; cI++) {
+		cI = cI;
+		cfID = cIDs[cI];
+		cFname = campusArray[cfID];
+		cfCount = cCount[cI];
+		outCampusFacets(cI,cFname,cfID,cfCount);
+	}	
+}
+
+function outCampusFacets(cI,cFname,cfID,cfCount){ //
+//	console.log(cI,cFname,cfID,cfCount);
+}
+
 if (jsonResponse.result){
 	var pois = jsonResponse.result;
 	if (pois.length > 0){
+		parseFacets(jsonResponse.facets);
 		parsePois();
 	}else{
     	outHtml("empty");
