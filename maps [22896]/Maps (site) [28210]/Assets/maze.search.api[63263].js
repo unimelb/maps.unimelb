@@ -149,7 +149,7 @@ function outTotalHTML(totalResults){ // builds the total count html
 	var totalOut = "<p class='pager'>"
 	totalOut += "Showing " + (startGetN + 1) + "-" + (startGetN + rowsGetN) + " of " + totalResults;
 	var linkUrl = qURL + "?q=" + qGet + "&campusid=" + campusidGet + "&rows=" + rowsGet;
-	if (startGetN > rowsGetN){
+	if (startGetN >= rowsGetN){
 		// if we're not on the first page of results
 		totalOut += " <a href='" + linkUrl + "&start=" + (startGetN - rowsGetN) + "'>Prev " + rowsGet + "<\/a>";
 	}
@@ -165,17 +165,19 @@ function parseCampuses(campuses){ // processes the campusID facet
 	const cIDs = Object.keys(campuses);
 	var campusKey = "",
 		campusVal = "",
-		cFname = "";
+		cFname = "",
+		isFirst = "";
 	for(var cI = 0, cTotal = cIDs.length, cCurr = ""; cI<cTotal; cI++) {
 		campusKey = cIDs[cI];
 		campusVal = campuses[campusKey];
 		cFname = campusArray[campusKey];
-		outCampusFacets(cFname, campusKey, campusVal);
+		outCampusFacets(cFname, campusKey, campusVal, isFirst);
+		if (isFirst == ""){isFirst = ", "};
 	}
 }
 
-function outCampusFacets(cFname, campusKey, campusVal){ //
-	print(cFname, campusKey, campusVal);
+function outCampusFacets(cFname, campusKey, campusVal, isFirst){ //
+	print(isFirst + "<a href='" + qURL + "&q=" + qGet + "&campusid=" + campusKey + "'>" + cFname + " <em>\(" + campusVal + "\)<\/em><\/a>");
 }
 
 if (jsonResponse.result){
