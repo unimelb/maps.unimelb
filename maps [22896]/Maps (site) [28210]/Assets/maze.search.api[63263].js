@@ -61,7 +61,7 @@ function parsePois() {
 	    }	    
 
 		// if the search is not scoped to a campus, show which campus results are from
-        if (campusidGet){
+        if (campusidGet == "0"){
 			labelFull = labelFull + ' <span class="campus">' + campusName + '</span>';
 		};
 
@@ -79,7 +79,7 @@ function parsePois() {
 
 	    if (currentPoiIndex+1 < totalPois){
 		    outPoi(parsedPoi);    
-	    }else{
+	    } else {
 	    	lastPoi = 1;
 		    outPoi(parsedPoi, lastPoi);
 	    };
@@ -101,7 +101,7 @@ function outPoi(poi,isLast) {
     jsonOut = jsonOut + '  }\n';
     if (isLast == 1) {
 	    jsonOut = jsonOut + '}';
-    }else{
+    } else {
 	    jsonOut = jsonOut + '},';
     }
     
@@ -121,7 +121,7 @@ function outHtml(ou) { // prints the html output
         print('<ul class="search-results">\n');
     	print(htmlOut);
         print('<\/ul>\n');
-    }else{
+    } else {
         print('<h2>Sorry!<\/h2>\n');
         print('We couldn\'t find anything with that query\n');
     }
@@ -131,8 +131,10 @@ function parseFacets(facets){ // processes facets in json output from API
 	// split into two parts for separate processing
 	const docs = facets.doctype;
 	parseTotal(docs);
-	const campuses = facets.campus_ids;
-	parseCampuses(campuses);
+	if (campusidGet == "0"){
+		const campuses = facets.campus_ids;
+		parseCampuses(campuses);
+	}
 }
 
 function parseTotal(docs){ // processes the docs facet to get a total number of results
@@ -166,18 +168,16 @@ function parseCampuses(campuses){ // processes the campusID facet
 	var campusKey = "",
 		campusVal = "",
 		cFname = "",
-		isFirst = "";
+		isFirst = ""
+		campusesOut = "";
 	for(var cI = 0, cTotal = cIDs.length, cCurr = ""; cI<cTotal; cI++) {
 		campusKey = cIDs[cI];
 		campusVal = campuses[campusKey];
 		cFname = campusArray[campusKey];
-		outCampusFacets(cFname, campusKey, campusVal, isFirst);
+		campusesOut = campusesOut + isFirst + "<a href='" + qURL + "?q=" + qGet + "&campusid=" + campusKey + "'>" + cFname + " <em>\(" + campusVal + "\)<\/em><\/a>";
 		if (isFirst == ""){isFirst = ", "};
 	}
-}
-
-function outCampusFacets(cFname, campusKey, campusVal, isFirst){ //
-	print(isFirst + "<a href='" + qURL + "?q=" + qGet + "&campusid=" + campusKey + "'>" + cFname + " <em>\(" + campusVal + "\)<\/em><\/a>");
+	print("<div class='campus-facets'>" + campusesOut + "<\/div>");
 }
 
 if (jsonResponse.result){
@@ -185,7 +185,7 @@ if (jsonResponse.result){
 	if (pois.length > 0){
 		parseFacets(jsonResponse.facets);
 		parsePois();
-	}else{
+	} else {
     	outHtml("empty");
 	}
 }
