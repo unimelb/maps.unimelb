@@ -177,7 +177,7 @@ function parseCampuses(campuses){ // processes the campusID facet
 }
 
 function outCampusFacets(cFname, campusKey, campusVal, isFirst){ //
-	print(isFirst + "<a href='" + qURL + "&q=" + qGet + "&campusid=" + campusKey + "'>" + cFname + " <em>\(" + campusVal + "\)<\/em><\/a>");
+	print(isFirst + "<a href='" + qURL + "?q=" + qGet + "&campusid=" + campusKey + "'>" + cFname + " <em>\(" + campusVal + "\)<\/em><\/a>");
 }
 
 if (jsonResponse.result){
