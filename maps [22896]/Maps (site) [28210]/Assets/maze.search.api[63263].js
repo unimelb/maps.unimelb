@@ -19,12 +19,14 @@ function parsePois() {
 	    
 	    campusName = campusArray[currentPoi.campusId];
 	    
-		var type = "", id = "", buildingNumber = "", url = "", label = "", labelFull = "", buildingLabel = "";
+		var type = "", id = "", buildingNumber = "", url = "", label = "", labelFull = "", buildingLabel = "", icon = "";
 		
 	    if (currentPoi.poiId){
 	    	// It's a poi
 	    	type = "poi";
 	    	id = currentPoi.poiId;
+
+			icon = "icon-location";
 	    	
 	    	// construct URL
 			// url = 'https:\/\/maps.unimelb.edu.au\/point?poiid=' + currentPoi.poiId;
@@ -49,6 +51,8 @@ function parsePois() {
 			type = "building";
 			id = currentPoi.buildingId;
 			
+			icon = "icon-faculty";
+			
 	    	// hack out a building number
 	    	buildingNumber = currentPoi.title.replace(/[^(]+\(([^)]+)\).*/, '$1');
 	    	// construct a URL
@@ -68,6 +72,7 @@ function parsePois() {
 		parsedPoi.push({
 			type: type,
 			id: id,
+			icon: icon,
 			label: label,
 			labelFull: labelFull,
 			url: url,
@@ -106,6 +111,7 @@ function outPoi(poi,isLast) {
     }
     
     htmlOut = htmlOut + '<li class="cell '+ poi[0].type +'">';
+    htmlOut = htmlOut + '<svg data-v-13db24e4="" focusable="false" role="presentation"><use xlink:href="#' + poi[0].icon + '"><\/use><\/svg>';
     htmlOut = htmlOut + '<a href="' + poi[0].url + '">' + poi[0].labelFull + '<\/a>';
     htmlOut = htmlOut + '<\/li>\n';
 }
