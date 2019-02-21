@@ -1,0 +1,122 @@
+div#map {width:100%;}
+div.map-container {position:relative;height:50vh;max-height:700px;min-height:250px;}
+.home div.map-container, .campus div.map-container {height:70vh;min-height:500px;}
+button.mapboxgl-popup-close-button {
+    padding: .2em .5em;
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+div.mapboxgl-map a[target=_blank]:not(.link-icon--disable):after {
+    display: none;
+}
+.tabs__tab {cursor:pointer;}
+.search-control-default{
+    position: absolute;
+    margin-left: calc( (100% - 20px)*(-1/2) );
+    top: 10px;
+    width: calc(100% - 60px);
+    left: 50%;
+    max-width: 300px;
+    z-index: 99;
+}
+div.mapboxgl-popup-content h3, div.mapboxgl-popup-content h4 {
+    font-size:1.25rem;
+    margin-bottom:0.5rem;
+}
+div.mapboxgl-popup-content h4 {
+    font-size:1rem;
+    margin-bottom:0.5rem;
+}
+div.mapboxgl-popup-content p {
+    margin:0;
+}
+.map_cell .tabs__panel {padding:0;}
+ul.social-list, .more-sharing {padding-bottom:1rem;}
+.more-sharing button.modal-dialog__open {
+    border: 2px solid rgba(9,65,131,.4);
+    background: transparent;
+    color: inherit;
+    padding: 0.2rem 0.6rem;
+}
+.link-icon.link-icon--custom svg {height:1.5rem;width:1.5rem;position:relative;top:0.4rem;}
+h1 .link-icon.link-icon--custom svg {height:1.7rem;width:1.7rem;top:0.2rem;color:#ADCDF0;}
+
+/* *** search related styles *** */
+ul.search-suggestions-list.default .item .context.building {
+    font-size:0.9em;
+    color:#757575;
+}
+
+/* *** styles for the routing page only *** */
+
+.routing #ui h1 {margin-bottom:1rem;}
+.routing #ui .routeInfo h2 {margin-bottom:0;}
+
+#fromInfo, #toInfo {position:relative;}
+
+#fromInfo h3, #fromInfo p, #toInfo h3, #toInfo p {display:inline;font-size:1rem;}
+#fromInfo h3:after, #toInfo h3:after {content:" :";padding-right:0.25rem;}
+.routing #ui .routeInfo p {margin-bottom:0.5rem;}
+
+#routeOptions .route-calc {display:none;}
+.route-query #routeOptions .route-calc {display:block;}
+.route-success #routeOptions .route-calc {display:none;}
+
+#routeExtraParameters {display:none;}
+.route-query #routeExtraParameters {display:none;}
+.route-success #routeExtraParameters {display:block;}
+
+#routeDescription {display:none;}
+.route-query #routeDescription {display:none;}
+.route-success #routeDescription {display:block;}
+
+.avoiding-obstacles {display:none;}
+.avoid-obstacles #avoidObstacles {display:none;}
+.avoid-obstacles .avoiding-obstacles {display:inline;}
+
+#startMessage {display:none;}
+.route-success #startMessage {display:block;}
+
+#routeDescription {display:none;} /* for later! */
+
+#fromInfo p.clear-point, #toInfo p.clear-point {display:none;}
+#fromInfo.selected p.clear-point, #toInfo.selected p.clear-point {display:inline;}
+
+#routeInfo>div {
+  position: relative;
+}
+#routeInfo .clear-point a {
+    position: absolute;
+    left: -0.75em;
+    top: 2.1em;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    text-indent: -999em;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 0.5em;
+    background-size: cover;
+    background-image: url(https://maps.unimelb.edu.au/assets/images/svg/remove-circle.svg);
+}
+#routeInfo .clear-point a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+
+@media (max-width: 480px) {
+    .home div.map-container, .campus div.map-container, div.map-container {height:100vw;min-height:100vw;}
+}
+
+/* attempt to fix the tab/map width problem */
+.fade-enter-active,
+.fade-leave-active {
+  -webkit-transition: none;
+  transition: none;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  visibility: visible;
+  position: relative;
+}
