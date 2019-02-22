@@ -127,6 +127,46 @@ ul.search-suggestions-list.default .item .context.building {
     .home div.map-container, .campus div.map-container, div.map-container {height:100vw;min-height:100vw;}
 }
 
+/* Styles for search page */
+
+.pager, .campus-facets {
+	font-size: 0.8rem;
+	margin-bottom: 0.5rem;
+	color: #666;
+}
+.campus-facets {
+	margin-bottom: 1rem;
+}
+.pager a, .campus-facets a {
+	color: #666;
+}
+.search-results {
+	list-style: none	;
+	padding-left: .75rem;
+}
+.search-results li {
+	position: relative;
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+	padding: 0.1rem 0 0.1rem 1rem;
+}
+.search-results li svg {
+	position: absolute;
+	top: 0.4rem;
+	left: -.75rem;
+	width: 1rem;
+	height: 1rem;
+	opacity: 0.7;
+}
+.search-results li .title {
+	display: block;
+}
+.search-results li .buildingName, .search-results li .buildingLevel, .search-results li .campus {
+	font-weight: 400;
+	font-size: 0.9rem;
+	color: #666;
+}
+
 /* attempt to fix the tab/map width problem */
 .fade-enter-active,
 .fade-leave-active {
