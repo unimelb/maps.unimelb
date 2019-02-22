@@ -29,8 +29,8 @@ function parsePois() {
 			icon = "icon-location";
 	    	
 	    	// construct URL
-			// url = 'https:\/\/maps.unimelb.edu.au\/point?poiid=' + currentPoi.poiId;
-	    	url = 'https:\/\/use.mazemap.com/#v=1&campusid=' + currentPoi.campusId + '&campuses=unimelb&sharepoitype=poi&sharepoi=' + currentPoi.poiId;
+			url = 'https:\/\/maps.unimelb.edu.au\/point?poi=' + currentPoi.poiId;
+	    	// url = 'https:\/\/use.mazemap.com/#v=1&campusid=' + currentPoi.campusId + '&campuses=unimelb&sharepoitype=poi&sharepoi=' + currentPoi.poiId;
 	    	
 	    	// construct label
 /*	    	label = currentPoi.poiNames.join();
