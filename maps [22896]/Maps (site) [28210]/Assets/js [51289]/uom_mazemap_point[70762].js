@@ -1,0 +1,78 @@
+myMap.on('load', function(){
+    var urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('poi')){
+        Mazemap.Data.getPoi(urlParams.get('poi')).then(function(poi) {
+            var nodeList = document.querySelectorAll('title, #title, meta[name="title"]');
+            nodeList.forEach(function(node){
+                node.innerText=poi.properties.title;
+            });
+            var lngLat = Mazemap.Util.getPoiLngLat(poi);
+            if (!(urlParams.get('SQ_DESIGN_NAME')=='embed'))
+            {
+                updateLocationFromMazemapRESTAPI(poi)
+                updateLatLong(lngLat);
+            }
+            var marker = new Mazemap.MazeMarker({
+                color: 'MazeBlue',
+                size: 34,
+                zLevel: 0
+            });
+            var zLevel = (typeof poi.properties.zLevel !== 'undefined')?poi.properties.zLevel:0;
+            
+            marker.setLngLat(lngLat)
+                .setZLevel(zLevel)
+                .addTo(myMap);
+            myMap.zLevel = zLevel;
+            if(poi.geometry.type === "Polygon"){
+                myMap.highlighter.highlight(poi);
+            }
+        
+            myMap.flyTo({center: lngLat, zoom: 19, duration: 2000});
+        });
+    }
+    
+    if (urlParams.get('lat')) {
+        var nodeList = document.querySelectorAll('title, meta[name="title"]');
+        nodeList.forEach(function(node){
+            node.innerText='Selected location';
+        });
+        if (urlParams.get('lng')) {
+            var marker = new Mazemap.MazeMarker({
+                color: 'MazeBlue',
+                size: 34,
+                zLevel: 0
+            });
+            var zLevel = 0;
+            var lngLat = {
+                lat: urlParams.get('lat'),
+                lng: urlParams.get('lng')
+            }
+             if (!(urlParams.get('SQ_DESIGN_NAME')=='embed'))
+                updateLatLong(lngLat);
+
+            marker.setLngLat(lngLat)
+                .setZLevel(zLevel)
+                .addTo(myMap);
+            myMap.zLevel = zLevel;
+        
+            myMap.flyTo({center: lngLat, zoom: 17, duration: 2000});
+        }
+    }
+});
+
+
+function updateLocationFromMazemapRESTAPI(poi) {
+    Mazemap.Data.getCampus(poi.properties.campusId).then(function(campus) {
+        var dom = document.querySelector('#mazeMapLocation');
+        dom.innerHTML = 
+            (poi.properties.floorName?'Level '+poi.properties.floorName+': ':'')
+            +'<a href="https://maps.unimelb.edu.au/'+campus.properties.name.toLowerCase()+(poi.properties.buildingName?'/building/'+poi.properties.identifier.split(';')[1]+'">'+poi.properties.buildingName:'">'+campus.properties.name+' campus')+'</a>';
+        dom.hidden=false;    
+    });
+}
+
+function updateLatLong(lngLat) {
+    document.querySelector('#googleMapLink').href='http://www.google.com.au/maps/?q='+lngLat.lat+','+lngLat.lng;
+    document.querySelector('#openStreetMapLink').href='https://www.openstreetmap.org/?mlat='+lngLat.lat+'&'+'mlon='+lngLat.lng+'#map=17/'+lngLat.lat+'/'+lngLat.lng;
+    document.querySelector("#latLongText").innerText=lngLat.lat+','+lngLat.lng;
+}
