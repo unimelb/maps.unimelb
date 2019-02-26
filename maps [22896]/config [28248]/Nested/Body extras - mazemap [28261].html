@@ -1,0 +1,177 @@
+<script>
+/* begin with stuff for all pages */
+    var token = 'pk.eyJ1IjoibWFwcy11bmltZWxiIiwiYSI6ImNqaGZvZ3NkZjFkcjEzY24ycDRoMjhlOTIifQ.aWhq82khhgathoavkKUTlg';
+    var mapStyle = 'cjghf66go00262rqdu3htp33o';
+    var startZoom = %globals_asset_metadata_Zoom^empty:{globals_asset_metadata_ObjectType^contains:Campus:15:}{globals_asset_metadata_ObjectType^contains:Group:16:}{globals_asset_metadata_ObjectType^contains:Building:17:}^empty:18%;
+    %begin_globals_get_SQ_DESIGN_NAME^eq:embed%%begin_globals_get_zoom%startZoom=%globals_get_zoom%;%end_globals_get%%end_globals_get%
+    var startCampus = %globals_asset_metadata_CampusID^empty:0%;
+
+    var myMap = new Mazemap.Map({
+        %begin_globals_get_SQ_DESIGN_NAME^eq:embed%%begin_globals_get_bearing%bearing:%globals_get_bearing%,%end_globals_get%%end_globals_get%
+        %begin_globals_get_SQ_DESIGN_NAME^eq:embed%%begin_globals_get_pitch%pitch:%globals_get_pitch%,%end_globals_get%%end_globals_get%
+        zoom: startZoom,
+        container: 'map',
+    //    style: 'https://api.mapbox.com/styles/v1/maps-unimelb/'+ mapStyle + '?access_token=' + token,
+        campus: startCampus,
+        campuses: "unimelb",
+%begin_globals_asset_assetid^eq:67217%        center: {lng: %globals_get_lng^empty:144.960662%, lat: %globals_get_lat^empty:-37.804593%},%else_globals%
+        center: {lng: %globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}%, lat: %globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}%},%end_globals%
+        zLevel: %globals_asset_metadata_Level^empty:0%,
+        interactive: true,
+        zLevelUpdater: true,
+        zLevelControl: false
+    });
+    var mapOnLoadFunction = function() {
+        %begin_globals_asset_metadata_ObjectType^contains:Group%
+            // Add a source layer to use with the layer for rendering geojson features
+        myMap.addSource("markers", {
+            "type": "geojson",
+            "data": {
+            "type": "FeatureCollection",
+            "features": geojson
+            }
+        });
+        myMap.addLayer({
+            "id": "markers",
+            "type": "circle",
+            "source": "markers",
+            "paint": {
+                "circle-color": "#ff334f",
+                "circle-radius": 7,
+                "circle-stroke-width": 2,
+                "circle-stroke-color": "#fff"
+            }
+        });
+		var bounds = getBoundingBox(geojson);
+		myMap.fitBounds(bounds, {padding:40});
+        %else_begin_globals_asset_metadata_ObjectType^contains:Building%
+            %begin_globals_asset_metadata_BuildingID^trim%
+                Mazemap.Data.getBuilding(%globals_asset_metadata_BuildingID%).then( function(building) {
+                    console.log(building);
+                    var lngLat = Mazemap.Util.getPoiLngLat(building);
+                    building.properties.zLevel = 0;
+                    var marker = new Mazemap.MazeMarker({
+                        color: "MazeBlue",
+                        size: 36,
+                        zLevel: building.properties.zLevel
+                    }).setLngLat(lngLat).addTo(myMap);
+                    marker.zLevelToggle();
+                    if(building.geometry.type === "Polygon"){
+                        myMap.highlighter.highlight(building);
+                    }
+                    myMap.setCenter(lngLat);
+                });
+            %else_globals_asset_metadata_BuildingID%
+                var lngLat = myMap.getCenter();
+                var marker = new Mazemap.MazeMarker( {
+                    color: "MazeBlue",
+                    size: 36,
+                    zLevel: 1
+                }).setLngLat( lngLat ).addTo(myMap);
+            %end_globals_asset_metadata_BuildingID%
+        %else_begin_globals_asset_metadata_ObjectType^contains:POI%
+            %begin_globals_get_SQ_DESIGN_NAME^eq:embed%
+               var embedPopup = new Mazemap.Popup({
+                   closeButton: false,
+    	           closeOnClick: false
+               });
+            %end_globals%
+            %begin_globals_asset_metadata_POI^trim%
+                Mazemap.Data.getPoi(%globals_asset_metadata_POI%).then( function(poi) {
+                    var lngLat = Mazemap.Util.getPoiLngLat(poi);
+                    var marker = new Mazemap.MazeMarker( {
+                        color: "MazeBlue",
+                        size: 36,
+                        zLevel: poi.properties.zLevel
+                    } ).setLngLat( lngLat ).addTo(myMap);
+                    marker.zLevelToggle();
+                    if(poi.geometry.type === "Polygon"){
+                        myMap.highlighter.highlight(poi);
+                    }
+                    myMap.setCenter(lngLat);
+                    if (poi.properties.floorName !== undefined)
+                         document.getElementById("floor").innerHTML='Level '+poi.properties.floorName;
+                    %begin_globals_get_SQ_DESIGN_NAME^eq:embed%
+                    embedPopup.setHTML('<h4>%globals_asset_metadata_Name%</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '+toTitleCase(poi.properties.floorName):''));
+                    marker.setPopup(embedPopup);
+                    if (!embedPopup.isOpen())
+                        marker.togglePopup();
+                    %end_globals%
+                });
+            %else_globals_asset_metadata_POI%
+                var lngLat = myMap.getCenter();
+                var marker = new Mazemap.MazeMarker({
+                    color: "MazeBlue",
+                    size: 36,
+                    zLevel: 1
+                }).setLngLat( lngLat ).addTo(myMap);
+                %begin_globals_get_SQ_DESIGN_NAME^eq:embed%
+                    embedPopup.setHTML('<h4>%globals_asset_metadata_Name%</h4><p>%globals_asset_metadata_StreetAddress%</p>');
+                    marker.setPopup(embedPopup);
+                    if (!embedPopup.isOpen())
+                        marker.togglePopup();
+                %end_globals%
+            %end_globals_asset_metadata_POI%
+        %else_begin_globals_asset_metadata_ObjectType^contains:Point%
+            %begin_globals_get_SQ_DESIGN_NAME^eq:embed%
+               var embedPopup = new Mazemap.Popup({
+                   closeButton: false,
+    	           closeOnClick: false
+               });
+            %end_globals%
+           
+          %end_globals_asset%
+    }  
+%begin_globals_asset_metadata_ObjectType^contains:Group%
+function getBoundingBox(data) {
+	var maxLat = data[0].geometry.coordinates[0], minLat = data[0].geometry.coordinates[0], maxLng = data[0].geometry.coordinates[1], minLng = data[0].geometry.coordinates[1];
+	// Loop through each "feature"
+	for (var i = 0; i < data.length; i++) {
+		coords = data[i].geometry.coordinates;
+		if (coords[0] > maxLat){maxLat = coords[0];}
+		if (coords[0] < minLat){minLat = coords[0];}
+		if (coords[1] > maxLng){maxLng = coords[1];}
+		if (coords[1] < minLng){minLng = coords[1];}
+	}
+  // Returns an object that contains the bounds of this GeoJSON data.
+  // The keys describe a box formed by the northwest (xMin, yMin) and southeast (xMax, yMax) coordinates.
+	var bounds = [[minLat,maxLng],[maxLat,minLng]];
+	return bounds;
+}
+
+	var popupPoi = new Mazemap.Popup({
+		closeButton: false,
+		closeOnClick: false
+	});
+
+	myMap.on('mouseenter', 'markers', function(e){
+		popupPoi.remove(); 
+		var lngLat = e.lngLat;
+		var zLevel = myMap.zLevel;
+
+		var features = myMap.queryRenderedFeatures(e.point, {layers: ['markers']});
+		if(features && features.length > 0)
+		{
+			popupPoi.setLngLat(features[0].geometry.coordinates)
+				.setHTML(features[0].properties.description)
+				.addTo(myMap);
+		}
+	});
+%end_globals%
+</script>
+
+<script src="%globals_asset_url:51299%"></script>
+
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Place",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": "%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:8%",
+"longitude": "%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:8%"
+},
+"name": "%globals_asset_name%"
+}
+</script>
