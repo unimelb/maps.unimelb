@@ -282,7 +282,7 @@ var mapClick=function(lngLat, zLevel) {
         .setZLevel(zLevel)
         .addTo(myMap);
 
-    popup.setHTML(popupLatLngHTML());
+    popup.setHTML(popupLatLngHTML(lngLat));
 
     Mazemap.Data.getPoiAt(lngLat, zLevel).then( function(poi) {
         // Now you can do what you want with the returned POI
@@ -299,12 +299,12 @@ var mapClick=function(lngLat, zLevel) {
 
 
 var popupPoiHTML = function(poi) {
-    return '<h4>'+ (poi.properties.title!=='null'?poi.properties.title:'')+'</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '
+    return '<h4>'+ (poi.properties.title!=='null'?'<a href="//maps.unimelb.edu.au/point?poi='+poi.properties.poiId+'">'+poi.properties.title+'</a>':'')+'</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '
         +toTitleCase(poi.properties.floorName):'')+'</p><p><strong>Get directions:<strong></p><p><a href="#" class="set-start">Start Here</a> or <a href="#" class="set-end">End here</a></p>';
 };
 
-var popupLatLngHTML = function() {
-    return '<p><strong>Get directions:<strong></p><p><a href="#" class="set-start">Start Here</a> or <a href="#" class="set-end">End here</a></p>';
+var popupLatLngHTML = function(lngLat) {
+    return '<h4><a href="//maps.unimelb.edu.au/point?lat='+lngLat.lat+'&lng='+lngLat.lng+'">Selected Location</a></h4><p><strong>Get directions:<strong></p><p><a href="#" class="set-start">Start Here</a> or <a href="#" class="set-end">End here</a></p>';
 };
 
 var convertSecondsToDisplayTime = function (seconds) {
@@ -641,4 +641,3 @@ for (var i=0; i < resetLinks.length; i++) {
             routingInformation.resetDestinationMarker();
     }
 };
-
