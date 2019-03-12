@@ -43,6 +43,20 @@ ul.social-list, .more-sharing {padding-bottom:1rem;}
 .link-icon.link-icon--custom svg {height:1.5rem;width:1.5rem;position:relative;top:0.4rem;}
 h1 .link-icon.link-icon--custom svg {height:1.7rem;width:1.7rem;top:0.2rem;color:#ADCDF0;}
 
+/* *** room list styles *** */
+.map-info ul li.type-S:after, .map-info ul li.type-T:after, .map-info ul li.type-L:after {
+	font-style: italic;
+}
+.map-info ul li.type-S:after {
+	content: " - stairwell";
+}
+.map-info ul li.type-T:after {
+	content: " - toilet";
+}
+.map-info ul li.type-L:after {
+	content: " - elevator";
+}
+
 /* *** search related styles *** */
 ul.search-suggestions-list.default .item .context.building {
     font-size:0.9em;
