@@ -127,8 +127,8 @@
                 </ul>
                 <h3 class="heading-card">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
-                %globals_asset_contents_raw:34298%<!--@@ Inside this building @@-->
-<!-- for testing, visible only to Andrew Harris -->%begin_globals_user_assetid^eq:1595%%begin_asset_metadata_BuildingID%<p><a href="%globals_asset_url%?listPOI=%globals_asset_metadata_BuildingID%#poilist">Also in this building</a></p>%else_asset%<p>No building ID</p>%end_asset%%end_globals%
+                %globals_asset_contents_raw:34298%<!--@@ Inside this building asset listing @@-->
+                %begin_asset_metadata_BuildingID%%begin_globals_get_listpoi%%globals_asset_contents_raw:76946%%else_globals%<p><a href="%globals_asset_url%?listpoi=%globals_asset_metadata_BuildingID%#poilist">Full list of rooms inside this building</a></p>%end_globals%%end_asset%
             </div>
             <div class="cell cell--desk-2of3 map_cell">
 %begin_asset_metadata_VirtualURL%
@@ -185,14 +185,7 @@
                 </div>
             </div>
     </div>
-    <!-- complete -->%begin_globals_get_listPOI%
-    <div class="content-block content-block--short building">
-        <!-- asset#53468 list of POIs inside %asset_metadata_BuildingID% -->
-          %globals_asset_contents_raw:53468%
-    </div>
-                %else_globals%
-                <!-- nada -->
-                %end_globals%
+    <!-- complete -->
 <!-- end Building layout -->
 %else_begin_asset_assetid^eq:43989%
 <!-- begin directions page layout -->
