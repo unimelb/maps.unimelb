@@ -127,7 +127,7 @@ ul.search-suggestions-list.default .item .context.building {
 	.cell--tab-1of3 {width:100%;}
 	.cell--tab-2of3 {width:100%;}
 }
-@media (min-width: 599px) {
+@media (min-width: 600px) {
     .cell--tab-1of3 {width: 33.33333%;}
     .cell--tab-2of3 {width: 66.66666%;}
 }
