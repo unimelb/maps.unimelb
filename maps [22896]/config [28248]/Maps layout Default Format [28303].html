@@ -19,7 +19,7 @@
 			<div class="map-container">
 				<div id="map" class="mazemap"></div>
 				<div id="search-input-container" class="search-control-default">
-					<input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+					<input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
 					<div id="suggestions" class="search-suggestions default"></div>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
     <div class="map-container group">
         <div id="map" class="mazemap"></div>
 		<div id="search-input-container" class="search-control-default">
-			<input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+			<input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
 			<div id="suggestions" class="search-suggestions default"></div>
 		</div>
     </div>
@@ -64,7 +64,7 @@
                 <div class="cell cell--desk-2of3 map-container">
                     <div id="map" class="mazemap"></div>
                     <div id="search-input-container" class="search-control-default">
-                        <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+                        <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
                         <div id="suggestions" class="search-suggestions default"></div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                 <div class="cell cell--desk-2of3 map-container">
                     <div id="map" class="mazemap"></div>
                     <div id="search-input-container" class="search-control-default">
-                        <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+                        <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
                         <div id="suggestions" class="search-suggestions default"></div>
                     </div>
                 </div>
@@ -114,7 +114,8 @@
     <div class="content-block content-block--short building">
         <div class="grid">
             <div class="cell cell--desk-1of3 map-info">
-                <h2 class="heading-card">Building details</h2>
+                <toggle-block-mobile><template slot="default">
+                <h2 class="heading-card">Building details</h2></template><template slot="hidden">
                 <ul>
                     <li>Within: <a href="%asset_parent^as_asset:asset_url%">%asset_parent^as_asset:asset_metadata_Name%</a></li>
                     %asset_metadata_AlternateName^prepend_if:Also known as\: ^tagif:li%
@@ -128,7 +129,9 @@
                 <h3 class="heading-card">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
                 %globals_asset_contents_raw:34298%<!--@@ Inside this building asset listing @@-->
-                %begin_asset_metadata_BuildingID%%begin_globals_get_listpoi%%globals_asset_contents_raw:76946%%else_globals%<p><a href="%globals_asset_url%?listpoi=%globals_asset_metadata_BuildingID%#poilist">Full list of rooms inside this building</a></p>%end_globals%%end_asset%
+                %begin_asset_metadata_BuildingID%%begin_globals_get_listpoi%%else_globals%<p><a href="%globals_asset_url%?listpoi=%globals_asset_metadata_BuildingID%#poilist">Full list of rooms inside this building</a></p>%end_globals%%end_asset%
+                </template></toggle-block-mobile>
+                %begin_globals_get_listpoi%%globals_asset_contents_raw:76946%%end_globals%
             </div>
             <div class="cell cell--desk-2of3 map_cell">
 %begin_asset_metadata_VirtualURL%
@@ -137,7 +140,7 @@
     <div class=" map-container">
         <div id="map" class="mazemap"></div>
         <div id="search-input-container" class="search-control-default">
-            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
             <div id="suggestions" class="search-suggestions default"></div>
         </div>
     </div>
@@ -160,7 +163,7 @@
     <div class=" map-container">
         <div id="map" class="mazemap"></div>
         <div id="search-input-container" class="search-control-default">
-            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
             <div id="suggestions" class="search-suggestions default"></div>
         </div>
     </div>
@@ -176,7 +179,7 @@
     <div class=" map-container">
         <div id="map" class="mazemap"></div>
         <div id="search-input-container" class="search-control-default">
-            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
             <div id="suggestions" class="search-suggestions default"></div>
         </div>
     </div>
@@ -193,7 +196,7 @@
     <div class=" map-container">
         <div id="map" class="mazemap"></div>
         <div id="search-input-container" class="search-control-default">
-            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Search">
+            <input tabindex="0" id="searchInput" class="search-input" autocomplete="off" type="text" name="search" placeholder="Quick search">
             <div id="suggestions" class="search-suggestions default"></div>
         </div>
     </div>

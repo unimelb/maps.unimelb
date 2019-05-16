@@ -131,6 +131,17 @@ ul.search-suggestions-list.default .item .context.building {
     .cell--tab-1of3 {width: 33.33333%;}
     .cell--tab-2of3 {width: 66.66666%;}
 }
+@media (max-width: 769px) { /* styles for the building details toggle block */
+	.building .map-info .toggleblock--mobile .toggleblock__default, .building .map-info .toggleblock--mobile .toggleblock__footer {
+		background-color: rgb(242, 245, 249);
+	}
+	.building .map-info .toggleblock--mobile .toggleblock__default h2, .building .map-info .toggleblock--mobile .toggleblock__footer {
+		color: rgb(9, 65, 131);
+	}
+	.building .map-info .toggleblock--mobile .toggleblock__default h2:after, .building .map-info .toggleblock--mobile .toggleblock__footer:before {
+		border-color: rgb(9, 65, 131);
+	}
+}
 
 /* Styles for search page */
 
