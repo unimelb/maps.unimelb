@@ -184,3 +184,15 @@ ul.search-suggestions-list.default .item .context.building {
   visibility: visible;
   position: relative;
 }
+
+/* fixes for problems caused by pattern library update */
+.content-block h1 {
+	font-size: 2rem;
+	line-height: 1;
+}
+.map-info .heading-card {
+	font-size: 1.25rem;
+	font-family: 'Source Sans Pro', 'Gill Sans', 'Trebuchet MS', 'Arial', sans-serif;
+	line-height: 1;
+	margin-bottom: 1rem;
+}
