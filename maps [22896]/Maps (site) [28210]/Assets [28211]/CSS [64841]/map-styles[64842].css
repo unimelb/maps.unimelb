@@ -41,6 +41,11 @@ div.mapboxgl-popup-content p {
 .cell.map_cell {
 	padding-right: 0;
 }
+@media screen and (max-width: 769px) {
+	.cell.map-info {
+		padding-right: 0;
+	}
+}
 .map_cell .tabs__panel {padding:0;}
 ul.social-list, .more-sharing {padding-bottom:1rem;}
 .more-sharing button.modal-dialog__open {
