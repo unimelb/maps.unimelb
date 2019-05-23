@@ -35,6 +35,12 @@ div.mapboxgl-popup-content h4 {
 div.mapboxgl-popup-content p {
     margin:0;
 }
+.cell.map_cell, .cell.map-info {
+	padding-left: 0;
+}
+.cell.map_cell {
+	padding-right: 0;
+}
 .map_cell .tabs__panel {padding:0;}
 ul.social-list, .more-sharing {padding-bottom:1rem;}
 .more-sharing button.modal-dialog__open {
@@ -61,6 +67,9 @@ h1 .link-icon.link-icon--custom svg {height:1.7rem;width:1.7rem;top:0.2rem;color
 }
 
 /* *** search related styles *** */
+ul.search-suggestions-list.default .item .title {
+	font-size: inherit;
+}
 ul.search-suggestions-list.default .item .context.building {
     font-size:0.9em;
     color:#757575;
