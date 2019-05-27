@@ -190,6 +190,9 @@ ul.search-suggestions-list.default .item .context.building {
 }
 .search-results li .title {
 	display: block;
+	font-size: inherit;
+	margin-bottom: 0;
+	line-height: inherit;
 }
 .search-results li .buildingName, .search-results li .buildingLevel, .search-results li .campus {
 	font-weight: 400;
@@ -220,4 +223,18 @@ ul.search-suggestions-list.default .item .context.building {
 	font-family: 'Source Sans Pro', 'Gill Sans', 'Trebuchet MS', 'Arial', sans-serif;
 	line-height: 1;
 	margin-bottom: 1rem;
+}
+@media screen and (max-width: 769px) {
+	.cell {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.content-block h1 {
+    	font-size: 1.5rem;
+    }
+    .page-header--l2 .page-header__heading {
+		margin-top: 2rem;
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
 }
