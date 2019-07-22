@@ -46,7 +46,7 @@ var mapClick=function(lngLat, zLevel) {
 
 function popupPoiHTML(poi) {
     if (poi.properties.type == 'building')
-        	return '<h4>'+ (poi.properties.title!='null'?'<a href="%globals_asset_url:67217%?poi='+poi.properties.poiId+'">'+poi.properties.title+'</a>':'')+'</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '
+        	return '<h4>'+ (poi.properties.title!='null'?poi.properties.title:'')+'</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '
 	+toTitleCase(poi.properties.floorName):'')+'</p><p><strong>Get directions:<strong></p><p><a href="%globals_asset_url:43989%?lngA='+poi.geometry.coordinates[0]+'&latA='+poi.geometry.coordinates[1]+'&zA=1" class="set-start">Start Here</a> or <a href="%globals_asset_url:43989%?lngB='+poi.geometry.coordinates[0]+'&latB='+poi.geometry.coordinates[1]+'&zB=1" class="set-end">End here</a></p>';
     else
     	return '<h4>'+ (poi.properties.title!='null'?'<a href="%globals_asset_url:67217%?poi='+poi.properties.poiId+'">'+poi.properties.title+'</a>':'')+'</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '

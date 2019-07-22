@@ -194,4 +194,6 @@ if (jsonResponse.result){
 	} else {
     	outHtml("empty");
 	}
+}else{
+    outHtml("noresponse");
 }

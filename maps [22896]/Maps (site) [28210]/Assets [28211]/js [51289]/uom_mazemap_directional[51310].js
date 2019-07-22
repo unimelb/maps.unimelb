@@ -299,7 +299,7 @@ var mapClick=function(lngLat, zLevel) {
 
 
 var popupPoiHTML = function(poi) {
-    return '<h4>'+ (poi.properties.title!=='null'?'<a href="//maps.unimelb.edu.au/point?poi='+poi.properties.poiId+'">'+poi.properties.title+'</a>':'')+'</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '
+    return '<h4>'+ (poi.properties.title!=='null'?(poi.properties.type == 'building'?poi.properties.title:'<a href="//maps.unimelb.edu.au/point?poi='+poi.properties.poiId+'">'+poi.properties.title+'</a>'):'')+'</h4><p>'+(poi.properties.buildingName?toTitleCase(poi.properties.buildingName):'')+(poi.properties.floorName?', Floor '
         +toTitleCase(poi.properties.floorName):'')+'</p><p><strong>Get directions:<strong></p><p><a href="#" class="set-start">Start Here</a> or <a href="#" class="set-end">End here</a></p>';
 };
 

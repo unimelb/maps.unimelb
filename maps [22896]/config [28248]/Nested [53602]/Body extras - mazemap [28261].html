@@ -169,8 +169,9 @@ function getBoundingBox(data) {
 "@type": "Place",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": "%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:8%",
-"longitude": "%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:8%"
+%begin_globals_asset_assetid^eq:67217%"latitude": "%globals_get_lat^empty:{asset_metadata_Latitude}^maxchars:8%",
+"longitude": "%globals_get_lng^empty:{asset_metadata_Longitude}^maxchars:8%"%else_globals%"latitude": "%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:8%",
+"longitude": "%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:8%"%end_globals%
 },
 "name": "%globals_asset_name%"
 }

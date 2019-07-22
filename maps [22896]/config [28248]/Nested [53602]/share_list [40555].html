@@ -1,20 +1,20 @@
 <ul class="social-list list-reset links-reset bg-saw-tooth">
   <li class="col-facebook">
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%globals_asset_url^urlencode%%globals_server_query_string^prepend_if:?^urlencode%" class="social-list__link">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=%globals_asset_url^urlencode%%globals_server_query_string^prepend_if:?^urlencode%" class="social-list__link" rel="nofollow">
       <svg width="25" height="25" focusable="false" role="img" aria-label="Share on Facebook" class="social-list__icon">
         <use xlink:href="#icon-facebook"></use>
       </svg>
     </a>
   </li>
   <li class="col-twitter">
-    <a href="https://twitter.com/intent/tweet?text=%globals_asset_metadata_Name^urlencode%++%globals_asset_url^urlencode%%globals_server_query_string^prepend_if:?^urlencode%" class="social-list__link">
+    <a href="https://twitter.com/intent/tweet?text=%globals_asset_metadata_Name^urlencode%++%globals_asset_url^urlencode%%globals_server_query_string^prepend_if:?^urlencode%" class="social-list__link" rel="nofollow">
       <svg width="25" height="25" focusable="false" role="img" aria-label="Share on Twitter" class="social-list__icon">
         <use xlink:href="#icon-twitter"></use>
       </svg>
     </a>
   </li>
   <li class="col-linkedin">
-    <a href="https://www.linkedin.com/shareArticle?title=%globals_asset_metadata_Name^urlencode%&#038;url=%globals_asset_url^urlencode%%globals_server_query_string^prepend_if:?^urlencode%" class="social-list__link">
+    <a href="https://www.linkedin.com/shareArticle?title=%globals_asset_metadata_Name^urlencode%&#038;url=%globals_asset_url^urlencode%%globals_server_query_string^prepend_if:?^urlencode%" class="social-list__link" rel="nofollow">
       <svg width="25" height="25" focusable="false" role="img" aria-label="Share to LinkedIn" class="social-list__icon">
         <use xlink:href="#icon-linkedin"></use>
       </svg>
@@ -25,12 +25,12 @@
 <modal-dialog title="More sharing options" trigger="More sharing options">
 	<ul class="use-map">
 		<li>View in:
-		<a id="googleMapLink" href="http://www.google.com.au/maps/?q=%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:10%,%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:10%">Google maps</a>,
-		<a id="openStreetMapLink" href="https://www.openstreetmap.org/?mlat=%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:10%&mlon=%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:10%#map=17/%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:10%/%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:10%">Open Street Map</a>
-		%begin_globals_asset_metadata_POI%, <a href="https://use.mazemap.com/?campuses=unimelb&sharepoitype=poi&sharepoi=%globals_asset_metadata_POI%">Mazemap</a>%end_globals%
-		%begin_globals_get_poi%, <a href="https://use.mazemap.com/?campuses=unimelb&sharepoitype=poi&sharepoi=%globals_get_poi%">Mazemap</a>%end_globals%
+		<a id="googleMapLink" href="http://www.google.com.au/maps/?q=%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:10%,%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:10%" rel="nofollow">Google maps</a>,
+		<a id="openStreetMapLink" href="https://www.openstreetmap.org/?mlat=%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:10%&mlon=%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:10%#map=17/%globals_asset_metadata_Latitude^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:10%/%globals_asset_metadata_Longitude^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:10%" rel="nofollow">Open Street Map</a>
+		%begin_globals_asset_metadata_POI%, <a href="https://use.mazemap.com/?campuses=unimelb&sharepoitype=poi&sharepoi=%globals_asset_metadata_POI%" rel="nofollow">Mazemap</a>%end_globals%
+		%begin_globals_get_poi%, <a href="https://use.mazemap.com/?campuses=unimelb&sharepoitype=poi&sharepoi=%globals_get_poi%" rel="nofollow">Mazemap</a>%end_globals%
 		</li>
-		<li>Get a short URL at <a href="http://go.unimelb.edu.au/add?link_location=%globals_asset_url%%globals_server_query_string^prepend_if:?%" rel="nofollow">go.unimelb</a></li>
+		<li>Get a short URL at <a href="http://go.unimelb.edu.au/add?link_location=%globals_asset_url^urlencode%%globals_server_query_string^urlencode^prepend_if:?%" rel="nofollow">go.unimelb</a></li>
 		<li id="embed-code">Embed this map <small>(copy code) <a href="./?a=59775" target="_blank">Embedding help</a></small>:<br><input style="width:100%" aria-label="Not a form input. Contains embed code for copying." onfocus="select()" type="text" value="&lt;iframe src='%globals_asset_url%?SQ_DESIGN_NAME=embed%globals_server_query_string^prepend_if:&%' height='450' width='100%' title='Map: %globals_asset_metadata_Name%' frameborder='0'&gt;&lt;a href='%globals_asset_url%%globals_server_query_string^prepend_if:?%'&gt;%globals_asset_metadata_Name%&lt;/a&gt;&lt;/iframe&gt;"></li>
 		<li>
 		    Latitude, Longitude: <span id="latLongText">%globals_asset_metadata_Latitude^empty:{globals_get_lat}^empty:{asset_parent^as_asset:asset_metadata_Latitude}^maxchars:10%, %globals_asset_metadata_Longitude^empty:{globals_get_lng}^empty:{asset_parent^as_asset:asset_metadata_Longitude}^maxchars:10%</span>

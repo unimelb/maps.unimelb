@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Directions - maps.unimelb</title>
+    <link rel="stylesheet" href="https://d2glwx35mhbfwf.cloudfront.net/v4.9.0/ui.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700%7CSource+Sans+Pro:300,300i,400,400i,600,700">
+	<style>
+	#mapframe {height:calc(100vh - 80px);width:100%;}
+    @media (min-width: 481px) {
+    	#mapframe {height:calc(100vh - 103px);}
+    }
+	</style>
+</head>
+  <body>
+    <div class="screenreaders-only">
+      <a href="#main">main</a>
+    </div>
+    <div id="ui">
+      <!-- header goes here -->
+      <page-header-min></page-header-min>
+      <!-- breadcrumbs go here, if present -->
+      <main id="main">
+    <!-- %asset_version% -->
+
+<script runat="server">
+
+// create some space
+var output = "";
+var startParams = "";
+var destParams = "";
+var starttype = "";
+var start = "";
+var desttype = "";
+var dest = "";
+var baseURL= "https://use.mazemap.com/#";
+
+// process start
+%begin_globals_get_pointA%
+    starttype = "poi";
+    start = %globals_get_pointA%;
+%else_begin_globals_get_assetA%
+    starttype = "point";
+    start = "%globals_get_assetA^as_asset:asset_metadata_Longitude%,%globals_get_assetA^as_asset:asset_metadata_Latitude%,0";
+%else_begin_globals_get_lngA% // assume lat/lng
+    starttype = "point";
+    start = "%globals_get_lngA%,%globals_get_latA%,%globals_get_zA^empty:0%";
+%end_globals%
+
+// process dest
+%begin_globals_get_pointB%
+    desttype = "poi";
+    dest = %globals_get_pointB%;
+%else_begin_globals_get_assetB%
+    desttype = "point";
+    dest = "%globals_get_assetB^as_asset:asset_metadata_Longitude%,%globals_get_assetB^as_asset:asset_metadata_Latitude%,0";
+%else_begin_globals_get_lngB% // assume lat/lng
+    desttype = "point";
+    dest = "%globals_get_lngB%,%globals_get_latB%,%globals_get_zB^empty:0%";
+%end_globals%
+
+// build the bits
+if (starttype == '' && desttype == ''){
+    mapParams = "campuses=unimelb&positioning=true";
+    output = baseURL + mapParams;
+}else{
+    mapParams = "campuses=unimelb";
+    startParams = "starttype=" + starttype + "&start=" + start;
+    destParams = "desttype=" + desttype + "&dest=" + dest;
+    output = baseURL + mapParams + "&" + startParams + "&" + destParams;
+}
+
+print("<iframe id='mapframe' title='Interactive map' src='" + output + "' frameborder='0' marginheight='0' marginwidth='0' scrolling='no'></iframe>");
+// console.log(output);
+</script>
+
+      </main>
+      <!-- footer goes here -->
+<nav class="header-tools">
+  <page-search></page-search>
+%globals_asset_contents_paint_10221:34375%
+</nav>          
+     </div>
+    <script src="https://d2glwx35mhbfwf.cloudfront.net/v4.9.0/ui.js"></script>
+  </body>
+</html>

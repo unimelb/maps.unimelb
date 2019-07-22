@@ -1,13 +1,25 @@
-%begin_globals_asset_thumbnail%%else_globals_asset_thumbnail%<meta name="twitter:image" content="./?a=52671?lat=%globals_asset_metadata_Latitude%&lng=%globals_asset_metadata_Longitude%" />
-<meta property="og:image" content="./?a=52671?lat=%globals_asset_metadata_Latitude%&lng=%globals_asset_metadata_Longitude%" />
-<meta name="thumbnail" content="./?a=52671?lat=%globals_asset_metadata_Latitude%&lng=%globals_asset_metadata_Longitude%" />
+%begin_globals_asset_thumbnail%%else_globals_asset_thumbnail%
+%begin_globals_asset_assetid^eq:67217%
+	%begin_globals_get_lat%
+	<meta name="twitter:image" content="./?a=52671?lat=%globals_get_lat%&lng=%globals_get_lng^empty:{asset_metadata_Longitude}%" />
+	<meta property="og:image" content="./?a=52671?lat=%globals_get_lat%&lng=%globals_get_lng^empty:{asset_metadata_Longitude}%" />
+	<meta name="thumbnail" content="./?a=52671?lat=%globals_get_lat%&lng=%globals_get_lng^empty:{asset_metadata_Longitude}%" />
+	%end_globals%
+%else_globals%
+<meta name="twitter:image" content="./?a=52671?lat=%globals_asset_metadata_Latitude^empty:-37.7986%&lng=%globals_asset_metadata_Longitude^empty:144.9603%" />
+<meta property="og:image" content="./?a=52671?lat=%globals_asset_metadata_Latitude^empty:-37.7986%&lng=%globals_asset_metadata_Longitude^empty:144.9603%" />
+<meta name="thumbnail" content="./?a=52671?lat=%globals_asset_metadata_Latitude^empty:-37.7986%&lng=%globals_asset_metadata_Longitude^empty:144.9603%" />
+%end_globals%
 %end_globals_asset_thumbnail%
+
+<link rel="manifest" href="%globals_asset_href:85307%">
+<link rel="apple-touch-icon" href="%globals_asset_href:85306%">
 
 %begin_globals_get_mazeapi%
 <link rel="stylesheet" href="https://api.mazemap.com/js/%globals_get_mazeapi%/mazemap.min.css">
 <!-- api override -->
 %else_globals%
-<link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.11/mazemap.min.css">
+<link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.14/mazemap.min.css">
 %end_globals%
 <script type="text/javascript">
     if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
@@ -20,7 +32,7 @@
 <script type='text/javascript' src='https://api.mazemap.com/js/%globals_get_mazeapi%/mazemap.min.js'></script>
 <!-- api override -->
 %else_globals%
-<script type='text/javascript' src='https://api.mazemap.com/js/v2.0.11/mazemap.min.js'></script>
+<script type='text/javascript' src='https://api.mazemap.com/js/v2.0.14/mazemap.min.js'></script>
 %end_globals%
 %begin_globals_get_SQ_DESIGN_NAME^eq:embed%<!--@@ embed style sheet. I'd like to make this a separate style sheet as well, but can not get the globals_get variables to flow through @@-->
 <style>

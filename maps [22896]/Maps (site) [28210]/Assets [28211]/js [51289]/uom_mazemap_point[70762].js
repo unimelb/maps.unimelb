@@ -4,7 +4,7 @@ myMap.on('load', function(){
         Mazemap.Data.getPoi(urlParams.get('poi')).then(function(poi) {
             var nodeList = document.querySelectorAll('title, #title, meta[name="title"]');
             nodeList.forEach(function(node){
-                node.innerText=poi.properties.title;
+                node.innerText=poi.properties.title?poi.properties.title:'Point';
             });
             var lngLat = Mazemap.Util.getPoiLngLat(poi);
             if (!(urlParams.get('SQ_DESIGN_NAME')=='embed'))
@@ -32,10 +32,16 @@ myMap.on('load', function(){
     }
     
     if (urlParams.get('lat')) {
-        var nodeList = document.querySelectorAll('title, meta[name="title"]');
+        var nodeList = document.querySelectorAll('title, h1');
         nodeList.forEach(function(node){
             node.innerText='Selected location';
         });
+        
+        nodeList = document.querySelectorAll('meta[name="title"], meta[property="og:title"]');
+        nodeList.forEach(function(node){
+            node.setAttribute("content", 'Selected location');
+        });
+        
         if (urlParams.get('lng')) {
             var marker = new Mazemap.MazeMarker({
                 color: 'MazeBlue',
@@ -66,7 +72,7 @@ function updateLocationFromMazemapRESTAPI(poi) {
         var dom = document.querySelector('#mazeMapLocation');
         dom.innerHTML = 
             (poi.properties.floorName?'Level '+poi.properties.floorName+': ':'')
-            +'<a href="https://maps.unimelb.edu.au/'+campus.properties.name.toLowerCase()+(poi.properties.buildingName?'/building/'+poi.properties.identifier.split(';')[1]+'">'+poi.properties.buildingName:'">'+campus.properties.name+' campus')+'</a>';
+            +'<a href="https://maps.unimelb.edu.au/'+campus.properties.name.toLowerCase()+(poi.properties.buildingName?'/building/'+(poi.properties.identifier!=null?poi.properties.identifier.split(';')[1].toLowerCase():'')+'">'+poi.properties.buildingName:'">'+campus.properties.name+' campus')+'</a>';
         dom.hidden=false;    
     });
 }

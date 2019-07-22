@@ -1,0 +1,62 @@
+<h1><span class="link-icon link-icon--custom"><svg focusable="false" role="presentation">
+<use xlink:href="#icon-directions"></use>
+</svg></span> Directions</h1>
+<div id="routeInfo" aria-live="polite" class="grid grid--3col routeInfo"><!-- route-query route-success avoid-obstacles -->
+    <div class="cell %begin_globals_get_pointA%selected%else_begin_globals_get_assetA%selected%else_begin_globals_get_lngA%selected%end_globals%" id="fromInfo">
+    <h2 class="heading-card">From:</h2>
+    <!-- %globals_get_assetA^as_asset:asset_metadata_POI^prepend_if:poiID % %globals_get_assetA^as_asset:asset_metadata_Latitude^prepend_if:Lat. % %globals_get_assetA^as_asset:asset_metadata_Longitude^prepend_if:Lng. % %globals_get_assetA^as_asset:asset_metadata_Level^prepend_if:Level. ^empty:0% -->
+    <div id="fromLocation">
+    %begin_globals_get_pointA%
+        Point of interest ID %globals_get_pointA%
+    %else_begin_globals_get_assetA%
+    	%begin_globals_get_assetA^as_asset:asset_metadata_Name^neq:{globals_get_assetA^as_asset:asset_short_name}%
+		    %globals_get_assetA^as_asset:asset_metadata_Name% -
+		%end_globals%
+		%begin_globals_get_assetA^as_asset:asset_metadata_ObjectType^eq:Building%
+	    	Building %globals_get_assetA^as_asset:asset_short_name%<!--@@ If it's a building, say so @@-->
+	    %else_globals%
+	        %globals_get_assetA^as_asset:asset_name%
+        %end_globals%
+    %else_begin_globals_get_lngA%
+        Selected Location
+    %else_globals%
+        <a href="#" id="fromLocationBtn">Use my location</a>, or click on the map.
+    %end_globals%
+    </div>
+    <p class="clear-point"><a href="#clearFrom" id="clearFrom">Clear start point.</a></p>
+
+    </div>
+    <div class="cell %begin_globals_get_pointB%selected%else_begin_globals_get_assetB%selected%else_begin_globals_get_lngB%selected%end_globals%" id="toInfo">
+    <h2 class="heading-card">To:</h2>
+    <div id="toLocation">
+    %begin_globals_get_pointB%
+        Point of interest ID %globals_get_pointB%
+    %else_begin_globals_get_assetB%
+    	%begin_globals_get_assetB^as_asset:asset_metadata_Name^neq:{globals_get_assetB^as_asset:asset_short_name}%
+		    %globals_get_assetB^as_asset:asset_metadata_Name% -
+		%end_globals%
+		%begin_globals_get_assetB^as_asset:asset_metadata_ObjectType^eq:Building%
+	    	Building %globals_get_assetB^as_asset:asset_short_name%<!--@@ If it's a building, say so @@-->
+	    %else_globals%
+	        %globals_get_assetB^as_asset:asset_name%
+        %end_globals%
+    %else_begin_globals_get_lngB%
+    Selected Location
+    %else_globals%
+    <a href="#" id="toLocationBtn" >Use my location</a>, or click on the map.
+    %end_globals%
+    </div>
+    <p class="clear-point"><a href="#clearTo" id="clearTo">Clear destination point.</a></p>
+
+    </div>
+    <div class="cell" id="routeOptions">
+    <p class="route-calc">Calculating your route…</p>
+    <p id="routeDescription" class="walking driving">
+        <span class="distance"><span class="label">Distance: </span><span id="distanceValue"></span></span>
+        <span class="traveltime"><span class="label">Time: </span><span id="traveltimeValue"></span></span>
+    </p>
+<!--@@    <p id="startMessage">Click the map to set new start or end points.</p> @@-->
+    <p id="routeExtraParameters"><a id="reverseDirection" href="#" >Reverse directions</a>, <a id="avoidObstacles" href="#">Avoid obstacles</a><span class="avoiding-obstacles">Avoiding obstacles</span>.</p>
+    </div>
+
+</div>

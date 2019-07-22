@@ -5,7 +5,7 @@ if (_REST.response.info.http_code == 200) {
     var rooms = {};
     var floors = {};
 
-    var typeMatch = /[LTS][BM]?[0-9]{1,4}/; // lift, toilet, stairwell
+    var typeMatch = /[LTS][GBM]?[0-9]{1,4}/; // lift, toilet, stairwell
 
     if (data.pois.length) {
         html = "<h2 class='heading-card' id='poilist'>Full list of rooms<\/h2>";
