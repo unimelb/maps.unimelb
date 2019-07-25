@@ -56,7 +56,7 @@
 %begin_asset_metadata_InfoURL%
 	        		<li><a href="%asset_metadata_InfoURL%">More information</a></li>
 %end_asset%
-	        		<li><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:43989%?assetB=%asset_assetid%">Get directions</a></li>
+	        		<li><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:97098%?assetB=%asset_assetid%">Get directions</a></li>
                     </ul>
                 <h3 class="heading-card">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
@@ -81,7 +81,7 @@
                     <h2 class="heading-card">Location details</h2>
                     <ul>
                     <li id="mazeMapLocation" hidden></li>
-	        		<li><a id="getDirectionLnk" rel="nofollow" href="%begin_globals_get_poi%%globals_asset_url:43989%?pointB=%globals_get_poi%%else_globals%%globals_asset_url:43989%?latB=%globals_get_lat%&lngB=%globals_get_lng%%end_globals%">Get directions</a></li>
+	        		<li><a id="getDirectionLnk" rel="nofollow" href="%begin_globals_get_poi%%globals_asset_url:97098%?pointB=%globals_get_poi%%else_globals%%globals_asset_url:97098%?latB=%globals_get_lat%&lngB=%globals_get_lng%%end_globals%">Get directions</a></li>
                     </ul>
                 <h3 class="heading-card">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
@@ -124,7 +124,7 @@
 %begin_asset_metadata_InfoURL%
 	        		<li><a href="%asset_metadata_InfoURL%">More information</a></li>
 %end_asset%
-	        		<li><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:43989%?assetB=%asset_assetid%">Get directions</a></li>
+	        		<li><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:97098%?assetB=%asset_assetid%">Get directions</a></li>
                 </ul>
                 <h3 class="heading-card">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
@@ -191,7 +191,8 @@
     <!-- complete -->
 <!-- end Building layout -->
 %else_begin_asset_assetid^eq:43989%
-<!-- begin directions page layout -->
+<!-- begin old directions page layout -->
+<!--@@ this may now be redundant @@-->
     <div class="content-block content-block--short">%asset_contents%</div>
     <div class=" map-container">
         <div id="map" class="mazemap"></div>
