@@ -11,7 +11,7 @@ button.mapboxgl-popup-close-button {
 div.mapboxgl-map a[target=_blank]:not(.link-icon--disable):after {
     display: none;
 }
-.tabs__tab {cursor:pointer;}
+/* .tabs__tab {cursor:pointer;} */
 .search-control-default{
     position: absolute;
     margin-left: calc( (100% - 20px)*(-1/2) );
@@ -133,14 +133,10 @@ ul.search-suggestions-list.default .item .context.building {
 }
 
 @media (max-width: 599px) {
-	.page-header__img {position: absolute;width: 15rem;height: 18rem;margin-top: 0;}
+/*	.page-header__img {position: absolute;width: 15rem;height: 18rem;margin-top: 0;} */
     .home div.map-container, .campus div.map-container, div.map-container {height:100vw;min-height:100vw;}
 	.cell--tab-1of3 {width:100%;}
 	.cell--tab-2of3 {width:100%;}
-}
-@media (min-width: 600px) {
-    .cell--tab-1of3 {width: 33.33333%;}
-    .cell--tab-2of3 {width: 66.66666%;}
 }
 @media (max-width: 769px) { /* styles for the building details toggle block */
 	.building .map-info .toggleblock--mobile .toggleblock__default, .building .map-info .toggleblock--mobile .toggleblock__footer {
@@ -211,26 +207,24 @@ ul.search-suggestions-list.default .item .context.building {
 }
 
 /* fixes for problems caused by pattern library update */
-.content-block h1 {
-	font-size: 2rem;
-	line-height: 1.1;
+.content-block h1, .content-block h2 {
+    letter-spacing: 0;
 }
-.map-info .heading-card, #routeInfo h2.heading-card {
-	font-size: 1.25rem;
-	font-family: 'Source Sans Pro', 'Gill Sans', 'Trebuchet MS', 'Arial', sans-serif;
-	margin-bottom: 1rem;
+.content-block h1 {
+    font-size:1.8rem;
+}
+.content-block h2, .content-block h3 {
+    letter-spacing: 0;
+    font-family: Source Sans Pro,Gill Sans,Trebuchet MS,Arial,sans-serif;
+    font-weight:600;
+    font-size:xx-large;
+}
+.content-block h3 {
+    font-size:x-large;
 }
 @media screen and (max-width: 769px) {
 	.cell {
 		padding-left: 0;
 		padding-right: 0;
-	}
-	.content-block h1 {
-    	font-size: 1.5rem;
-    }
-    .page-header--l2 .page-header__heading {
-		margin-top: 2rem;
-		font-size: 1.5rem;
-		margin-bottom: 2rem;
 	}
 }
