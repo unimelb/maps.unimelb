@@ -1,0 +1,87 @@
+Using https://overpass-turbo.eu/ to extract OSM data.
+
+Overpass Turbo allows for the easy export of specific data from OpenStreetMap.
+
+Queries can be run for a wide range of data, and the results can be exported to a variety of formats. Most useful in the case of the University is geojson, which can be downloaded as a file, or used directly via an api url.
+
+** Areas **
+
+Areas are defined by bounding box: South,West,North,East.
+
+For dense areas like Parkville and Southbank it is useful to use different bounding boxes for different queries. For example, capturing cafes from a smaller area than tram stops.
+
+{{parkville=-37.8077,144.9496,-37.7878,144.9745}}
+{{parkvilletight=-37.8042,144.9528,-37.7860,144.9659}}
+{{southbank=-37.83217,144.95619,-37.81930,144.97645}}
+{{southbanktight=-37.82629,144.96543,-37.82347,144.97047}}
+{{burnley=-37.8368,145.0053,-37.8194,145.0358}}
+{{werribee=-37.9147,144.6469,-37.8704,144.7215}}
+{{creswick=-37.4641,143.8648,-37.3682,143.9723}}
+{{shepparton=-36.4481,145.3144,-36.2763,145.5313}}
+{{dookie=-36.4007,145.6571,-36.3199,145.7469}}
+
+** Queries **
+
+Queries are usually nodes, but can include ways.
+Some useful queries:
+
+node [amenity=atm]
+
+node [bus=yes]
+node [highway=bus_stop] /* not so useful */
+
+node [amenity=bicycle_parking]
+node [amenity=bicycle_repair_station]
+node [amenity=post_office]
+node [amenity=drinking_water]
+
+node [tram=yes]
+node [railway=tram_stop]
+
+node[tourism=artwork]
+
+Use the Data layer on OpenStreetMap to find tags you can use to build queries.
+
+With an area defined, you can run a query on the objects inside.
+
+[out:json];
+{{parkvilletight=-37.8042,144.9528,-37.7860,144.9659}}
+(
+  node[amenity=cafe]({{parkvilletight}});
+);
+out body;
+>;
+out skel qt;
+
+Multiple queries can be run at the same time:
+
+(
+  node[amenity=cafe]({{parkvilletight}});
+  node[amenity=restaurant]({{parkvilletight}});
+  node[amenity=fast_food]({{parkvilletight}});
+);
+
+Queries can be combined for more specific results:
+
+node[emergency=phone][operator="University of Melbourne"]
+node [amenity=bicycle_rental][operator=RACV]
+
+** API **
+
+API is updated within minutes of edits on OpenStreetMap.
+
+In either case, run a query first, then use the Export button to either download data, or use the link generated to extract "raw data directly from the Overpass API".
+
+** DIFF **
+
+There is a diff tool built in, but it only runs in xml output.
+https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Delta_between_two_dates_.28.22diff.22.29
+
+[out:xml][diff:"2018-12-31T12:00:00Z"];
+{{parkville=-37.8077,144.9496,-37.7878,144.9745}}(node["amenity"="atm"]({{parkville}});
+);out body;>;out skel qt;
+
+** Timestamps and more **
+
+More information can be printed by changing 'body' to 'meta'.
+timestamp, changeset, user, uid
