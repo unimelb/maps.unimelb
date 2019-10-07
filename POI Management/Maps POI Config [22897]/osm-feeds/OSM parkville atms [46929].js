@@ -14,7 +14,8 @@ var excludeList = JSON.parse(_REST.responses[1].body); // Local OSM exclusions f
 // Initialise some more variables
 var nAddr = "";
 var nName = "";
-var nLl = "";
+var nLat = "";
+var nLng = "";
 var exclusions = []; // list of OSM Ids to exclude
 
 function processExclusions(excludeNodes) {
@@ -31,7 +32,8 @@ function processNodes(allNodes) {
         nodeID = thisNode.id;
         // compare node against exclusions
         if (includeThis(nodeID, exclusions)) {
-        	nLl = thisNode.lat + "," + thisNode.lon;
+        	nLat = thisNode.lat;
+        	nLng = thisNode.lon;
             nodeTime = thisNode.timestamp;
         	if (thisNode.tags['addr:housenumber']){
             	if (thisNode.tags['addr:street']){
@@ -51,14 +53,14 @@ function processNodes(allNodes) {
 			} else {
 				nName = thisNode.tags.name;
 			}
-			printLine(nAddr,nName,nLl,nCat,nodeID,nodeTime);
+			printLine(nAddr,nName,nLat,nLng,nCat,nodeID,nodeTime);
         }
     }
 }
 
 // all data normalised, output to csv
 function printLine(nAddr,nName,nLl,nCat,nodeID) {
-    print("\"" + nAddr + "\",\"" + nName + "\",\"" + nLl + "\",\"" + nCat + "\",\"" + "EXT;OSM;" + nodeID + "\",\"" + nodeTime + "\"\n");
+    print("\"" + nAddr + "\",\"" + nName + "\",\"" + nLat + "\",\"" + nLng + "\",\"" + nCat + "\",\"" + "EXT;OSM;" + nodeID + "\",\"" + nodeTime + "\"\n");
 }
 
 function includeThis(id, exclList) {
