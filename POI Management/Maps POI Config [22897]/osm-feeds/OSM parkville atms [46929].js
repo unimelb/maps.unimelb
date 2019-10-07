@@ -34,7 +34,7 @@ function processNodes(allNodes) {
         if (includeThis(nodeID, exclusions)) {
         	nLat = thisNode.lat;
         	nLng = thisNode.lon;
-            nodeTime = thisNode.timestamp;
+            // nodeTime = thisNode.timestamp;
         	if (thisNode.tags['addr:housenumber']){
             	if (thisNode.tags['addr:street']){
             	   nAddr = thisNode.tags['addr:housenumber'] + " " + thisNode.tags['addr:street'];
@@ -53,14 +53,14 @@ function processNodes(allNodes) {
 			} else {
 				nName = thisNode.tags.name;
 			}
-			printLine(nAddr,nName,nLat,nLng,nCat,nodeID,nodeTime);
+			printLine(nAddr,nName,nLat,nLng,nCat,nodeID);
         }
     }
 }
 
 // all data normalised, output to csv
-function printLine(nAddr,nName,nLl,nCat,nodeID) {
-    print("\"" + nAddr + "\",\"" + nName + "\",\"" + nLat + "\",\"" + nLng + "\",\"" + nCat + "\",\"" + "EXT;OSM;" + nodeID + "\",\"" + nodeTime + "\"\n");
+function printLine(nAddr,nName,nLat,nLng,nCat,nodeID) {
+    print("\"" + "#" + "\",\"" + "EXT_OSM_" + nodeID + "\",\"" + nLat + "\",\"" + nLng + "\",\"" + nName + "\",\"" + nAddr + "\",\"" + nCat + "\"\n");
 }
 
 function includeThis(id, exclList) {
