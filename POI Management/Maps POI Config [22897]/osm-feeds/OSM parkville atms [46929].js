@@ -53,14 +53,15 @@ function processNodes(allNodes) {
 			} else {
 				nName = thisNode.tags.name;
 			}
-			printLine(nAddr,nName,nLat,nLng,nCat,nodeID);
+			var lineCount = nodeIndex+1;
+			printLine(nAddr,nName,nLat,nLng,nCat,nodeID,lineCount);
         }
     }
 }
 
 // all data normalised, output to csv
-function printLine(nAddr,nName,nLat,nLng,nCat,nodeID) {
-    print("\"" + "#" + "\",\"" + "EXT_OSM_" + nodeID + "\",\"" + nLat + "\",\"" + nLng + "\",\"" + nName + "\",\"" + nAddr + "\",\"" + nCat + "\"\n");
+function printLine(nAddr,nName,nLat,nLng,nCat,nodeID,lineCount) {
+    print("\"" + lineCount + "\",\"" + "EXT_OSM_" + nodeID + "\",\"" + nLat + "\",\"" + nLng + "\",\"" + nName + "\",\"" + nAddr + "\",\"" + nCat + "\"\n");
 }
 
 function includeThis(id, exclList) {
