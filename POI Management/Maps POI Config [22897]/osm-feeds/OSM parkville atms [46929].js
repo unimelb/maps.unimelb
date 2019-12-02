@@ -16,6 +16,7 @@ var nAddr = "";
 var nName = "";
 var nLat = "";
 var nLng = "";
+var lineCount = "0";
 var exclusions = []; // list of OSM Ids to exclude
 
 function processExclusions(excludeNodes) {
@@ -26,6 +27,8 @@ function processExclusions(excludeNodes) {
     }
 }
 
+/* Nodes in OSM have unique tags.
+The processNodes function decides which tags appear in the two searchable name columns. */
 function processNodes(allNodes) {
     for(var nodeIndex = 0, totalNodes = allNodes.length, currentNode = ""; nodeIndex<totalNodes; nodeIndex++){
     	thisNode = allNodes[nodeIndex];
@@ -53,7 +56,7 @@ function processNodes(allNodes) {
 			} else {
 				nName = thisNode.tags.name;
 			}
-			var lineCount = nodeIndex+1;
+			lineCount++;
 			printLine(nAddr,nName,nLat,nLng,nCat,nodeID,lineCount);
         }
     }
