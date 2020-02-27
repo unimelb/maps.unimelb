@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+    <meta charset="utf-8" />
+
+<script runat="server">
+%begin_globals_get_identifier^preg_replace:130367^contains:identifier_true%
+    var identifierResponse = %globals_asset_contents_raw:128524%;
+    var rawPoi = identifierResponse.pois[0];
+%else_begin_globals_get_poi^preg_replace:130367^contains:poi_true%
+    var rawPoi = %globals_asset_contents_raw:130279%;
+%end_globals%
+
+    var poiTitle = rawPoi.title;
+    var poiBldg = rawPoi.buildingName;
+    var poiIdentifier = rawPoi.identifier;
+    
+    var infoBox = "<div id='info'>";
+    infoBox += "<h1>" + poiTitle + "</h1>";
+    infoBox += "<p>" + poiBldg + "</p>";
+    infoBox += "</div>";
+
+    print("<title>" + poiTitle + " : " + poiBldg + " : University of Melbourne event map</title>\n");
+    print("<script>var rawPoi = " + JSON.stringify(rawPoi) + "<" + "/script>");
+</script>
+
+    <link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.24/mazemap.min.css">
+    <script type='text/javascript' src='https://api.mazemap.com/js/v2.0.24/mazemap.min.js'></script>
+
+    <style>
+        body { margin:0px; padding:0px; width: 100vw; height:100vh; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.42857143; }
+        %begin_globals_get_width%
+        #map {width: %globals_get_width%px; height: 250px;}
+        %else_globals%
+        #map {width: 100%; height: 250px;}
+        %end_globals%
+        #info {position: absolute; z-index: 50;background-color: #094183; width:150px;top:5px;left:5px;padding:5px;box-shadow: 2px 2px rgba(0,0,0,.2);}
+        #info * {padding:0;margin:0;font-size: 1em;color:white;line-height: 1.2;}
+        #info p {font-size: 0.8em;padding-top: 0.2em;}
+    </style>
+</head>
+<body>
+
+<div style="position:absolute;bottom:0;">
+%begin_globals_get_identifier^preg_replace:130367^contains:identifier_true%
+<p><b>%globals_get_identifier%</b> looks like a valid identifier</p>
+%else_begin_globals_get_poi^preg_replace:130367^contains:poi_true%
+<p><b>%globals_get_poi%</b> Looks like a POI</p>
+%else_begin_globals_get_lat^preg_replace:130367^contains:coord_true%
+<p>Yes, <b>%globals_get_lat%</b> looks like a valid lat.</p>
+    %begin_globals_get_lng^preg_replace:130367^contains:coord_true%
+        <p>and <b>%globals_get_lng%</b> looks like a valid lng.</p>
+    %else_globals%
+        <p>but we can't display the specified location without a valid lng.</p>
+    %end_globals%
+%else_globals%
+<p>We can't display the specified location.</p>
+%end_globals%
+</div>
+
+<div id="map" class="mazemap"></div>
+
+<script runat="server">
+    if (rawPoi){
+        print(infoBox);
+    }
+</script>
+
+%begin_globals_get_identifier^preg_replace:130367^contains:identifier_true%
+%globals_asset_contents_raw:130424%
+%else_begin_globals_get_poi^preg_replace:130367^contains:poi_true%
+%globals_asset_contents_raw:130424%
+%else_begin_globals_get_lat^preg_replace:130367^contains:coord_true%
+<!-- <p>Yes, <b>%globals_get_lat%</b> looks like a valid lat.</p> -->
+    %begin_globals_get_lng^preg_replace:130367^contains:coord_true%
+        <!-- <p>and <b>%globals_get_lng%</b> looks like a valid lng.</p> -->
+        %globals_asset_contents_raw:130428%
+    %else_globals%
+        <p>We can't display the specified location.</p>
+    %end_globals%
+%else_globals%
+<p>We can't display the specified location.</p>
+%end_globals%
+
+    <script>
+		// convert mazemap api format to geojson
+		var infosNames = [];
+		for (i = 0; i < rawPoi.infos.length; i++) {
+		  infosNames.push(rawPoi.infos[i].name);
+		}
+		let props = {
+		    title: rawPoi.title,
+			id: rawPoi.poiId,
+			poiId: rawPoi.poiId,
+			identifier: rawPoi.identifier,
+			campusId: rawPoi.campusId,
+			floorId: rawPoi.floorId,
+			zLevel: rawPoi.z,
+			floorName: rawPoi.floorName,
+			buildingName: rawPoi.buildingName,
+			infoUrl: rawPoi.infoUrl,
+			description: rawPoi.description,
+			images: rawPoi.images,
+			names: infosNames
+		};
+		let poi = {
+			type: "Feature",
+			geometry: rawPoi.geometry,
+			properties: props
+		};
+		// end conversion
+
+        var myMap = new Mazemap.Map({
+            container: 'map',
+            campuses: 'unimelb',
+            center: Mazemap.Util.getPoiLngLat(poi),
+            zoom: 17,
+            zLevel: poi.properties.zLevel,
+            zLevelControl: false
+        });
+
+        myMap.on('load', function(){
+            // Initialize a Highlighter for POIs
+            // Storing the object on the map just makes it easy to access for other things
+            myMap.highlighter = new Mazemap.Highlighter( myMap, {
+                showOutline: true, // optional
+                showFill: true, // optional
+                outlineColor: Mazemap.Util.Colors.MazeColors.MazeBlue, // optional
+                fillColor: Mazemap.Util.Colors.MazeColors.MazeBlue  // optional
+            } );
+        });
+
+		initMap(poi);
+
+        function initMap(poi){
+			// Just for visual effect, wait a bit before adding to map and zooming in
+			setTimeout(function(){
+				placePoiMarker(poi);
+			},1000);
+        }
+
+        function placePoiMarker(poi){
+            // Get a center point for the POI, because the data can return a polygon instead of just a point sometimes
+            var lngLat = Mazemap.Util.getPoiLngLat(poi);
+
+            var mazeMarker = new Mazemap.MazeMarker({
+                color: '#4074B2',
+                innerCircle: true,
+                innerCircleColor: '#fff',
+                size: 26,
+                innerCircleScale: 0.3,
+                zLevel: poi.properties.zLevel
+            })
+            .setLngLat(lngLat)
+            .addTo(myMap);
+
+            // If we have a polygon, use the default 'highlight' function to draw a marked outline around the POI.
+            if(poi.geometry.type === "Polygon"){
+                myMap.highlighter.highlight(poi);
+            }
+            myMap.flyTo({center: lngLat, zoom: 19, speed: 0.5});
+        }
+    </script>
+</body>
+</html>
