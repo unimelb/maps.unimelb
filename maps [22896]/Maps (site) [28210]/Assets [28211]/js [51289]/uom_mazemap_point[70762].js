@@ -31,6 +31,48 @@ myMap.on('load', function(){
         });
     }
     
+    if(urlParams.get('identifier')){
+        fetch('https://api.mazemap.com/api/pois/?identifier=' + urlParams.get('identifier'))
+        .then(function(response) {
+             return response.json();
+        })
+        .then(function(data) {
+            var getPoiId = data.pois[0].poiId;
+            Mazemap.Data.getPoi(getPoiId).then(function(poi) {
+                var nodeList = document.querySelectorAll('title, #title, meta[name="title"]');
+                nodeList.forEach(function(node){
+                    node.innerText=poi.properties.title?poi.properties.title:'Point';
+                });
+                var lngLat = Mazemap.Util.getPoiLngLat(poi);
+                if (!(urlParams.get('SQ_DESIGN_NAME')=='embed'))
+                {
+                    updateLocationFromMazemapRESTAPI(poi)
+                    updateLatLong(lngLat);
+                }
+                var marker = new Mazemap.MazeMarker({
+                    color: 'MazeBlue',
+                    size: 34,
+                    zLevel: 0
+                });
+                var zLevel = (typeof poi.properties.zLevel !== 'undefined')?poi.properties.zLevel:0;
+                
+                marker.setLngLat(lngLat)
+                    .setZLevel(zLevel)
+                    .addTo(myMap);
+                myMap.zLevel = zLevel;
+                if(poi.geometry.type === "Polygon"){
+                    myMap.highlighter.highlight(poi);
+                }
+            
+                myMap.flyTo({center: lngLat, zoom: 19, duration: 2000});
+            });
+        })
+        .catch((error) => {
+          console.log('Error:', error);
+          window.location = '/point';
+        });
+    }
+    
     if (urlParams.get('lat')) {
         var nodeList = document.querySelectorAll('title, h1');
         nodeList.forEach(function(node){
