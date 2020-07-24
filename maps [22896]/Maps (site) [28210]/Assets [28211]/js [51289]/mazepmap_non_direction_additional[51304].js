@@ -63,6 +63,7 @@ function popupLatLngHTML(lngLat, zLevel) {
 }
 
 function campusIdSwap(inVal){
+/* need to enhance this function to allow input of campus abbreviations eg; DOO, PAR */
 	var campusCodes = [
 	{"name":"parkville","id":"200"},
 	{"name":"southbank","id":"216"},
@@ -73,8 +74,9 @@ function campusIdSwap(inVal){
 	{"name":"shepparton","id":"221"},
 	{"name":"hawthorn","id":"243"}
 	];
+	inVal = String(inVal).toLowerCase();
 	for (i = 0; i < campusCodes.length; i++) {
-		if(inVal.toLowerCase() == campusCodes[i].name){
+		if(inVal == campusCodes[i].name){
 			return(campusCodes[i].id);
 		}
 		if(inVal == campusCodes[i].id){
