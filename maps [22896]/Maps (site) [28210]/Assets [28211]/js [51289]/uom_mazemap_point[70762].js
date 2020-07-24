@@ -111,10 +111,11 @@ myMap.on('load', function(){
 
 function updateLocationFromMazemapRESTAPI(poi) {
     Mazemap.Data.getCampus(poi.properties.campusId).then(function(campus) {
+        var campusName = campus.properties.name.toLowerCase().replace("university of melbourne - ", "");
         var dom = document.querySelector('#mazeMapLocation');
         dom.innerHTML = 
             (poi.properties.floorName?'Level '+poi.properties.floorName+': ':'')
-            +'<a href="https://maps.unimelb.edu.au/'+campus.properties.name.toLowerCase()+(poi.properties.buildingName?'/building/'+(poi.properties.identifier!=null?poi.properties.identifier.split(';')[1].toLowerCase():'')+'">'+poi.properties.buildingName:'">'+campus.properties.name+' campus')+'</a>';
+            +'<a href="https://maps.unimelb.edu.au/'+campusName+(poi.properties.buildingName?'/building/'+(poi.properties.identifier!=null?poi.properties.identifier.split(';')[1].toLowerCase():'')+'">'+poi.properties.buildingName:'">'+campus.properties.name+' campus')+'</a>';
         dom.hidden=false;    
     });
 }
