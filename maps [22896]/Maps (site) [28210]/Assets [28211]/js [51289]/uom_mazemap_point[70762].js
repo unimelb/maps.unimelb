@@ -111,7 +111,7 @@ myMap.on('load', function(){
 
 function updateLocationFromMazemapRESTAPI(poi) {
     Mazemap.Data.getCampus(poi.properties.campusId).then(function(campus) {
-        var campusName = campus.properties.name.toLowerCase().replace("university of melbourne - ", "");
+        var campusName = campusIdSwap(campus.properties.id);
         var dom = document.querySelector('#mazeMapLocation');
         dom.innerHTML = 
             (poi.properties.floorName?'Level '+poi.properties.floorName+': ':'')
