@@ -61,3 +61,24 @@ function popupPoiHTML(poi) {
 function popupLatLngHTML(lngLat, zLevel) {
     return '<h4><a href="%globals_asset_url:67217%?lat='+lngLat.lat+'&lng='+lngLat.lng+'">Selected Location</a></h4><p><strong>Get directions:<strong></p><p><a href="%globals_asset_url:97098%?lngA='+lngLat.lng+'&latA='+lngLat.lat+'&zA='+zLevel+'" class="set-start">Start Here</a> or <a href="%globals_asset_url:97098%?lngB='+lngLat.lng+'&latB='+lngLat.lat+'&zB='+zLevel+'" class="set-end">End here</a></p>';
 }
+
+function campusIdSwap(inVal){
+	var campusCodes = [
+	{"name":"parkville","id":"200"},
+	{"name":"southbank","id":"216"},
+	{"name":"werribee","id":"217"},
+	{"name":"burnley","id":"218"},
+	{"name":"creswick","id":"219"},
+	{"name":"dookie","id":"220"},
+	{"name":"shepparton","id":"221"},
+	{"name":"hawthorn","id":"243"}
+	];
+	for (i = 0; i < campusCodes.length; i++) {
+		if(inVal.toLowerCase() == campusCodes[i].name){
+			return(campusCodes[i].id);
+		}
+		if(inVal == campusCodes[i].id){
+			return(campusCodes[i].name);
+		}
+	}
+}
