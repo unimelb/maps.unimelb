@@ -1,15 +1,26 @@
 %begin_globals_get_SQ_DESIGN_NAME%
 <!-- design is being switched -->
 	%begin_globals_get_SQ_DESIGN_NAME^eq:embed%
+        %begin_globals_get_style^eq:event%
+        %else_globals%
     <h1 id="title">%begin_globals_get_lat%Selected location%else_globals%%asset_metadata_Name%%end_globals%</h1>
+        %end_globals%
     <div class="map-container">
     <div id="map" class="mazemap"></div>
     </div>
+    <!-- test -->
     <ul id="map-extras">
         <li><a href="%globals_asset_url%%globals_server_query_string^replace:(&)?SQ_DESIGN_NAME=embed(&)?:^prepend_if:?^urlencode%" target="_top">Open map page</a></li>
     </ul>
+        %begin_globals_get_style^eq:event%
+    <ul id="event-extras">
+        <li><a id="title" href="%globals_asset_url%%globals_server_query_string^replace:(&)?SQ_DESIGN_NAME=embed(&)?:^prepend_if:?^urlencode%" target="_top">%begin_globals_get_lat%Selected location%else_globals%%asset_metadata_Name%%end_globals%</a></li>
+    </ul>
+        %end_globals%        
 	%else_begin_globals_get_SQ_DESIGN_NAME^eq:plain%
 		%globals_asset_contents_raw:50988^with_get:url={globals_asset_url}%
+	%else_begin_globals_get_SQ_DESIGN_NAME^eq:event%
+		%globals_asset_contents_raw:128057^with_get:url={globals_asset_url}%
 	%end_globals%
 %else_globals%
 %begin_asset_metadata_ObjectType^contains:Campus%
@@ -57,7 +68,7 @@
 %begin_asset_metadata_InfoURL%
 	        		<li><a href="%asset_metadata_InfoURL%">More information</a></li>
 %end_asset%
-	        		<li><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:97098%?assetB=%asset_assetid%">Get directions</a></li>
+	        		<li class="hidden"><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:97098%?assetB=%asset_assetid%">Get directions</a></li>
                     </ul>
                 <h3 class="maps-h--l3">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
@@ -83,7 +94,7 @@
                     <h2 class="maps-h--l2">Location details</h2>
                     <ul>
                     <li id="mazeMapLocation" hidden></li>
-	        		<li><a id="getDirectionLnk" rel="nofollow" href="%begin_globals_get_poi%%globals_asset_url:97098%?pointB=%globals_get_poi%%else_globals%%globals_asset_url:97098%?latB=%globals_get_lat%&lngB=%globals_get_lng%%end_globals%">Get directions</a></li>
+	        		<li class="hidden"><a id="getDirectionLnk" rel="nofollow" href="%begin_globals_get_poi%%globals_asset_url:97098%?pointB=%globals_get_poi%%else_globals%%globals_asset_url:97098%?latB=%globals_get_lat%&lngB=%globals_get_lng%%end_globals%">Get directions</a></li>
                     </ul>
                 <h3 class="maps-h--l3">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
@@ -126,7 +137,7 @@
 %begin_asset_metadata_InfoURL%
 	        		<li><a href="%asset_metadata_InfoURL%">More information</a></li>
 %end_asset%
-	        		<li><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:97098%?assetB=%asset_assetid%">Get directions</a></li>
+	        		<li class="hidden"><a id="getDirectionLnk" rel="nofollow" href="%globals_asset_url:97098%?assetB=%asset_assetid%">Get directions</a></li>
                 </ul>
                 <h3 class="maps-h--l3">Share this location</h3>
                 %globals_asset_contents_raw:40555%<!--@@ Share list @@-->
